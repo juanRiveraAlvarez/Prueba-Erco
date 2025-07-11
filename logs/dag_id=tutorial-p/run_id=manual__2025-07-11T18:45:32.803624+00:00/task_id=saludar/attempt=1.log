@@ -1,0 +1,15 @@
+{"timestamp":"2025-07-11T18:45:34.593327","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-11T18:45:34.594521","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-11T18:45:34.649870Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.650284Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.650457Z","level":"info","event":"Current task name:saludar","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.650604Z","level":"info","event":"Dag name:tutorial-p","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.616837","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T18:45:34.618905","level":"info","event":"Running command: ['/usr/bin/bash', '-c', \"echo 'Hola mundo'\"]","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T18:45:34.663762","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T18:45:34.667713","level":"info","event":"Hola mundo","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T18:45:34.668402","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T18:45:34.669820","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197face-9818-75d1-ab79-24a20efbce6e'), task_id='saludar', dag_id='tutorial-p', run_id='manual__2025-07-11T18:45:32.803624+00:00', try_number=1, map_index=-1, hostname='a41821eaaead', context_carrier={}, task=<Task(BashOperator): saludar>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 11, 18, 45, 33, 568700, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.725207Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.725458Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T18:45:34.725603Z","level":"info","event":"Task operator:<Task(BashOperator): saludar>","chan":"stdout","logger":"task"}

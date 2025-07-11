@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-11T19:07:40.131287","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-11T19:07:40.132658","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-11T19:07:40.162615","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-11T19:07:40.306010Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.306356Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.306590Z","level":"info","event":"Current task name:conect_db","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.306814Z","level":"info","event":"Dag name:tutorial-p","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.307028Z","level":"info","event":"Bien","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.307253Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.307463Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:07:40.307684Z","level":"info","event":"Task operator:<Task(PythonOperator): conect_db>","chan":"stdout","logger":"task"}

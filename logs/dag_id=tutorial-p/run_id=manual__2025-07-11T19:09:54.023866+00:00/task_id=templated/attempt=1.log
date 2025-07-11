@@ -1,0 +1,24 @@
+{"timestamp":"2025-07-11T19:09:58.614466","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-11T19:09:58.615350","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-11T19:09:58.665479Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.665780Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.665973Z","level":"info","event":"Current task name:templated","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.666154Z","level":"info","event":"Dag name:tutorial-p","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.639185","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.640737","level":"info","event":"Running command: ['/usr/bin/bash', '-c', '\\n\\n    echo \"2025-07-11\"\\n    echo \"2025-07-18\"\\n\\n    echo \"2025-07-11\"\\n    echo \"2025-07-18\"\\n\\n    echo \"2025-07-11\"\\n    echo \"2025-07-18\"\\n\\n    echo \"2025-07-11\"\\n    echo \"2025-07-18\"\\n\\n    echo \"2025-07-11\"\\n    echo \"2025-07-18\"\\n']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.678747","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.682338","level":"info","event":"2025-07-11","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.682622","level":"info","event":"2025-07-18","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.682820","level":"info","event":"2025-07-11","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.682998","level":"info","event":"2025-07-18","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.683207","level":"info","event":"2025-07-11","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.683358","level":"info","event":"2025-07-18","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.683499","level":"info","event":"2025-07-11","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.683651","level":"info","event":"2025-07-18","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.683805","level":"info","event":"2025-07-11","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.683922","level":"info","event":"2025-07-18","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.684155","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-11T19:09:58.685228","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0197fae4-e406-79a7-8ccd-3505b904f8cd'), task_id='templated', dag_id='tutorial-p', run_id='manual__2025-07-11T19:09:54.023866+00:00', try_number=1, map_index=-1, hostname='a41821eaaead', context_carrier={}, task=<Task(BashOperator): templated>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 11, 19, 9, 57, 522205, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.730389Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.730620Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-11T19:09:58.730764Z","level":"info","event":"Task operator:<Task(BashOperator): templated>","chan":"stdout","logger":"task"}
