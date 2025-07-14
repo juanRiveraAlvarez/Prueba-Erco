@@ -33,11 +33,9 @@ El usuario y contrasena por defecto son {Usuario: airflow, Contrasena: airflow} 
 ### 2. Buscar dag
 Te dirijes al apartado de Dags
 
-<img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/1.png">
 <img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/2.png">
-
+<img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/1.png">
 <img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/3.png">
-
 
 Y buscas el dag por el nombre que tiene en el proyecto en este caso los dags a buscar son: cargar_d, d1 y a2
 
