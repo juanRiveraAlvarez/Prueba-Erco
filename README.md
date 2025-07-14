@@ -33,7 +33,7 @@ El usuario y contrasena por defecto son {Usuario: airflow, Contrasena: airflow} 
 ### 2. Buscar dag
 Te dirijes al apartado de Dags
 
-img
+<img src="https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png" width="400">
 
 Y buscas el dag por el nombre que tiene en el proyecto en este caso los dags a buscar son: cargar_d, d1 y a2
 
