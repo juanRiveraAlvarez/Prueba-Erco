@@ -66,3 +66,6 @@ Son casos particules que ponene a prueba el sistema, en el primer caso son valor
 
 Si se corre a2 nuevamente y se consulta la consola y la base de datos se podra ver como estos valores al no ser validos segun el analisis entran a cuarentena.
 
+### 5, d1
+El dag d1 se encarga de simular la insercion de un nuevo registro por dispositivos cada 15 min en registro, y cada min en la realidad para motivo de pruebas, estos datos tambien son consistentes.
+
