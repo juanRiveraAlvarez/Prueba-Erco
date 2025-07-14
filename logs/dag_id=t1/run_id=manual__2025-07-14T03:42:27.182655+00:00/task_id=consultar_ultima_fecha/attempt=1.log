@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-14T03:42:29.308114","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T03:42:29.308848","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_data_test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T03:42:29.332091","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T03:42:29.405024Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.405288Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.405477Z","level":"info","event":"Current task name:consultar_ultima_fecha","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.405600Z","level":"info","event":"Dag name:t1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.405728Z","level":"info","event":"ERROR IMPORTANDO LA ULTIMA FECHA","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.405848Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.405984Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T03:42:29.406109Z","level":"info","event":"Task operator:<Task(PythonOperator): consultar_ultima_fecha>","chan":"stdout","logger":"task"}

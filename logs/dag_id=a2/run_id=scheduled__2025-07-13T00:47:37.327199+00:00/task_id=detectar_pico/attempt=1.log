@@ -1,0 +1,111 @@
+{"timestamp":"2025-07-13T00:47:42.324127","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T00:47:42.325076","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T00:47:42.382460Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.382764Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.382926Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.383067Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.410424","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:117: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:47:42.414342Z","level":"info","event":"⚠️ Pico detectado en 1. Valor actual: 1.16 vs histórico: 179.05","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.419627Z","level":"info","event":"⚠️ Pico detectado en 2. Valor actual: 0.99 vs histórico: 180.12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.424343Z","level":"info","event":"⚠️ Pico detectado en 3. Valor actual: 0.59 vs histórico: 181.46","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.429100Z","level":"info","event":"⚠️ Pico detectado en 4. Valor actual: 0.76 vs histórico: 193.27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.435731Z","level":"info","event":"⚠️ Pico detectado en 5. Valor actual: 0.87 vs histórico: 189.89","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.440778Z","level":"info","event":"⚠️ Pico detectado en 6. Valor actual: 0.96 vs histórico: 182.97","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.445792Z","level":"info","event":"⚠️ Pico detectado en 7. Valor actual: 1.21 vs histórico: 192.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.450284Z","level":"info","event":"⚠️ Pico detectado en 8. Valor actual: 0.67 vs histórico: 176.00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.454936Z","level":"info","event":"⚠️ Pico detectado en 9. Valor actual: 0.71 vs histórico: 201.49","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.461055Z","level":"info","event":"⚠️ Pico detectado en 10. Valor actual: 1.44 vs histórico: 193.05","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.465597Z","level":"info","event":"⚠️ Pico detectado en 11. Valor actual: 1.0 vs histórico: 186.11","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.469957Z","level":"info","event":"⚠️ Pico detectado en 12. Valor actual: 0.53 vs histórico: 189.39","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.474548Z","level":"info","event":"⚠️ Pico detectado en 13. Valor actual: 1.38 vs histórico: 197.11","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.479135Z","level":"info","event":"⚠️ Pico detectado en 14. Valor actual: 0.98 vs histórico: 194.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.483450Z","level":"info","event":"⚠️ Pico detectado en 15. Valor actual: 1.18 vs histórico: 209.53","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.487784Z","level":"info","event":"⚠️ Pico detectado en 16. Valor actual: 1.39 vs histórico: 178.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.492281Z","level":"info","event":"⚠️ Pico detectado en 17. Valor actual: 0.97 vs histórico: 199.80","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.496760Z","level":"info","event":"⚠️ Pico detectado en 18. Valor actual: 1.23 vs histórico: 182.81","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.501208Z","level":"info","event":"⚠️ Pico detectado en 19. Valor actual: 0.66 vs histórico: 179.27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.505406Z","level":"info","event":"⚠️ Pico detectado en 20. Valor actual: 0.69 vs histórico: 189.51","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.510133Z","level":"info","event":"⚠️ Pico detectado en 21. Valor actual: 0.74 vs histórico: 171.58","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.514607Z","level":"info","event":"⚠️ Pico detectado en 22. Valor actual: 0.81 vs histórico: 197.73","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.518899Z","level":"info","event":"⚠️ Pico detectado en 23. Valor actual: 0.98 vs histórico: 185.53","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.523003Z","level":"info","event":"⚠️ Pico detectado en 24. Valor actual: 0.63 vs histórico: 185.43","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.527301Z","level":"info","event":"⚠️ Pico detectado en 25. Valor actual: 1.09 vs histórico: 176.23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.531411Z","level":"info","event":"⚠️ Pico detectado en 26. Valor actual: 0.56 vs histórico: 177.45","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.535657Z","level":"info","event":"⚠️ Pico detectado en 27. Valor actual: 1.01 vs histórico: 182.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.540079Z","level":"info","event":"⚠️ Pico detectado en 28. Valor actual: 0.62 vs histórico: 191.76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.544260Z","level":"info","event":"⚠️ Pico detectado en 29. Valor actual: 0.96 vs histórico: 181.36","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.548249Z","level":"info","event":"⚠️ Pico detectado en 30. Valor actual: 1.26 vs histórico: 181.62","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.552510Z","level":"info","event":"⚠️ Pico detectado en 31. Valor actual: 1.43 vs histórico: 181.41","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.557194Z","level":"info","event":"⚠️ Pico detectado en 32. Valor actual: 0.92 vs histórico: 193.45","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.561593Z","level":"info","event":"⚠️ Pico detectado en 33. Valor actual: 0.74 vs histórico: 192.65","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.565920Z","level":"info","event":"⚠️ Pico detectado en 34. Valor actual: 1.36 vs histórico: 166.76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.570279Z","level":"info","event":"⚠️ Pico detectado en 35. Valor actual: 1.13 vs histórico: 171.83","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.575180Z","level":"info","event":"⚠️ Pico detectado en 36. Valor actual: 0.79 vs histórico: 187.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.579724Z","level":"info","event":"⚠️ Pico detectado en 37. Valor actual: 1.37 vs histórico: 194.07","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.584023Z","level":"info","event":"⚠️ Pico detectado en 38. Valor actual: 1.03 vs histórico: 190.42","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.588142Z","level":"info","event":"⚠️ Pico detectado en 39. Valor actual: 1.38 vs histórico: 177.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.592906Z","level":"info","event":"⚠️ Pico detectado en 40. Valor actual: 1.31 vs histórico: 180.89","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.597393Z","level":"info","event":"⚠️ Pico detectado en 41. Valor actual: 1.22 vs histórico: 188.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.601641Z","level":"info","event":"⚠️ Pico detectado en 42. Valor actual: 0.67 vs histórico: 174.43","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.606027Z","level":"info","event":"⚠️ Pico detectado en 43. Valor actual: 0.71 vs histórico: 192.32","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.610487Z","level":"info","event":"⚠️ Pico detectado en 44. Valor actual: 0.64 vs histórico: 191.78","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.614954Z","level":"info","event":"⚠️ Pico detectado en 45. Valor actual: 0.5 vs histórico: 183.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.619476Z","level":"info","event":"⚠️ Pico detectado en 46. Valor actual: 0.0 vs histórico: 181.80","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.623912Z","level":"info","event":"⚠️ Pico detectado en 47. Valor actual: 0.8 vs histórico: 203.00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.628416Z","level":"info","event":"⚠️ Pico detectado en 48. Valor actual: 1.24 vs histórico: 208.91","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.632966Z","level":"info","event":"⚠️ Pico detectado en 49. Valor actual: 1.19 vs histórico: 171.00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.637394Z","level":"info","event":"⚠️ Pico detectado en 50. Valor actual: 0.66 vs histórico: 181.65","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.642299Z","level":"info","event":"⚠️ Pico detectado en 51. Valor actual: 1.19 vs histórico: 188.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.646684Z","level":"info","event":"⚠️ Pico detectado en 52. Valor actual: 0.52 vs histórico: 186.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.650947Z","level":"info","event":"⚠️ Pico detectado en 53. Valor actual: 1.18 vs histórico: 183.27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.654952Z","level":"info","event":"⚠️ Pico detectado en 54. Valor actual: 0.68 vs histórico: 182.02","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.659164Z","level":"info","event":"⚠️ Pico detectado en 55. Valor actual: 1.08 vs histórico: 176.88","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.663100Z","level":"info","event":"⚠️ Pico detectado en 56. Valor actual: 0.69 vs histórico: 197.68","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.667326Z","level":"info","event":"⚠️ Pico detectado en 57. Valor actual: 1.37 vs histórico: 172.06","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.671404Z","level":"info","event":"⚠️ Pico detectado en 58. Valor actual: 1.13 vs histórico: 188.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.675606Z","level":"info","event":"⚠️ Pico detectado en 59. Valor actual: 0.51 vs histórico: 174.00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.679464Z","level":"info","event":"⚠️ Pico detectado en 60. Valor actual: 0.6 vs histórico: 175.84","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.683320Z","level":"info","event":"⚠️ Pico detectado en 61. Valor actual: 0.0 vs histórico: 190.75","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.687633Z","level":"info","event":"⚠️ Pico detectado en 62. Valor actual: 1.38 vs histórico: 182.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.692001Z","level":"info","event":"⚠️ Pico detectado en 63. Valor actual: 0.93 vs histórico: 184.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.696120Z","level":"info","event":"⚠️ Pico detectado en 64. Valor actual: 1.31 vs histórico: 170.33","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.700235Z","level":"info","event":"⚠️ Pico detectado en 65. Valor actual: 1.2 vs histórico: 188.32","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.706355Z","level":"info","event":"⚠️ Pico detectado en 66. Valor actual: 0.0 vs histórico: 192.91","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.710819Z","level":"info","event":"⚠️ Pico detectado en 67. Valor actual: 1.1 vs histórico: 190.55","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.715054Z","level":"info","event":"⚠️ Pico detectado en 68. Valor actual: 0.79 vs histórico: 175.30","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.719464Z","level":"info","event":"⚠️ Pico detectado en 69. Valor actual: 0.7 vs histórico: 170.75","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.724859Z","level":"info","event":"⚠️ Pico detectado en 70. Valor actual: 1.21 vs histórico: 180.06","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.729946Z","level":"info","event":"⚠️ Pico detectado en 71. Valor actual: 1.1 vs histórico: 187.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.734486Z","level":"info","event":"⚠️ Pico detectado en 72. Valor actual: 1.4 vs histórico: 185.89","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.739185Z","level":"info","event":"⚠️ Pico detectado en 73. Valor actual: 0.84 vs histórico: 179.02","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.745238Z","level":"info","event":"⚠️ Pico detectado en 74. Valor actual: 1.22 vs histórico: 176.16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.750504Z","level":"info","event":"⚠️ Pico detectado en 75. Valor actual: 1.04 vs histórico: 186.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.755570Z","level":"info","event":"⚠️ Pico detectado en 76. Valor actual: 1.25 vs histórico: 188.84","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.760275Z","level":"info","event":"⚠️ Pico detectado en 77. Valor actual: 0.93 vs histórico: 193.36","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.764582Z","level":"info","event":"⚠️ Pico detectado en 78. Valor actual: 0.67 vs histórico: 169.48","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.769068Z","level":"info","event":"⚠️ Pico detectado en 79. Valor actual: 0.58 vs histórico: 182.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.773962Z","level":"info","event":"⚠️ Pico detectado en 80. Valor actual: 1.25 vs histórico: 173.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.781038Z","level":"info","event":"⚠️ Pico detectado en 81. Valor actual: 1.34 vs histórico: 175.44","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.786043Z","level":"info","event":"⚠️ Pico detectado en 82. Valor actual: 0.91 vs histórico: 176.78","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.791567Z","level":"info","event":"⚠️ Pico detectado en 83. Valor actual: 1.35 vs histórico: 178.23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.796131Z","level":"info","event":"⚠️ Pico detectado en 84. Valor actual: 1.31 vs histórico: 185.46","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.801334Z","level":"info","event":"⚠️ Pico detectado en 85. Valor actual: 0.99 vs histórico: 201.57","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.805513Z","level":"info","event":"⚠️ Pico detectado en 86. Valor actual: 0.0 vs histórico: 179.76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.810033Z","level":"info","event":"⚠️ Pico detectado en 87. Valor actual: 1.37 vs histórico: 174.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.814713Z","level":"info","event":"⚠️ Pico detectado en 88. Valor actual: 0.93 vs histórico: 182.15","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.819412Z","level":"info","event":"⚠️ Pico detectado en 89. Valor actual: 1.26 vs histórico: 176.51","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.828182Z","level":"info","event":"⚠️ Pico detectado en 90. Valor actual: 0.78 vs histórico: 192.20","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.832787Z","level":"info","event":"⚠️ Pico detectado en 91. Valor actual: 1.03 vs histórico: 184.02","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.836934Z","level":"info","event":"⚠️ Pico detectado en 92. Valor actual: 1.13 vs histórico: 179.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.841530Z","level":"info","event":"⚠️ Pico detectado en 93. Valor actual: 0.52 vs histórico: 187.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.845895Z","level":"info","event":"⚠️ Pico detectado en 94. Valor actual: 0.66 vs histórico: 178.86","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.850622Z","level":"info","event":"⚠️ Pico detectado en 95. Valor actual: 0.87 vs histórico: 186.42","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.854818Z","level":"info","event":"⚠️ Pico detectado en 96. Valor actual: 1.04 vs histórico: 190.02","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.860222Z","level":"info","event":"⚠️ Pico detectado en 97. Valor actual: 0.93 vs histórico: 188.50","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.864896Z","level":"info","event":"⚠️ Pico detectado en 98. Valor actual: 1.27 vs histórico: 181.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.869573Z","level":"info","event":"⚠️ Pico detectado en 99. Valor actual: 1.34 vs histórico: 192.75","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.874480Z","level":"info","event":"⚠️ Pico detectado en 100. Valor actual: 1.24 vs histórico: 191.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.878324","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T00:47:42.909569Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.909892Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:47:42.910069Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}

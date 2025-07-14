@@ -1,0 +1,526 @@
+{"timestamp":"2025-07-13T17:54:58.910688","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T17:54:58.911485","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T17:54:58.977729Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:58.978045Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:58.978255Z","level":"info","event":"Current task name:deteccion_valores_congelados","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:58.978449Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:58.944014","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:69: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(query, conn)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T17:54:59.046446Z","level":"info","event":"         id  device_id           timestamp  value  rn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.046711Z","level":"info","event":"0    275484          1 2025-07-09 07:00:00    0.0   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.046861Z","level":"info","event":"1    275584          1 2025-07-09 07:15:00    0.0   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047000Z","level":"info","event":"2    275684          1 2025-07-09 07:30:00    0.0   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047135Z","level":"info","event":"3    275485          2 2025-07-09 07:00:00    0.0   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047263Z","level":"info","event":"4    275585          2 2025-07-09 07:15:00    0.0   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047434Z","level":"info","event":"..      ...        ...                 ...    ...  ..","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047560Z","level":"info","event":"295  275682         99 2025-07-09 07:15:00    0.0   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047685Z","level":"info","event":"296  275782         99 2025-07-09 07:30:00    0.0   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047809Z","level":"info","event":"297  275583        100 2025-07-09 07:00:00    0.0   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.047932Z","level":"info","event":"298  275683        100 2025-07-09 07:15:00    0.0   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.048056Z","level":"info","event":"299  275783        100 2025-07-09 07:30:00    0.0   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.048180Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.048304Z","level":"info","event":"[300 rows x 5 columns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.048912Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.049135Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.049324Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.049513Z","level":"info","event":"                            WHERE id = 1;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.049675Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.050311Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.050628Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.050838Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.051045Z","level":"info","event":"                            WHERE id = 2;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.051240Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.051589Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.051794Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.051978Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.052156Z","level":"info","event":"                            WHERE id = 3;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.052322Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.052815Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.053071Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.053271Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.053465Z","level":"info","event":"                            WHERE id = 4;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.053659Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.054262Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.054587Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.054820Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.055028Z","level":"info","event":"                            WHERE id = 5;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.055222Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.055563Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.055749Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.055912Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.056083Z","level":"info","event":"                            WHERE id = 6;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.056255Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.056767Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.057043Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.057290Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.057511Z","level":"info","event":"                            WHERE id = 7;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.057715Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.058039Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.058250Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.058463Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.058694Z","level":"info","event":"                            WHERE id = 8;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.058894Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.059206Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.059465Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.059674Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.059881Z","level":"info","event":"                            WHERE id = 9;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.060077Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.060400Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.060643Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.060845Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.061014Z","level":"info","event":"                            WHERE id = 10;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.061178Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.061451Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.061649Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.061839Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.062048Z","level":"info","event":"                            WHERE id = 11;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.062230Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.062544Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.062766Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.062933Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.063107Z","level":"info","event":"                            WHERE id = 12;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.063348Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.063911Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.064182Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.064386Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.064573Z","level":"info","event":"                            WHERE id = 13;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.064746Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.065025Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.065222Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.065412Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.065616Z","level":"info","event":"                            WHERE id = 14;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.065820Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.066079Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.066239Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.066393Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.066570Z","level":"info","event":"                            WHERE id = 15;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.066747Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.067065Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.067284Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.067431Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.067557Z","level":"info","event":"                            WHERE id = 16;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.067683Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.067905Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.068056Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.068192Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.068334Z","level":"info","event":"                            WHERE id = 17;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.068464Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.068726Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.068903Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.069080Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.069257Z","level":"info","event":"                            WHERE id = 18;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.069426Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.069834Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.070017Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.070192Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.070365Z","level":"info","event":"                            WHERE id = 19;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.070518Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.070820Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.070999Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.071177Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.071394Z","level":"info","event":"                            WHERE id = 20;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.071556Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.071853Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.072037Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.072240Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.072419Z","level":"info","event":"                            WHERE id = 21;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.072569Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.072857Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.073035Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.073220Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.073402Z","level":"info","event":"                            WHERE id = 22;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.073589Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.074072Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.074347Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.074548Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.074730Z","level":"info","event":"                            WHERE id = 23;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.074904Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.075401Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.075650Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.075841Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.076003Z","level":"info","event":"                            WHERE id = 24;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.076168Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.076458Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.076655Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.076829Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.076999Z","level":"info","event":"                            WHERE id = 25;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.077171Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.077431Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.077598Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.077776Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.077940Z","level":"info","event":"                            WHERE id = 26;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.078119Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.078378Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.078564Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.078736Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.078930Z","level":"info","event":"                            WHERE id = 27;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.079102Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.079426Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.079645Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.079827Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.079998Z","level":"info","event":"                            WHERE id = 28;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.080175Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.080451Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.080652Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.080817Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.080997Z","level":"info","event":"                            WHERE id = 29;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.081161Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.081444Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.081635Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.081802Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.081972Z","level":"info","event":"                            WHERE id = 30;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.082149Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.082442Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.082647Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.082831Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.083003Z","level":"info","event":"                            WHERE id = 31;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.083184Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.083498Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.083723Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.083897Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.084063Z","level":"info","event":"                            WHERE id = 32;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.084239Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.084523Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.084720Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.084914Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.085090Z","level":"info","event":"                            WHERE id = 33;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.085258Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.085551Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.085734Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.085901Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.086062Z","level":"info","event":"                            WHERE id = 34;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.086229Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.086581Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.086777Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.086949Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.087116Z","level":"info","event":"                            WHERE id = 35;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.087315Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.087675Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.087877Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.088044Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.088217Z","level":"info","event":"                            WHERE id = 36;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.088388Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.088689Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.088890Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.089062Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.089237Z","level":"info","event":"                            WHERE id = 37;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.089410Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.090014Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.090268Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.090447Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.090626Z","level":"info","event":"                            WHERE id = 38;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.090800Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.091118Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.091340Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.091517Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.091689Z","level":"info","event":"                            WHERE id = 39;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.091856Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.092358Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.092590Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.092789Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.092967Z","level":"info","event":"                            WHERE id = 40;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.093143Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.093472Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.093649Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.093801Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.093965Z","level":"info","event":"                            WHERE id = 41;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.094136Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.094567Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.094780Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.094947Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.095115Z","level":"info","event":"                            WHERE id = 42;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.095368Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.095713Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.095938Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.096131Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.096309Z","level":"info","event":"                            WHERE id = 43;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.096476Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.096930Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.097178Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.097353Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.097534Z","level":"info","event":"                            WHERE id = 44;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.097702Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.098047Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.098259Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.098438Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.098622Z","level":"info","event":"                            WHERE id = 45;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.098794Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.099347Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.099612Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.099803Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.100012Z","level":"info","event":"                            WHERE id = 46;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.100203Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.100703Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.101020Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.101264Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.101498Z","level":"info","event":"                            WHERE id = 47;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.101715Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.102058Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.102335Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.102571Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.102800Z","level":"info","event":"                            WHERE id = 48;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.103033Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.103440Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.103724Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.103953Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.104164Z","level":"info","event":"                            WHERE id = 49;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.104364Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.104686Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.104928Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.105152Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.105368Z","level":"info","event":"                            WHERE id = 50;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.105574Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.105903Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.106156Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.106373Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.106580Z","level":"info","event":"                            WHERE id = 51;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.106786Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.107112Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.107416Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.107627Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.107836Z","level":"info","event":"                            WHERE id = 52;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.108029Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.108370Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.108616Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.108833Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.109052Z","level":"info","event":"                            WHERE id = 53;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.109265Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.109589Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.109822Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.110023Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.110211Z","level":"info","event":"                            WHERE id = 54;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.110396Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.110691Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.110936Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.111141Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.111380Z","level":"info","event":"                            WHERE id = 55;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.111574Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.112030Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.112322Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.112553Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.112758Z","level":"info","event":"                            WHERE id = 56;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.112950Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.113353Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.113593Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.113785Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.113972Z","level":"info","event":"                            WHERE id = 57;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.114161Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.114681Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.114953Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.115154Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.115385Z","level":"info","event":"                            WHERE id = 58;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.115573Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.116047Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.116305Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.116530Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.116723Z","level":"info","event":"                            WHERE id = 59;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.116915Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.117198Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.117419Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.117591Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.117771Z","level":"info","event":"                            WHERE id = 60;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.117954Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.118249Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.118458Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.118640Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.118823Z","level":"info","event":"                            WHERE id = 61;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.118996Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.119544Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.119871Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.120114Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.120349Z","level":"info","event":"                            WHERE id = 62;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.120576Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.120896Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.121135Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.121342Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.121549Z","level":"info","event":"                            WHERE id = 63;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.121769Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.122084Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.122320Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.122517Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.122711Z","level":"info","event":"                            WHERE id = 64;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.122913Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.123232Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.123481Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.123636Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.123793Z","level":"info","event":"                            WHERE id = 65;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.123961Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.124441Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.124700Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.124857Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.125008Z","level":"info","event":"                            WHERE id = 66;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.125202Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.125655Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.125963Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.126227Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.126452Z","level":"info","event":"                            WHERE id = 67;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.126672Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.127113Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.127443Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.127684Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.127902Z","level":"info","event":"                            WHERE id = 68;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.128130Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.128482Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.128777Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.129033Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.129258Z","level":"info","event":"                            WHERE id = 69;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.129472Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.130498Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.130831Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.131065Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.131296Z","level":"info","event":"                            WHERE id = 70;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.131507Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.131832Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.132062Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.132263Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.132447Z","level":"info","event":"                            WHERE id = 71;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.132625Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.132995Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.133241Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.133421Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.133596Z","level":"info","event":"                            WHERE id = 72;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.133773Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.134497Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.134859Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.135039Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.135208Z","level":"info","event":"                            WHERE id = 73;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.135388Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.136106Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.136377Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.136551Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.136715Z","level":"info","event":"                            WHERE id = 74;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.136890Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.137221Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.137406Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.137571Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.137728Z","level":"info","event":"                            WHERE id = 75;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.137908Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.138454Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.138713Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.138894Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.139057Z","level":"info","event":"                            WHERE id = 76;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.139233Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.143417Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.143716Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.143918Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.144109Z","level":"info","event":"                            WHERE id = 77;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.144286Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.144454Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.144623Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.144820Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.144978Z","level":"info","event":"                            WHERE id = 78;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.145132Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.145286Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.145444Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.145616Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.145799Z","level":"info","event":"                            WHERE id = 79;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.145959Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.146112Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.146278Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.146433Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.146594Z","level":"info","event":"                            WHERE id = 80;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.146767Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.147063Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.147231Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.147408Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.147566Z","level":"info","event":"                            WHERE id = 81;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.147729Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.147867Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.148030Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.148202Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.148355Z","level":"info","event":"                            WHERE id = 82;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.148515Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.148802Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.148985Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.149156Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.149329Z","level":"info","event":"                            WHERE id = 83;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.149490Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.149647Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.149813Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.149971Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.150161Z","level":"info","event":"                            WHERE id = 84;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.150341Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.150670Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.150860Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.151025Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.151196Z","level":"info","event":"                            WHERE id = 85;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.151400Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.151695Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.151902Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.152083Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.152242Z","level":"info","event":"                            WHERE id = 86;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.152410Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.152692Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.152868Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.153023Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.153189Z","level":"info","event":"                            WHERE id = 87;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.153358Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.153619Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.153811Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.153972Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.154138Z","level":"info","event":"                            WHERE id = 88;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.154319Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.154604Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.154795Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.154974Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.155137Z","level":"info","event":"                            WHERE id = 89;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.155340Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.155820Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.156074Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.156250Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.156411Z","level":"info","event":"                            WHERE id = 90;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.156580Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.157154Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.157420Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.157601Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.157773Z","level":"info","event":"                            WHERE id = 91;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.157953Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.158235Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.158436Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.158603Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.158770Z","level":"info","event":"                            WHERE id = 92;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.158950Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.159286Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.159494Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.159667Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.159854Z","level":"info","event":"                            WHERE id = 93;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.160014Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.160877Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.161166Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.161357Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.161531Z","level":"info","event":"                            WHERE id = 94;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.161700Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.164024Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.164376Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.164565Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.164715Z","level":"info","event":"                            WHERE id = 95;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.164856Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.165109Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.165267Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.165410Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.165547Z","level":"info","event":"                            WHERE id = 96;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.165686Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.165923Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.166073Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.166233Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.166375Z","level":"info","event":"                            WHERE id = 97;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.166512Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.166744Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.166893Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167029Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167166Z","level":"info","event":"                            WHERE id = 98;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167337Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167570Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167717Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167854Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.167989Z","level":"info","event":"                            WHERE id = 99;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.168124Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.168362Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.168513Z","level":"info","event":"                            UPDATE record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.168651Z","level":"info","event":"                            SET status = 'quarantine'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.168795Z","level":"info","event":"                            WHERE id = 100;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.168932Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.169076Z","level":"info","event":"Hay congelados  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.169519","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T17:54:59.212710Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.213017Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T17:54:59.213188Z","level":"info","event":"Task operator:<Task(PythonOperator): deteccion_valores_congelados>","chan":"stdout","logger":"task"}

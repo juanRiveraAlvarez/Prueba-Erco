@@ -1,0 +1,18 @@
+{"timestamp":"2025-07-14T11:27:40.731713","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T11:27:40.732278","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T11:27:40.786065Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.786338Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.786508Z","level":"info","event":"Current task name:detectar_desviacion","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.786672Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.786830Z","level":"info","event":"ultimo (236054, 1, datetime.datetime(2025, 7, 7, 14, 45), 218.72, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787032Z","level":"info","event":"[17.93, 18.8, 19.66, 20.67, 54.3, 55.53, 56.43, 56.97, 84.16, 84.66, 85.28, 85.74, 116.94, 117.82, 118.7, 119.83, 152.43, 153.22, 154.48, 155.75, 182.44, 183.59, 184.49, 185.57, 216.12, 217.34, 218.27, 218.72]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787188Z","level":"info","event":"media 119.13714285714286 - desviacion 65.77247464105454","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787411Z","level":"info","event":"lim_inf -12.407806424966225","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787543Z","level":"info","event":"lim_sup 250.68209213925195","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787654Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787760Z","level":"info","event":"ultimo (236418, 2, datetime.datetime(2025, 7, 7, 14, 45), 216.18, 'cuarentena')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.787877Z","level":"info","event":"Alerta perdida de energia, dato atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.785922","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T11:27:40.812106Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.812358Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:27:40.812490Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_desviacion>","chan":"stdout","logger":"task"}

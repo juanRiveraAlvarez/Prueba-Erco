@@ -1,5 +1,4 @@
 import psycopg2
-import textwrap
 from datetime import datetime, timedelta
 import random
 import numpy as np

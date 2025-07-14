@@ -1,0 +1,112 @@
+{"timestamp":"2025-07-13T16:04:49.881282","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T16:04:49.881861","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T16:04:49.926989Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.927316Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.927503Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.927668Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.904361","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:96: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  ultimos_df = pd.read_sql(\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T16:04:49.933970","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:103: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  historico_df = pd.read_sql(\"SELECT * FROM franja_valores_historicos\", conn)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T16:04:49.987382Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.989087Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.990819Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.992635Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.994101Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.995586Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.997034Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.998459Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:49.999923Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.001371Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.002826Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.004363Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.005970Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.007923Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.009534Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.011138Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.012775Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.014355Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.015992Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.017577Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.019245Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.020936Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.022565Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.024469Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.026176Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.027835Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.029564Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.031197Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.032811Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.034412Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.035972Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.037494Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.039036Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.040643Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.042546Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.044305Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.045900Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.047508Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.049127Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.050720Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.052362Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.053993Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.055603Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.057441Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.059087Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.060760Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.062553Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.064101Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.065534Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.066934Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.068403Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.069811Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.071255Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.072691Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.074385Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.075920Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.077487Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.078919Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.080476Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.081912Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.083367Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.084974Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.086530Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.088084Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.089629Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.091595Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.093294Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.094899Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.096475Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.098021Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.099454Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.100866Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.102297Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.103747Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.105163Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.106542Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.108296Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.109713Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.111132Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.112597Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.113991Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.115412Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.116818Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.118233Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.119663Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.121079Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.122565Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.124456Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.126008Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.127613Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.129149Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.130684Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.132233Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.133786Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.135343Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.136898Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.138432Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.139985Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.141947Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.143657Z","level":"info","event":"atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.144551","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T16:04:50.165789Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.165979Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:04:50.166075Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}

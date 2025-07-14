@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-13T16:05:11.284699","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T16:05:11.285297","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_data_test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T16:05:11.312259","level":"info","event":"Done. Returned value was: 2025-07-08 16:00:00","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T16:05:11.312530","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01980488-7cfa-764e-adb1-fbd9ecb1d68a'), task_id='consultar_ultima_fecha', dag_id='t1', run_id='scheduled__2025-07-13T16:05:10.100492+00:00', try_number=1, map_index=-1, hostname='a41821eaaead', context_carrier={}, task=<Task(PythonOperator): consultar_ultima_fecha>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 13, 16, 5, 10, 717530, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.387691Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.388007Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.388205Z","level":"info","event":"Current task name:consultar_ultima_fecha","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.388392Z","level":"info","event":"Dag name:t1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.388573Z","level":"info","event":"2025-07-08 16:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.388753Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.388930Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T16:05:11.389101Z","level":"info","event":"Task operator:<Task(PythonOperator): consultar_ultima_fecha>","chan":"stdout","logger":"task"}

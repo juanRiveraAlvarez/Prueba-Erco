@@ -1,7 +1,5 @@
 import psycopg2
-import textwrap
 from datetime import datetime, timedelta
-import random
 import numpy as np
 import pandas as pd
 
@@ -12,13 +10,13 @@ from airflow.providers.standard.operators.python import PythonOperator
 # The DAG object; we'll need this to instantiate a DAG
 from airflow.sdk import DAG
 with DAG(
-    "d1",
+    "a2",
     # These args will get passed on to each operator
     # You can override them on a per-task basis during operator initialization
     default_args={
         "depends_on_past": False,
         "retries": 1,
-        "retry_delay": timedelta(minutes=5),
+        "retry_delay": timedelta(minutes=1),
         # 'queue': 'bash_queue',
         # 'pool': 'backfill',
         # 'priority_weight': 10,
@@ -39,105 +37,133 @@ with DAG(
     tags=["example"],
 ) as dag:
 
-    N_SERVICES = 5
-    N_DEVICES_PER_SERVICE = 20
-    TOTAL_DEVICES = N_SERVICES * N_DEVICES_PER_SERVICE
-    INTERVAL_MINUTES = 15
-    HOURS = 24
-    DAYS = 7
-    DATA_POINTS = int(DAYS * HOURS * 60 / INTERVAL_MINUTES)
-    START_DATE = datetime(2025, 7, 1, 0, 0)
+    def deteccion_valores_congelados(**kwargs):
+        conn = psycopg2.connect(
+            host="postgres-datos",
+            database="db",
+            user="root",
+            password="root",
+            port=5432
+        )
+        cur = conn.cursor()
 
-    services_data = []
-    devices_data = []
-    records_data = []
+        query = """
+            SELECT *
+            FROM (
+            SELECT
+                id,
+                device_id,
+                timestamp,
+                value,
+                ROW_NUMBER() OVER (PARTITION BY device_id ORDER BY timestamp DESC) AS rn
+            FROM record
+            WHERE EXTRACT(HOUR FROM timestamp) BETWEEN 7 AND 17
+            ) sub
+            WHERE rn <= 3
+            ORDER BY device_id, timestamp;
+        """
 
-    def solar_profile(hour):
-        if 6 <= hour <= 18:
-            x = (hour - 6) / 12 * np.pi
-            return np.sin(x)
+        df = pd.read_sql(query, conn)
+        congelados = []
+
+        for id ,group in df.groupby("id"):
+            valores = group["value"].tolist()
+            if len(valores) == 3 and all(v == valores[0] for v in valores):
+                congelados.append(id)
+                
+           
+                cur.execute("UPDATE record SET status = 'cuarentena' WHERE id = %s", [id])
+   
+                conn.commit()
+        cur.close()
+        conn.close()
+        if(len(congelados) == 0):
+            print("todo bien")
         else:
-            return 0.0
+            print("Hay congelados ", congelados)
 
-    def consultar_ultima_fecha(**kwargs):
-        try:
+    def detectar_desviacion(**kwargs):
+        
             conn = psycopg2.connect(
-                host="postgres-datos",
-                database="db",
-                user="root",
-                password="root",
+                host='postgres-datos',
+                database='db',
+                user='root',
+                password='root',
                 port=5432
             )
+
             cur = conn.cursor()
-            cur.execute(
-                "SELECT timestamp FROM record ORDER BY timestamp desc limit 1")
-            (ultimo,) = cur.fetchone()
+            
+            cur.execute("SELECT COUNT(*) FROM device",)
+            (dispositivos,) = cur.fetchone()
+            franjas = [8,10,12,14]
+            for f in franjas:
+                    for i in range(1,dispositivos+1):
+                        print(f"franja {f} - {f+2}")
+                        cur.execute(f"""
+                                    SELECT * 
+                                    FROM record 
+                                    where 
+                                        EXTRACT(HOUR FROM timestamp)<={f+2} and
+                                        EXTRACT(HOUR FROM timestamp) >={f} and 
+                                        device_id = {i} and
+                                        status = 'valido'
+                                    ORDER BY timestamp desc limit 1;
+                                    """)
+                        ultimo = cur.fetchone()
+                        print(f"ultimo {ultimo}")
+                    
+                        cur.execute(f"""
+                                    SELECT
+                                        device_id,
+                                        timestamp,
+                                        value
+                                        FROM record
+                                    WHERE 
+                                        EXTRACT(HOUR FROM timestamp) <= {f+2} and
+                                        EXTRACT(HOUR FROM timestamp) >= {f} and 
+                                        device_id = {i} and
+                                        status = 'valido' and
+                                        EXTRACT(DAY FROM timestamp)<15
+                                        
+                                    """)
+                        historico = list(map(lambda x : x[2] ,cur.fetchall()))[:-1]
+                        for j in range(1,len(historico)):
+                            if historico[j] < historico[j-1]:
+                                print("Dato atipico")
+                                cur.execute("UPDATE record SET status = 'cuarentena' WHERE id = %s", [ultimo[0]])
+                                conn.commit()
+                                
+                        print(historico)
+                        media = np.mean(historico)
+                        desviacion_estandar = np.std(historico)
+                        lim_inf = media - 2 * desviacion_estandar
+                        lim_sup = media + 2 * desviacion_estandar
+                        print(f"media {media} - desviacion {desviacion_estandar}")
+                        print(f"lim_inf {lim_inf}")
+                        print(f"lim_sup {lim_sup}")
+                        if ultimo[3] > lim_sup and ultimo[3] < 0:
+                            cur.execute("UPDATE record SET status = 'cuarentena' WHERE id = %s", [ultimo[0]])
+                            conn.commit()
+                            print("Dato atipico")
+                            
+
+                        print("CORRECTO")
             cur.close()
             conn.close()
-            if ultimo.hour == 18 and ultimo.minute == 45:
-                nuevo = ultimo + timedelta(hours=11, minutes=15)
-                print(nuevo)
-                return nuevo
-            elif ultimo.hour >= 6 and ultimo.hour < 19:
-                print(ultimo)
-                return ultimo
-        except:
-            print("ERROR IMPORTANDO LA ULTIMA FECHA")
 
-    def generar_registros_dispositivos(**kwargs):
-        ti = kwargs['ti']
-        fecha = ti.xcom_pull(task_ids='consultar_ultima_fecha')
-        print("La fecha que recibí es:", fecha)
-        for device_id in range(1, TOTAL_DEVICES + 1):
-            accumulated_energy = 0
-            frozen = False
-            t = fecha + timedelta(minutes=INTERVAL_MINUTES)
-            solar_hour = t.hour
 
-            if 6 <= solar_hour <= 18:
-                base_gen = solar_profile(solar_hour)
-                delta = base_gen * random.uniform(0.5, 1.5)
 
-                if random.random() < 0.01:
-                    delta = -random.uniform(0.1, 0.5)
-                elif random.random() < 0.01:
-                    delta *= 8
-                elif random.random() < 0.02 and not frozen:
-                    delta = 0
-                    frozen = True
-                else:
-                    frozen = False
 
-                accumulated_energy = max(
-                    accumulated_energy + delta, accumulated_energy)
-                records_data.append(
-                    [device_id, t.isoformat(), round(accumulated_energy, 2)])
-
-                conn = psycopg2.connect(
-                    host="postgres-datos",
-                    database="db",
-                    user="root",
-                    password="root",
-                    port=5432
-                )
-                cur = conn.cursor()
-                cur.execute("INSERT INTO record (device_id, timestamp, value) VALUES (%s, %s, %s)", (
-                    device_id, t.isoformat(), round(accumulated_energy, 2)))
-                conn.commit()
-            cur.close()
-            conn.close()
-            print(records_data)
-
-    # t1, t2 and t3 are examples of tasks created by instantiating operators
     t0 = PythonOperator(
-        task_id="consultar_ultima_fecha",
-        python_callable=consultar_ultima_fecha,
+        task_id="deteccion_valores_congelados",
+        python_callable=deteccion_valores_congelados,
         dag=dag
     )
 
     t1 = PythonOperator(
-        task_id="generar_registros_dispositivos",
-        python_callable=generar_registros_dispositivos,
+        task_id="detectar_desviacion",
+        python_callable=detectar_desviacion,
         dag=dag
     )
 t0 >> t1

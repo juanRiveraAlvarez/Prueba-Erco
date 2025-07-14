@@ -1,0 +1,20 @@
+{"timestamp":"2025-07-12T23:58:35.686300","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-12T23:58:35.688029","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-12T23:58:35.817267Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.825874Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.826250Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.826460Z","level":"info","event":"Dag name:a1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.826654Z","level":"info","event":"Analizando dispositivo 1, hora: 7, vista: record_device_franja_6_8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.826851Z","level":"info","event":"No se pudo acceder a la vista record_device_franja_6_8: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.827051Z","level":"info","event":"                SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.827241Z","level":"info","event":"                FROM record_device_franja_6_8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.827424Z","level":"info","event":"                WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.827610Z","level":"info","event":"            ': relation \"record_device_franja_6_8\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.827791Z","level":"info","event":"LINE 3:                 FROM record_device_franja_6_8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.827974Z","level":"info","event":"                             ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.828155Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.828336Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.828553Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.828774Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T23:58:35.776005","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:116: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-12T23:58:35.780386","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

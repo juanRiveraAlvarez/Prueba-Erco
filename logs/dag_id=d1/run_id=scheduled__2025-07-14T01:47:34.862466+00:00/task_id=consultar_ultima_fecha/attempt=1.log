@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-14T01:47:36.769993","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T01:47:36.770897","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_generador.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T01:47:36.826693Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.826919Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.827034Z","level":"info","event":"Current task name:consultar_ultima_fecha","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.827142Z","level":"info","event":"Dag name:d1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.827246Z","level":"info","event":"2025-07-09 07:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.827406Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.827543Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.827675Z","level":"info","event":"Task operator:<Task(PythonOperator): consultar_ultima_fecha>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T01:47:36.806811","level":"info","event":"Done. Returned value was: 2025-07-09 07:00:00","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T01:47:36.807333","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0198069d-b2d6-79ba-9802-0112b6b65976'), task_id='consultar_ultima_fecha', dag_id='d1', run_id='scheduled__2025-07-14T01:47:34.862466+00:00', try_number=1, map_index=-1, hostname='a41821eaaead', context_carrier={}, task=<Task(PythonOperator): consultar_ultima_fecha>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 7, 14, 1, 47, 35, 183423, tzinfo=TzInfo(UTC)), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task"}

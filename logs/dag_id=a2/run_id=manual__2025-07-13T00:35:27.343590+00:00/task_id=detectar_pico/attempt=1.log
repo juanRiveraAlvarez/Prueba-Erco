@@ -1,0 +1,211 @@
+{"timestamp":"2025-07-13T00:35:30.600374","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T00:35:30.601533","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T00:35:30.671982Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.672296Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.672482Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.672656Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.688637Z","level":"info","event":"Dispositivo 1, franja: 10-12, valor: 1.16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.696344","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:35:30.699269Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.699597Z","level":"info","event":"Dispositivo 2, franja: 10-12, valor: 0.99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.701236Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.701545Z","level":"info","event":"Dispositivo 3, franja: 10-12, valor: 0.59","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.702873Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.703205Z","level":"info","event":"Dispositivo 4, franja: 10-12, valor: 0.76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.704588Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.704838Z","level":"info","event":"Dispositivo 5, franja: 10-12, valor: 0.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.706055Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.706295Z","level":"info","event":"Dispositivo 6, franja: 10-12, valor: 0.96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.707413Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.707627Z","level":"info","event":"Dispositivo 7, franja: 10-12, valor: 1.21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.708732Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.708955Z","level":"info","event":"Dispositivo 8, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.710120Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.710349Z","level":"info","event":"Dispositivo 9, franja: 10-12, valor: 0.71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.711496Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.711713Z","level":"info","event":"Dispositivo 10, franja: 10-12, valor: 1.44","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.712938Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.713192Z","level":"info","event":"Dispositivo 11, franja: 10-12, valor: 1.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.714302Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.714508Z","level":"info","event":"Dispositivo 12, franja: 10-12, valor: 0.53","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.715612Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.715914Z","level":"info","event":"Dispositivo 13, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.717099Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.717450Z","level":"info","event":"Dispositivo 14, franja: 10-12, valor: 0.98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.718944Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.719250Z","level":"info","event":"Dispositivo 15, franja: 10-12, valor: 1.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.720394Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.720606Z","level":"info","event":"Dispositivo 16, franja: 10-12, valor: 1.39","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.721815Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.722042Z","level":"info","event":"Dispositivo 17, franja: 10-12, valor: 0.97","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.723616Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.723922Z","level":"info","event":"Dispositivo 18, franja: 10-12, valor: 1.23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.725383Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.725654Z","level":"info","event":"Dispositivo 19, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.726977Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.727200Z","level":"info","event":"Dispositivo 20, franja: 10-12, valor: 0.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.728480Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.728703Z","level":"info","event":"Dispositivo 21, franja: 10-12, valor: 0.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.730008Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.730238Z","level":"info","event":"Dispositivo 22, franja: 10-12, valor: 0.81","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.731628Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.731955Z","level":"info","event":"Dispositivo 23, franja: 10-12, valor: 0.98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.733463Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.733808Z","level":"info","event":"Dispositivo 24, franja: 10-12, valor: 0.63","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.735633Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.735933Z","level":"info","event":"Dispositivo 25, franja: 10-12, valor: 1.09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.737312Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.737755Z","level":"info","event":"Dispositivo 26, franja: 10-12, valor: 0.56","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.738930Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.739244Z","level":"info","event":"Dispositivo 27, franja: 10-12, valor: 1.01","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.740525Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.740858Z","level":"info","event":"Dispositivo 28, franja: 10-12, valor: 0.62","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.742099Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.742420Z","level":"info","event":"Dispositivo 29, franja: 10-12, valor: 0.96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.743548Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.743811Z","level":"info","event":"Dispositivo 30, franja: 10-12, valor: 1.26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.744922Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.745220Z","level":"info","event":"Dispositivo 31, franja: 10-12, valor: 1.43","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.746358Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.746606Z","level":"info","event":"Dispositivo 32, franja: 10-12, valor: 0.92","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.747753Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.748018Z","level":"info","event":"Dispositivo 33, franja: 10-12, valor: 0.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.749177Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.749471Z","level":"info","event":"Dispositivo 34, franja: 10-12, valor: 1.36","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.750690Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.750971Z","level":"info","event":"Dispositivo 35, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.752345Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.752695Z","level":"info","event":"Dispositivo 36, franja: 10-12, valor: 0.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.754141Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.754434Z","level":"info","event":"Dispositivo 37, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.755596Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.755850Z","level":"info","event":"Dispositivo 38, franja: 10-12, valor: 1.03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.756937Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.757217Z","level":"info","event":"Dispositivo 39, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.758431Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.758713Z","level":"info","event":"Dispositivo 40, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.759964Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.760238Z","level":"info","event":"Dispositivo 41, franja: 10-12, valor: 1.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.761400Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.761664Z","level":"info","event":"Dispositivo 42, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.762816Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.763090Z","level":"info","event":"Dispositivo 43, franja: 10-12, valor: 0.71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.764223Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.764478Z","level":"info","event":"Dispositivo 44, franja: 10-12, valor: 0.64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.765666Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.765976Z","level":"info","event":"Dispositivo 45, franja: 10-12, valor: 0.5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.767288Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.767655Z","level":"info","event":"Dispositivo 46, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.769056Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.769498Z","level":"info","event":"Dispositivo 47, franja: 10-12, valor: 0.8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.770659Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.770945Z","level":"info","event":"Dispositivo 48, franja: 10-12, valor: 1.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.772053Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.772322Z","level":"info","event":"Dispositivo 49, franja: 10-12, valor: 1.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.773548Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.773834Z","level":"info","event":"Dispositivo 50, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.774984Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.775267Z","level":"info","event":"Dispositivo 51, franja: 10-12, valor: 1.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.776535Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.776748Z","level":"info","event":"Dispositivo 52, franja: 10-12, valor: 0.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.777863Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.778038Z","level":"info","event":"Dispositivo 53, franja: 10-12, valor: 1.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.779424Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.779721Z","level":"info","event":"Dispositivo 54, franja: 10-12, valor: 0.68","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.780909Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.781190Z","level":"info","event":"Dispositivo 55, franja: 10-12, valor: 1.08","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.782312Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.782522Z","level":"info","event":"Dispositivo 56, franja: 10-12, valor: 0.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.783891Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.784093Z","level":"info","event":"Dispositivo 57, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.785706Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.786031Z","level":"info","event":"Dispositivo 58, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.787375Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.787604Z","level":"info","event":"Dispositivo 59, franja: 10-12, valor: 0.51","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.788759Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.789009Z","level":"info","event":"Dispositivo 60, franja: 10-12, valor: 0.6","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.790382Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.790601Z","level":"info","event":"Dispositivo 61, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.792118Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.792441Z","level":"info","event":"Dispositivo 62, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.793717Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.793916Z","level":"info","event":"Dispositivo 63, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.795113Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.795300Z","level":"info","event":"Dispositivo 64, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.796425Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.796582Z","level":"info","event":"Dispositivo 65, franja: 10-12, valor: 1.2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.797911Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.798142Z","level":"info","event":"Dispositivo 66, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.799685Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.800004Z","level":"info","event":"Dispositivo 67, franja: 10-12, valor: 1.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.801585Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.801885Z","level":"info","event":"Dispositivo 68, franja: 10-12, valor: 0.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.803314Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.803656Z","level":"info","event":"Dispositivo 69, franja: 10-12, valor: 0.7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.805097Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.805454Z","level":"info","event":"Dispositivo 70, franja: 10-12, valor: 1.21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.806587Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.806882Z","level":"info","event":"Dispositivo 71, franja: 10-12, valor: 1.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.808158Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.808395Z","level":"info","event":"Dispositivo 72, franja: 10-12, valor: 1.4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.809785Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.810029Z","level":"info","event":"Dispositivo 73, franja: 10-12, valor: 0.84","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.811325Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.811521Z","level":"info","event":"Dispositivo 74, franja: 10-12, valor: 1.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.812674Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.812865Z","level":"info","event":"Dispositivo 75, franja: 10-12, valor: 1.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.814084Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.814318Z","level":"info","event":"Dispositivo 76, franja: 10-12, valor: 1.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.815478Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.815756Z","level":"info","event":"Dispositivo 77, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.817181Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.817503Z","level":"info","event":"Dispositivo 78, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.818892Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.819193Z","level":"info","event":"Dispositivo 79, franja: 10-12, valor: 0.58","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.820670Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.820980Z","level":"info","event":"Dispositivo 80, franja: 10-12, valor: 1.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.822237Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.822535Z","level":"info","event":"Dispositivo 81, franja: 10-12, valor: 1.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.823699Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.823951Z","level":"info","event":"Dispositivo 82, franja: 10-12, valor: 0.91","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.825278Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.825567Z","level":"info","event":"Dispositivo 83, franja: 10-12, valor: 1.35","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.826906Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.827169Z","level":"info","event":"Dispositivo 84, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.828334Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.828521Z","level":"info","event":"Dispositivo 85, franja: 10-12, valor: 0.99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.829695Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.829887Z","level":"info","event":"Dispositivo 86, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.831048Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.831230Z","level":"info","event":"Dispositivo 87, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.832564Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.832854Z","level":"info","event":"Dispositivo 88, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.834351Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.834674Z","level":"info","event":"Dispositivo 89, franja: 10-12, valor: 1.26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.836298Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.836639Z","level":"info","event":"Dispositivo 90, franja: 10-12, valor: 0.78","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.838874Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.839192Z","level":"info","event":"Dispositivo 91, franja: 10-12, valor: 1.03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.841054Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.841353Z","level":"info","event":"Dispositivo 92, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.842782Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.843023Z","level":"info","event":"Dispositivo 93, franja: 10-12, valor: 0.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.844530Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.844755Z","level":"info","event":"Dispositivo 94, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.846190Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.846412Z","level":"info","event":"Dispositivo 95, franja: 10-12, valor: 0.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.847891Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.848133Z","level":"info","event":"Dispositivo 96, franja: 10-12, valor: 1.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.849609Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.849979Z","level":"info","event":"Dispositivo 97, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.852708Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.854121Z","level":"info","event":"Dispositivo 98, franja: 10-12, valor: 1.27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.855442Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.856282Z","level":"info","event":"Dispositivo 99, franja: 10-12, valor: 1.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.857251Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.858102Z","level":"info","event":"Dispositivo 100, franja: 10-12, valor: 1.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.859058Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.860489","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T00:35:30.898636Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.898993Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:35:30.899246Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}

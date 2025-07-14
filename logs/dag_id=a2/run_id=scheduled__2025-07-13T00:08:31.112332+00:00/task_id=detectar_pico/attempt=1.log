@@ -1,0 +1,13 @@
+{"timestamp":"2025-07-13T00:08:48.080253","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T00:08:48.082141","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T00:08:48.190308Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.190704Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.190986Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.191241Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.191482Z","level":"info","event":"Analizando dispositivo 3, hora: 7, vista: franja_6_a_8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.191733Z","level":"info","event":"✅ Valor dentro del rango normal","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.191987Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.192217Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.196821Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:08:48.174033","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:124: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:08:48.187026","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

@@ -1,0 +1,13 @@
+{"timestamp":"2025-07-13T00:23:41.040517","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T00:23:41.041507","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T00:23:41.090034Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.090328Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.090487Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.090624Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.090757Z","level":"info","event":"Analizando dispositivo 1, hora: 11, vista: franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.093208","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:128: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:23:41.095951Z","level":"info","event":"No hay suficientes datos históricos para analizar.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.096993","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T00:23:41.132961Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.133222Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:23:41.133349Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}

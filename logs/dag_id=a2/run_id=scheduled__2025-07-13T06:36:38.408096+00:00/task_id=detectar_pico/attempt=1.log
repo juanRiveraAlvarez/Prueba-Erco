@@ -1,0 +1,110 @@
+{"timestamp":"2025-07-13T06:36:45.862839","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T06:36:45.864492","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T06:36:45.947225Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:45.947645Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:45.947903Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:45.948166Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.001399Z","level":"info","event":"Valor atípico detectado para dispositivo 1 a las 12: 1.19 (media=184.09, std=23.09)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.002581Z","level":"info","event":"Valor atípico detectado para dispositivo 2 a las 12: 0.66 (media=183.64, std=15.38)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.003916Z","level":"info","event":"Valor atípico detectado para dispositivo 3 a las 12: 0.99 (media=185.33, std=15.85)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.005046Z","level":"info","event":"Valor atípico detectado para dispositivo 4 a las 12: 1.21 (media=197.33, std=16.34)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.006807Z","level":"info","event":"Valor atípico detectado para dispositivo 5 a las 12: 0.97 (media=194.05, std=15.02)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.007328Z","level":"info","event":"Valor atípico detectado para dispositivo 6 a las 12: 1.22 (media=186.43, std=18.81)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.008489Z","level":"info","event":"Valor atípico detectado para dispositivo 7 a las 12: 1.30 (media=196.50, std=15.58)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.009793Z","level":"info","event":"Valor atípico detectado para dispositivo 8 a las 12: 0.55 (media=179.53, std=14.78)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.010297Z","level":"info","event":"Valor atípico detectado para dispositivo 9 a las 12: 0.67 (media=205.49, std=14.72)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.011511Z","level":"info","event":"Valor atípico detectado para dispositivo 10 a las 12: 1.35 (media=197.21, std=15.91)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.012763Z","level":"info","event":"Valor atípico detectado para dispositivo 11 a las 12: 1.14 (media=189.49, std=17.21)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.014129Z","level":"info","event":"Valor atípico detectado para dispositivo 12 a las 12: 1.22 (media=194.62, std=17.71)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.015346Z","level":"info","event":"Valor atípico detectado para dispositivo 13 a las 12: 0.62 (media=201.01, std=17.46)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.015867Z","level":"info","event":"Valor atípico detectado para dispositivo 14 a las 12: 0.89 (media=198.01, std=16.04)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.016902Z","level":"info","event":"Valor atípico detectado para dispositivo 15 a las 12: 1.31 (media=213.25, std=16.27)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.018099Z","level":"info","event":"Valor atípico detectado para dispositivo 16 a las 12: 1.34 (media=182.00, std=15.60)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.019290Z","level":"info","event":"Valor atípico detectado para dispositivo 17 a las 12: 0.00 (media=203.41, std=18.53)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.021534Z","level":"info","event":"Valor atípico detectado para dispositivo 18 a las 12: 1.07 (media=187.00, std=18.31)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.021973Z","level":"info","event":"Valor atípico detectado para dispositivo 19 a las 12: 0.91 (media=183.38, std=14.41)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.023445Z","level":"info","event":"Valor atípico detectado para dispositivo 20 a las 12: 0.71 (media=193.30, std=15.31)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.023848Z","level":"info","event":"Valor atípico detectado para dispositivo 21 a las 12: 1.50 (media=175.59, std=16.51)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.025553Z","level":"info","event":"Valor atípico detectado para dispositivo 22 a las 12: 1.43 (media=201.66, std=16.18)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.026170Z","level":"info","event":"Valor atípico detectado para dispositivo 23 a las 12: 1.09 (media=189.17, std=16.18)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.026865Z","level":"info","event":"Valor atípico detectado para dispositivo 24 a las 12: 1.16 (media=188.82, std=17.23)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.028304Z","level":"info","event":"Valor atípico detectado para dispositivo 25 a las 12: 0.52 (media=180.02, std=17.15)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.028850Z","level":"info","event":"Valor atípico detectado para dispositivo 26 a las 12: 0.67 (media=183.13, std=18.30)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.030119Z","level":"info","event":"Valor atípico detectado para dispositivo 27 a las 12: 0.64 (media=187.17, std=16.25)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.031224Z","level":"info","event":"Valor atípico detectado para dispositivo 28 a las 12: 0.78 (media=195.59, std=16.41)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.032619Z","level":"info","event":"Valor atípico detectado para dispositivo 29 a las 12: 1.30 (media=185.40, std=16.16)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.034394Z","level":"info","event":"Valor atípico detectado para dispositivo 30 a las 12: 0.75 (media=184.73, std=18.25)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.036396Z","level":"info","event":"Valor atípico detectado para dispositivo 31 a las 12: 0.96 (media=185.38, std=17.25)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.036970Z","level":"info","event":"Valor atípico detectado para dispositivo 32 a las 12: 1.08 (media=197.25, std=16.76)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.038510Z","level":"info","event":"Valor atípico detectado para dispositivo 33 a las 12: 1.35 (media=196.59, std=15.36)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.039819Z","level":"info","event":"Valor atípico detectado para dispositivo 34 a las 12: 1.09 (media=170.93, std=15.76)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.040743Z","level":"info","event":"Valor atípico detectado para dispositivo 35 a las 12: 1.15 (media=176.31, std=17.76)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.045342Z","level":"info","event":"Valor atípico detectado para dispositivo 36 a las 12: 1.25 (media=191.94, std=18.39)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.045754Z","level":"info","event":"Valor atípico detectado para dispositivo 37 a las 12: 1.07 (media=197.76, std=20.63)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.046502Z","level":"info","event":"Valor atípico detectado para dispositivo 38 a las 12: 0.52 (media=195.76, std=15.09)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.047739Z","level":"info","event":"Valor atípico detectado para dispositivo 39 a las 12: 0.73 (media=180.86, std=15.39)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.048871Z","level":"info","event":"Valor atípico detectado para dispositivo 40 a las 12: 1.15 (media=183.78, std=14.55)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.049478Z","level":"info","event":"Valor atípico detectado para dispositivo 41 a las 12: 0.77 (media=191.92, std=19.57)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.050623Z","level":"info","event":"Valor atípico detectado para dispositivo 42 a las 12: 1.36 (media=178.19, std=14.44)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.052675Z","level":"info","event":"Valor atípico detectado para dispositivo 43 a las 12: 0.72 (media=195.80, std=15.22)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.053653Z","level":"info","event":"Valor atípico detectado para dispositivo 44 a las 12: 1.08 (media=195.69, std=16.25)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.055032Z","level":"info","event":"Valor atípico detectado para dispositivo 45 a las 12: 1.25 (media=187.00, std=15.69)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.056464Z","level":"info","event":"Valor atípico detectado para dispositivo 46 a las 12: 0.99 (media=186.62, std=21.11)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.058439Z","level":"info","event":"Valor atípico detectado para dispositivo 47 a las 12: 1.32 (media=207.04, std=16.28)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.059810Z","level":"info","event":"Valor atípico detectado para dispositivo 48 a las 12: 0.67 (media=213.01, std=20.12)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.060482Z","level":"info","event":"Valor atípico detectado para dispositivo 49 a las 12: 0.72 (media=174.69, std=14.84)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.061589Z","level":"info","event":"Valor atípico detectado para dispositivo 50 a las 12: 0.76 (media=185.69, std=17.47)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.062729Z","level":"info","event":"Valor atípico detectado para dispositivo 51 a las 12: 0.77 (media=192.60, std=17.69)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.063233Z","level":"info","event":"Valor atípico detectado para dispositivo 52 a las 12: 1.30 (media=190.12, std=15.22)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.064408Z","level":"info","event":"Valor atípico detectado para dispositivo 53 a las 12: 6.55 (media=187.59, std=15.65)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.065607Z","level":"info","event":"Valor atípico detectado para dispositivo 54 a las 12: 1.29 (media=185.85, std=15.31)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.066177Z","level":"info","event":"Valor atípico detectado para dispositivo 55 a las 12: 0.86 (media=180.48, std=16.33)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.068982Z","level":"info","event":"Valor atípico detectado para dispositivo 56 a las 12: 0.51 (media=202.01, std=15.02)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.071998Z","level":"info","event":"Valor atípico detectado para dispositivo 57 a las 12: 0.65 (media=176.15, std=15.79)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.073902Z","level":"info","event":"Valor atípico detectado para dispositivo 58 a las 12: 1.27 (media=192.48, std=16.38)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.075972Z","level":"info","event":"Valor atípico detectado para dispositivo 59 a las 12: 0.81 (media=177.61, std=14.81)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.076568Z","level":"info","event":"Valor atípico detectado para dispositivo 60 a las 12: 0.86 (media=179.99, std=20.61)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.076856Z","level":"info","event":"Valor atípico detectado para dispositivo 61 a las 12: 1.22 (media=194.24, std=15.14)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.077295Z","level":"info","event":"Valor atípico detectado para dispositivo 62 a las 12: 0.00 (media=186.88, std=16.64)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.077579Z","level":"info","event":"Valor atípico detectado para dispositivo 63 a las 12: 0.60 (media=187.66, std=16.47)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.077810Z","level":"info","event":"Valor atípico detectado para dispositivo 64 a las 12: 1.47 (media=174.02, std=17.06)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.078181Z","level":"info","event":"Valor atípico detectado para dispositivo 65 a las 12: 0.84 (media=191.39, std=15.27)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.078464Z","level":"info","event":"Valor atípico detectado para dispositivo 66 a las 12: 0.88 (media=200.05, std=22.58)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.079355Z","level":"info","event":"Valor atípico detectado para dispositivo 67 a las 12: 1.16 (media=194.53, std=16.57)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.081200Z","level":"info","event":"Valor atípico detectado para dispositivo 68 a las 12: 1.18 (media=178.51, std=14.42)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.082545Z","level":"info","event":"Valor atípico detectado para dispositivo 69 a las 12: 0.54 (media=176.22, std=18.67)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.083511Z","level":"info","event":"Valor atípico detectado para dispositivo 70 a las 12: 1.50 (media=184.00, std=14.55)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.085627Z","level":"info","event":"Valor atípico detectado para dispositivo 71 a las 12: 0.79 (media=191.16, std=20.10)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.088752Z","level":"info","event":"Valor atípico detectado para dispositivo 72 a las 12: 1.04 (media=189.08, std=16.67)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.089174Z","level":"info","event":"Valor atípico detectado para dispositivo 73 a las 12: 0.78 (media=182.79, std=15.32)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.089577Z","level":"info","event":"Valor atípico detectado para dispositivo 74 a las 12: 1.01 (media=179.65, std=18.83)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.089912Z","level":"info","event":"Valor atípico detectado para dispositivo 75 a las 12: 1.06 (media=189.91, std=20.68)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.090954Z","level":"info","event":"Valor atípico detectado para dispositivo 76 a las 12: 1.30 (media=193.67, std=17.41)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.092578Z","level":"info","event":"Valor atípico detectado para dispositivo 77 a las 12: 0.85 (media=197.11, std=16.24)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.093155Z","level":"info","event":"Valor atípico detectado para dispositivo 78 a las 12: 0.53 (media=172.94, std=15.81)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.094121Z","level":"info","event":"Valor atípico detectado para dispositivo 79 a las 12: 0.58 (media=186.43, std=16.03)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.095026Z","level":"info","event":"Valor atípico detectado para dispositivo 80 a las 12: 1.11 (media=176.40, std=14.62)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.096042Z","level":"info","event":"Valor atípico detectado para dispositivo 81 a las 12: 1.13 (media=179.01, std=15.76)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.097151Z","level":"info","event":"Valor atípico detectado para dispositivo 82 a las 12: 0.79 (media=182.40, std=15.79)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.098462Z","level":"info","event":"Valor atípico detectado para dispositivo 83 a las 12: 1.16 (media=181.88, std=14.79)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.099511Z","level":"info","event":"Valor atípico detectado para dispositivo 84 a las 12: 0.93 (media=189.34, std=15.89)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.100894Z","level":"info","event":"Valor atípico detectado para dispositivo 85 a las 12: 0.56 (media=206.77, std=17.70)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.102342Z","level":"info","event":"Valor atípico detectado para dispositivo 86 a las 12: 0.66 (media=183.47, std=17.25)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.103157Z","level":"info","event":"Valor atípico detectado para dispositivo 87 a las 12: 1.37 (media=178.01, std=16.61)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.104910Z","level":"info","event":"Valor atípico detectado para dispositivo 88 a las 12: 0.99 (media=185.82, std=18.88)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.105546Z","level":"info","event":"Valor atípico detectado para dispositivo 89 a las 12: 1.31 (media=180.97, std=17.27)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.106272Z","level":"info","event":"Valor atípico detectado para dispositivo 90 a las 12: 1.00 (media=196.05, std=16.15)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.107931Z","level":"info","event":"Valor atípico detectado para dispositivo 91 a las 12: 1.49 (media=188.67, std=14.28)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.109894Z","level":"info","event":"Valor atípico detectado para dispositivo 92 a las 12: 1.41 (media=184.23, std=16.73)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.111696Z","level":"info","event":"Valor atípico detectado para dispositivo 93 a las 12: 0.64 (media=191.94, std=20.03)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.113349Z","level":"info","event":"Valor atípico detectado para dispositivo 94 a las 12: 1.11 (media=186.44, std=20.10)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.115113Z","level":"info","event":"Valor atípico detectado para dispositivo 95 a las 12: 1.02 (media=190.41, std=15.90)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.116680Z","level":"info","event":"Valor atípico detectado para dispositivo 96 a las 12: 0.83 (media=193.85, std=16.26)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.118195Z","level":"info","event":"Valor atípico detectado para dispositivo 97 a las 12: 0.77 (media=191.69, std=16.53)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.120349Z","level":"info","event":"Valor atípico detectado para dispositivo 98 a las 12: 1.02 (media=184.94, std=16.27)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.121836Z","level":"info","event":"Valor atípico detectado para dispositivo 99 a las 12: 0.75 (media=197.11, std=20.43)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.125827Z","level":"info","event":"Valor atípico detectado para dispositivo 100 a las 12: 0.75 (media=196.32, std=16.44)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.126234Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.126484Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.126709Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T06:36:46.123808","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

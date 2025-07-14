@@ -1,0 +1,717 @@
+{"timestamp":"2025-07-14T11:37:02.956672","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T11:37:02.957320","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T11:37:03.001125Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.001392Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.001520Z","level":"info","event":"Current task name:detectar_desviacion","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.001628Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.001733Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.001834Z","level":"info","event":"ultimo (236034, 1, datetime.datetime(2025, 7, 7, 9, 45), 198.64, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.001938Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.002066Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.002185Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.002285Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.002383Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.002482Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:02.993136","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.\n  return _methods._mean(a, axis=axis, dtype=dtype,\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T11:37:02.993975","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide\n  ret = ret.dtype.type(ret / rcount)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T11:37:02.994311","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/numpy/core/_methods.py:206: RuntimeWarning: Degrees of freedom <= 0 for slice\n  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T11:37:02.994675","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/numpy/core/_methods.py:163: RuntimeWarning: invalid value encountered in divide\n  arrmean = um.true_divide(arrmean, div, out=arrmean,\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T11:37:02.994987","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/numpy/core/_methods.py:198: RuntimeWarning: invalid value encountered in scalar divide\n  ret = ret.dtype.type(ret / rcount)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T11:37:03.003331Z","level":"info","event":"ultimo (236398, 2, datetime.datetime(2025, 7, 7, 9, 45), 196.96, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.007343Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.007692Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.007826Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.007937Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.008061Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.008233Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.013280Z","level":"info","event":"ultimo (236762, 3, datetime.datetime(2025, 7, 7, 9, 45), 185.66, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.018803Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.019190Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.019404Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.019608Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.019746Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.019873Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.024590Z","level":"info","event":"ultimo (237126, 4, datetime.datetime(2025, 7, 7, 9, 45), 208.68, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.030046Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.030310Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.030417Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.030510Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.030600Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.030690Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.034401Z","level":"info","event":"ultimo (237490, 5, datetime.datetime(2025, 7, 7, 9, 45), 191.61, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.038770Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.039080Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.039231Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.039391Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.039524Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.039653Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.043665Z","level":"info","event":"ultimo (237854, 6, datetime.datetime(2025, 7, 7, 9, 45), 196.29, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.049046Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.049291Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.049439Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.049573Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.049709Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.049835Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.054540Z","level":"info","event":"ultimo (238218, 7, datetime.datetime(2025, 7, 7, 9, 45), 181.54, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.058985Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.059243Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.059386Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.059491Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.059599Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.059723Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.064078Z","level":"info","event":"ultimo (238582, 8, datetime.datetime(2025, 7, 7, 9, 45), 210.41, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.067743Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.067996Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.068126Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.068231Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.068337Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.068439Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.072347Z","level":"info","event":"ultimo (238946, 9, datetime.datetime(2025, 7, 7, 9, 45), 190.77, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.076525Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.076780Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.076902Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.077006Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.077112Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.077212Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.080647Z","level":"info","event":"ultimo (239310, 10, datetime.datetime(2025, 7, 7, 9, 45), 201.64, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.084295Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.084571Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.084696Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.084798Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.084898Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.084996Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.089607Z","level":"info","event":"ultimo (239674, 11, datetime.datetime(2025, 7, 7, 9, 45), 196.03, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.094186Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.094472Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.094598Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.094777Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.094949Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.095118Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.098802Z","level":"info","event":"ultimo (240038, 12, datetime.datetime(2025, 7, 7, 9, 45), 203.72, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.102516Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.102889Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.103067Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.103222Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.103386Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.103509Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.107211Z","level":"info","event":"ultimo (240402, 13, datetime.datetime(2025, 7, 7, 9, 45), 195.1, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.110761Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.111018Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.111121Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.111214Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.111324Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.111414Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.114610Z","level":"info","event":"ultimo (240766, 14, datetime.datetime(2025, 7, 7, 9, 45), 192.38, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.118311Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.118647Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.118820Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.118965Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.119106Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.119245Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.122319Z","level":"info","event":"ultimo (241130, 15, datetime.datetime(2025, 7, 7, 9, 45), 197.97, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.126024Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.126335Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.126447Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.126538Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.126626Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.126714Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.129883Z","level":"info","event":"ultimo (241494, 16, datetime.datetime(2025, 7, 7, 9, 45), 202.27, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.133428Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.133651Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.133803Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.133943Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.134084Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.134219Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.139504Z","level":"info","event":"ultimo (241858, 17, datetime.datetime(2025, 7, 7, 9, 45), 183.59, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.144280Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.144558Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.144660Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.144749Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.144836Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.144922Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.148814Z","level":"info","event":"ultimo (242222, 18, datetime.datetime(2025, 7, 7, 9, 45), 189.89, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.152979Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.153229Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.153357Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.153460Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.153562Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.153703Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.157489Z","level":"info","event":"ultimo (242586, 19, datetime.datetime(2025, 7, 7, 9, 45), 191.26, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.161243Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.161468Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.161583Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.161682Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.161784Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.161883Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.165186Z","level":"info","event":"ultimo (242950, 20, datetime.datetime(2025, 7, 7, 9, 45), 190.94, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.169019Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.169285Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.169385Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.169494Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.169660Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.169785Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.173788Z","level":"info","event":"ultimo (243314, 21, datetime.datetime(2025, 7, 7, 9, 45), 200.41, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.177894Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.178124Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.178241Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.178339Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.178441Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.178539Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.181995Z","level":"info","event":"ultimo (243678, 22, datetime.datetime(2025, 7, 7, 9, 45), 204.44, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.186074Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.186337Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.186458Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.186559Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.186659Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.186756Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.190831Z","level":"info","event":"ultimo (244042, 23, datetime.datetime(2025, 7, 7, 9, 45), 186.84, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.195014Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.195613Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.195923Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.196209Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.196505Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.196786Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.199526Z","level":"info","event":"ultimo (244406, 24, datetime.datetime(2025, 7, 7, 9, 45), 201.11, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.203704Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.204258Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.204571Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.204854Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.205133Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.205417Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.208075Z","level":"info","event":"ultimo (244770, 25, datetime.datetime(2025, 7, 7, 9, 45), 189.03, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.212222Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.212731Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.212969Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.213165Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.213607Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.213864Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.216454Z","level":"info","event":"ultimo (245134, 26, datetime.datetime(2025, 7, 7, 9, 45), 183.35, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.220579Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.221003Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.221221Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.221408Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.221590Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.221806Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.224875Z","level":"info","event":"ultimo (245498, 27, datetime.datetime(2025, 7, 7, 9, 45), 199.67, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.228452Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.228899Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.229113Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.229301Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.229484Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.229665Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.232684Z","level":"info","event":"ultimo (245862, 28, datetime.datetime(2025, 7, 7, 9, 45), 200.84, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.236714Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.237146Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.237362Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.237547Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.237729Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.237910Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.240810Z","level":"info","event":"ultimo (246226, 29, datetime.datetime(2025, 7, 7, 9, 45), 196.0, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.244528Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.244943Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.245150Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.245337Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.245518Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.245700Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.248325Z","level":"info","event":"ultimo (246590, 30, datetime.datetime(2025, 7, 7, 9, 45), 192.25, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.251849Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.252120Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.252209Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.252349Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.252462Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.252565Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.256550Z","level":"info","event":"ultimo (246954, 31, datetime.datetime(2025, 7, 7, 9, 45), 185.78, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.260229Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.260481Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.260599Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.260716Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.260823Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.260919Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.264956Z","level":"info","event":"ultimo (247318, 32, datetime.datetime(2025, 7, 7, 9, 45), 180.12, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.268703Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.269041Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.269162Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.269361Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.269473Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.269583Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.272930Z","level":"info","event":"ultimo (247682, 33, datetime.datetime(2025, 7, 7, 9, 45), 197.19, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.276402Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.276638Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.276741Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.276844Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.276945Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.277046Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.280665Z","level":"info","event":"ultimo (248046, 34, datetime.datetime(2025, 7, 7, 9, 45), 198.47, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.284447Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.284745Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.284839Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.284998Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.285105Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.285209Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.289068Z","level":"info","event":"ultimo (248410, 35, datetime.datetime(2025, 7, 7, 9, 45), 190.42, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.293263Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.293525Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.293636Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.293735Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.293836Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.293930Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.297479Z","level":"info","event":"ultimo (248774, 36, datetime.datetime(2025, 7, 7, 9, 45), 196.37, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.301074Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.301379Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.301494Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.301652Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.301759Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.301859Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.305581Z","level":"info","event":"ultimo (249138, 37, datetime.datetime(2025, 7, 7, 9, 45), 224.52, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.309356Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.309673Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.309794Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.309911Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.310012Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.310113Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.313558Z","level":"info","event":"ultimo (249502, 38, datetime.datetime(2025, 7, 7, 9, 45), 215.7, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.317081Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.317322Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.317437Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.317538Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.317640Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.317738Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.321264Z","level":"info","event":"ultimo (249866, 39, datetime.datetime(2025, 7, 7, 9, 45), 206.42, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.325410Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.325823Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.326186Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.326486Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.326760Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.327174Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.330302Z","level":"info","event":"ultimo (250230, 40, datetime.datetime(2025, 7, 7, 9, 45), 212.31, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.334334Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.334656Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.334791Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.334911Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.335012Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.335115Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.339334Z","level":"info","event":"ultimo (250594, 41, datetime.datetime(2025, 7, 7, 9, 45), 187.16, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.343341Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.343671Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.343796Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.343914Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.344015Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.344118Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.348668Z","level":"info","event":"ultimo (250958, 42, datetime.datetime(2025, 7, 7, 9, 45), 212.26, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.353730Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.354075Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.354218Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.354311Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.354390Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.354466Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.358759Z","level":"info","event":"ultimo (251322, 43, datetime.datetime(2025, 7, 7, 9, 45), 203.93, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.364860Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.365470Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.365846Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.366157Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.366460Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.366758Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.370669Z","level":"info","event":"ultimo (251686, 44, datetime.datetime(2025, 7, 7, 9, 45), 190.66, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.375322Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.375920Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.376283Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.376602Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.376911Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.377211Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.381183Z","level":"info","event":"ultimo (252050, 45, datetime.datetime(2025, 7, 7, 9, 45), 206.71, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.384871Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.385475Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.385871Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.386197Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.386501Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.386857Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.390398Z","level":"info","event":"ultimo (252414, 46, datetime.datetime(2025, 7, 7, 9, 45), 184.96, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.394458Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.395033Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.395437Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.395738Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.396018Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.396292Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.399494Z","level":"info","event":"ultimo (252778, 47, datetime.datetime(2025, 7, 7, 9, 45), 185.49, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.403406Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.403961Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.404277Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.404442Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.404576Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.404689Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.409785Z","level":"info","event":"ultimo (253142, 48, datetime.datetime(2025, 7, 7, 9, 45), 192.83, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.414272Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.414511Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.414596Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.414671Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.414742Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.414814Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.418373Z","level":"info","event":"ultimo (253506, 49, datetime.datetime(2025, 7, 7, 9, 45), 197.05, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.422627Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.423003Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.423178Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.423352Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.423504Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.423639Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.427411Z","level":"info","event":"ultimo (253870, 50, datetime.datetime(2025, 7, 7, 9, 45), 212.36, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.431572Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.431851Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.431961Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.432058Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.432173Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.432271Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.435746Z","level":"info","event":"ultimo (254234, 51, datetime.datetime(2025, 7, 7, 9, 45), 223.34, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.440036Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.440363Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.440538Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.440683Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.440788Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.440885Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.445535Z","level":"info","event":"ultimo (254598, 52, datetime.datetime(2025, 7, 7, 9, 45), 183.48, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.449696Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.449925Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.450027Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.450118Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.450207Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.450295Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.454481Z","level":"info","event":"ultimo (254962, 53, datetime.datetime(2025, 7, 7, 9, 45), 188.46, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.458683Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.459055Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.459252Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.459440Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.459589Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.459734Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.463430Z","level":"info","event":"ultimo (255326, 54, datetime.datetime(2025, 7, 7, 9, 45), 193.33, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.467759Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.468108Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.468306Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.468463Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.468608Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.468756Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.472532Z","level":"info","event":"ultimo (255690, 55, datetime.datetime(2025, 7, 7, 9, 45), 183.5, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.477455Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.477856Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.478042Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.478180Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.478311Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.478440Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.482313Z","level":"info","event":"ultimo (256054, 56, datetime.datetime(2025, 7, 7, 9, 45), 198.76, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.486738Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.487080Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.487204Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.487337Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.487440Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.487539Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.492014Z","level":"info","event":"ultimo (256418, 57, datetime.datetime(2025, 7, 7, 9, 45), 199.11, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.496607Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.497241Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.497629Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.497909Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.498138Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.498351Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.504523Z","level":"info","event":"ultimo (256782, 58, datetime.datetime(2025, 7, 7, 9, 45), 217.34, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.511573Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.511966Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.512149Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.512271Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.512385Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.512514Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.518238Z","level":"info","event":"ultimo (257146, 59, datetime.datetime(2025, 7, 7, 9, 45), 196.64, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.523350Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.523762Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.523935Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.524082Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.524222Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.524362Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.527904Z","level":"info","event":"ultimo (257510, 60, datetime.datetime(2025, 7, 7, 9, 45), 192.51, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.531580Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.531845Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.531952Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.532047Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.532141Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.532234Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.536069Z","level":"info","event":"ultimo (257874, 61, datetime.datetime(2025, 7, 7, 9, 45), 190.6, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.540332Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.540695Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.540882Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.541022Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.541157Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.541288Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.546488Z","level":"info","event":"ultimo (258238, 62, datetime.datetime(2025, 7, 7, 9, 45), 190.84, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.551844Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.552165Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.552309Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.552411Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.552508Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.552625Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.556893Z","level":"info","event":"ultimo (258602, 63, datetime.datetime(2025, 7, 7, 9, 45), 188.31, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.560668Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.560953Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.561065Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.561165Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.561264Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.561362Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.565160Z","level":"info","event":"ultimo (258966, 64, datetime.datetime(2025, 7, 7, 9, 45), 195.86, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.570856Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.571172Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.571369Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.571505Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.571636Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.571764Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.576142Z","level":"info","event":"ultimo (259330, 65, datetime.datetime(2025, 7, 7, 9, 45), 200.89, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.580773Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.581075Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.581219Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.581332Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.581441Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.581546Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.587188Z","level":"info","event":"ultimo (259694, 66, datetime.datetime(2025, 7, 7, 9, 45), 199.89, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.592584Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.592907Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.593064Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.593198Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.593333Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.593462Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.598607Z","level":"info","event":"ultimo (260058, 67, datetime.datetime(2025, 7, 7, 9, 45), 183.8, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.604565Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.604877Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.605025Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.605155Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.605286Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.605415Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.610686Z","level":"info","event":"ultimo (260422, 68, datetime.datetime(2025, 7, 7, 9, 45), 184.11, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.616063Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.616423Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.616580Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.616721Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.616851Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.616980Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.622795Z","level":"info","event":"ultimo (260786, 69, datetime.datetime(2025, 7, 7, 9, 45), 194.34, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.628285Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.628597Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.628766Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.628911Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.629075Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.629211Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.634558Z","level":"info","event":"ultimo (261150, 70, datetime.datetime(2025, 7, 7, 9, 45), 196.6, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.641200Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.641673Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.641824Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.641934Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.642023Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.642108Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.647218Z","level":"info","event":"ultimo (261514, 71, datetime.datetime(2025, 7, 7, 9, 45), 200.27, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.653318Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.653735Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.653972Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.654137Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.654289Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.654437Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.660275Z","level":"info","event":"ultimo (261878, 72, datetime.datetime(2025, 7, 7, 9, 45), 198.85, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.665023Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.665398Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.665567Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.665709Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.665855Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.666010Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.673773Z","level":"info","event":"ultimo (262242, 73, datetime.datetime(2025, 7, 7, 9, 45), 212.33, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.679411Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.679811Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.680010Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.680170Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.680337Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.680487Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.687077Z","level":"info","event":"ultimo (262606, 74, datetime.datetime(2025, 7, 7, 9, 45), 190.72, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.693785Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.694120Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.694296Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.694419Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.694540Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.694658Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.700264Z","level":"info","event":"ultimo (262970, 75, datetime.datetime(2025, 7, 7, 9, 45), 190.84, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.706822Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.707208Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.707453Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.707615Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.707761Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.707905Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.713657Z","level":"info","event":"ultimo (263334, 76, datetime.datetime(2025, 7, 7, 9, 45), 210.06, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.720413Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.720702Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.720813Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.720907Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.721052Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.721151Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.727495Z","level":"info","event":"ultimo (263698, 77, datetime.datetime(2025, 7, 7, 9, 45), 187.8, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.735014Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.735294Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.735425Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.735532Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.735633Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.735735Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.742650Z","level":"info","event":"ultimo (264062, 78, datetime.datetime(2025, 7, 7, 9, 45), 202.97, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.749259Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.749565Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.749692Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.749799Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.749905Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.750007Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.755858Z","level":"info","event":"ultimo (264426, 79, datetime.datetime(2025, 7, 7, 9, 45), 188.0, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.761069Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.761381Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.761500Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.761604Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.761706Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.761807Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.766297Z","level":"info","event":"ultimo (264790, 80, datetime.datetime(2025, 7, 7, 9, 45), 205.85, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.772017Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.772312Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.772419Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.772591Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.772711Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.772813Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.777787Z","level":"info","event":"ultimo (265154, 81, datetime.datetime(2025, 7, 7, 9, 45), 195.84, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.783236Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.783656Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.783852Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.784006Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.784154Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.784299Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.791625Z","level":"info","event":"ultimo (265518, 82, datetime.datetime(2025, 7, 7, 9, 45), 189.85, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.797411Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.797729Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.797860Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.797975Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.798085Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.798204Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.803865Z","level":"info","event":"ultimo (265882, 83, datetime.datetime(2025, 7, 7, 9, 45), 213.58, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.810194Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.810574Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.810735Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.810855Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.810968Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.811084Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.816736Z","level":"info","event":"ultimo (266246, 84, datetime.datetime(2025, 7, 7, 9, 45), 183.25, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.822658Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.823127Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.823382Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.823519Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.823633Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.823743Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.830555Z","level":"info","event":"ultimo (266610, 85, datetime.datetime(2025, 7, 7, 9, 45), 202.05, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.837106Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.837467Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.837639Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.837855Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.838012Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.838158Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.844224Z","level":"info","event":"ultimo (266974, 86, datetime.datetime(2025, 7, 7, 9, 45), 203.46, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.849014Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.849310Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.849423Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.849525Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.849623Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.849770Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.856325Z","level":"info","event":"ultimo (267338, 87, datetime.datetime(2025, 7, 7, 9, 45), 203.81, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.862091Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.862496Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.862638Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.862748Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.862855Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.862960Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.868155Z","level":"info","event":"ultimo (267702, 88, datetime.datetime(2025, 7, 7, 9, 45), 197.3, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.875070Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.875432Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.875629Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.875778Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.875944Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.876083Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.881552Z","level":"info","event":"ultimo (268066, 89, datetime.datetime(2025, 7, 7, 9, 45), 191.71, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.887322Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.887627Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.887786Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.887932Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.888081Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.888223Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.893592Z","level":"info","event":"ultimo (268430, 90, datetime.datetime(2025, 7, 7, 9, 45), 205.0, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.899234Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.899563Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.899729Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.899873Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.900016Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.900152Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.907014Z","level":"info","event":"ultimo (268794, 91, datetime.datetime(2025, 7, 7, 9, 45), 193.04, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.913959Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.914366Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.914569Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.914745Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.914915Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.915092Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.920919Z","level":"info","event":"ultimo (269158, 92, datetime.datetime(2025, 7, 7, 9, 45), 212.43, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.927205Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.927655Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.927874Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.928050Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.928218Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.928390Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.932615Z","level":"info","event":"ultimo (269522, 93, datetime.datetime(2025, 7, 7, 9, 45), 204.13, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.939318Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.939640Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.939843Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.940045Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.940222Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.940393Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.944646Z","level":"info","event":"ultimo (269886, 94, datetime.datetime(2025, 7, 7, 9, 45), 192.2, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.949655Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.949996Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.950140Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.950262Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.950406Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.950593Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.955573Z","level":"info","event":"ultimo (270250, 95, datetime.datetime(2025, 7, 7, 9, 45), 195.27, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.960423Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.960715Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.960865Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.960992Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.961115Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.961235Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.966723Z","level":"info","event":"ultimo (270614, 96, datetime.datetime(2025, 7, 7, 9, 45), 190.97, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.972914Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.973260Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.973450Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.973615Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.973766Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.973918Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.979301Z","level":"info","event":"ultimo (270978, 97, datetime.datetime(2025, 7, 7, 9, 45), 193.55, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.985088Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.985856Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.986100Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.986231Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.986350Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.986459Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.993368Z","level":"info","event":"ultimo (271342, 98, datetime.datetime(2025, 7, 7, 9, 45), 198.46, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:03.999939Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.000273Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.000401Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.000511Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.000619Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.000728Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.007515Z","level":"info","event":"ultimo (271706, 99, datetime.datetime(2025, 7, 7, 9, 45), 193.86, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.014329Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.014638Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.014774Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.014888Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.014994Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.015100Z","level":"info","event":"franja 8 - 10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.022106Z","level":"info","event":"ultimo (272070, 100, datetime.datetime(2025, 7, 7, 9, 45), 192.49, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.027886Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.028284Z","level":"info","event":"media nan - desviacion nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.028472Z","level":"info","event":"lim_inf nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.028626Z","level":"info","event":"lim_sup nan","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.028776Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.029021Z","level":"info","event":"franja 10 - 12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.028573","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"InterfaceError","exc_value":"cursor already closed","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":867,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1159,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":216,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":239,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/dag_analisis.py","lineno":106,"name":"detectar_desviacion"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-14T11:37:04.066131Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.066386Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.066536Z","level":"info","event":"Task:<Task(PythonOperator): detectar_desviacion>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:37:04.066676Z","level":"info","event":"Failure caused by cursor already closed","chan":"stdout","logger":"task"}

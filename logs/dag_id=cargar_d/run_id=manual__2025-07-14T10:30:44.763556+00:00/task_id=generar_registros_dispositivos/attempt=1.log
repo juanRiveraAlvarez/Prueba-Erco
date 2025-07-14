@@ -1,0 +1,10 @@
+{"timestamp":"2025-07-14T10:30:47.540921","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T10:30:47.541731","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_generador_datos.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T10:30:47.595373Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:30:47.597624Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:30:47.597881Z","level":"info","event":"Current task name:generar_registros_dispositivos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:30:47.598063Z","level":"info","event":"Dag name:cargar_d","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:41:02.231445","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T10:41:02.272087Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:41:02.272469Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:41:02.272889Z","level":"info","event":"Task operator:<Task(PythonOperator): generar_registros_dispositivos>","chan":"stdout","logger":"task"}

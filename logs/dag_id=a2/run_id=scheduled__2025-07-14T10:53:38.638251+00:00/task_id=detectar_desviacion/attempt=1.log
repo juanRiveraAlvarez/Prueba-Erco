@@ -1,0 +1,54 @@
+{"timestamp":"2025-07-14T10:53:42.956611","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T10:53:42.957552","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T10:53:43.009612Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.010428Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.010766Z","level":"info","event":"Current task name:detectar_desviacion","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.010995Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.011198Z","level":"info","event":"ultimo (158954, 1, datetime.datetime(2025, 7, 7, 14, 45), 205.84, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.011450Z","level":"info","event":"[20.87, 20.87, 21.71, 22.35, 49.17, 50.3, 51.37, 51.91, 79.7, 80.85, 81.65, 82.77, 107.4, 108.2, 108.91, 109.88, 137.27, 137.76, 138.92, 139.83, 167.51, 168.25, 169.52, 170.75, 202.68, 203.86, 205.12, 205.84]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.011656Z","level":"info","event":"media 110.54357142857143 - desviacion 60.22716664040084","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.011861Z","level":"info","event":"lim_inf -9.910761852230252","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.012057Z","level":"info","event":"lim_sup 230.9979047093731","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.012258Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.016462Z","level":"info","event":"ultimo (159318, 2, datetime.datetime(2025, 7, 7, 14, 45), 224.19, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.023926Z","level":"info","event":"[20.45, 21.31, 22.04, 23.14, 57.9, 59.01, 59.76, 60.63, 105.13, 105.79, 106.81, 107.45, 135.43, 136.16, 137.27, 138.37, 166.67, 166.67, 167.16, 168.41, 194.51, 195.32, 196.31, 196.92, 221.8, 222.34, 223.5, 224.19]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.024358Z","level":"info","event":"media 130.01607142857145 - desviacion 67.27642212433744","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.024596Z","level":"info","event":"lim_inf -4.536772820103437","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.024811Z","level":"info","event":"lim_sup 264.5689156772463","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.025015Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.032687Z","level":"info","event":"ultimo (159682, 3, datetime.datetime(2025, 7, 7, 14, 45), 205.76, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.040245Z","level":"info","event":"[22.41, 23.01, 24.23, 25.25, 51.34, 51.85, 53.03, 53.53, 80.43, 81.53, 82.35, 82.85, 111.79, 112.98, 113.89, 114.48, 141.69, 142.48, 143.35, 144.59, 172.32, 172.32, 172.78, 173.82, 203.35, 204.19, 205.33, 205.76]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.040631Z","level":"info","event":"media 113.10464285714284 - desviacion 60.35392711108028","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.040838Z","level":"info","event":"lim_inf -7.603211365017728","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.040999Z","level":"info","event":"lim_sup 233.8124970793034","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.041166Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.047797Z","level":"info","event":"ultimo (160046, 4, datetime.datetime(2025, 7, 7, 14, 45), 223.78, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.055538Z","level":"info","event":"[23.93, 24.43, 24.9, 24.9, 51.87, 52.83, 53.48, 54.08, 82.63, 83.09, 84.26, 85.22, 112.01, 112.91, 113.35, 114.38, 140.09, 140.65, 141.89, 143.03, 194.37, 194.37, 194.81, 195.98, 222.53, 222.53, 223.24, 223.78]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.055969Z","level":"info","event":"media 119.12642857142859 - desviacion 67.21867901612964","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.056188Z","level":"info","event":"lim_inf -15.310929460830693","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.056359Z","level":"info","event":"lim_sup 253.56378660368787","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.056518Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.063578Z","level":"info","event":"ultimo (160410, 5, datetime.datetime(2025, 7, 7, 14, 45), 223.56, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.071547Z","level":"info","event":"[20.53, 21.7, 22.52, 23.73, 67.15, 67.84, 68.98, 68.98, 96.52, 97.33, 98.05, 98.05, 127.81, 133.24, 134.09, 134.86, 162.24, 163.25, 163.68, 164.55, 193.09, 193.92, 195.17, 196.44, 221.12, 222.4, 222.94, 223.56]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.071936Z","level":"info","event":"media 128.705 - desviacion 65.87046425154666","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.072153Z","level":"info","event":"lim_inf -3.0359285030933165","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.072331Z","level":"info","event":"lim_sup 260.44592850309334","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.072509Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.078479Z","level":"info","event":"ultimo (160774, 6, datetime.datetime(2025, 7, 7, 14, 45), 218.65, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.085798Z","level":"info","event":"[25.62, 26.39, 27.64, 28.72, 60.84, 62.02, 62.82, 63.4, 90.29, 91.21, 91.96, 93.09, 124.75, 125.87, 126.48, 127.66, 156.23, 157.16, 158.29, 158.29, 185.08, 185.98, 186.44, 187.3, 215.66, 216.79, 217.77, 218.65]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.086201Z","level":"info","event":"media 124.0142857142857 - desviacion 63.178865330819264","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.086406Z","level":"info","event":"lim_inf -2.343444947352822","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.086547Z","level":"info","event":"lim_sup 250.37201637592423","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.086682Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.092277Z","level":"info","event":"ultimo (161138, 7, datetime.datetime(2025, 7, 7, 14, 45), 218.15, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.098635Z","level":"info","event":"[23.7, 24.23, 24.84, 25.62, 51.93, 52.67, 53.59, 54.31, 83.63, 84.53, 85.53, 86.65, 114.23, 115.52, 116.81, 117.6, 151.59, 152.48, 153.58, 154.84, 183.26, 184.42, 185.49, 186.22, 215.84, 216.6, 217.15, 218.15]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.099138Z","level":"info","event":"media 119.10750000000003 - desviacion 64.92790824252695","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.099443Z","level":"info","event":"lim_inf -10.748316485053877","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.099649Z","level":"info","event":"lim_sup 248.96331648505395","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.099789Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.105390Z","level":"info","event":"ultimo (161502, 8, datetime.datetime(2025, 7, 7, 14, 45), 206.22, 'cuarentena')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.110374Z","level":"info","event":"Alerta perdida de energia, dato atipico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.114732","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T10:53:43.140050Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.140324Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T10:53:43.140486Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_desviacion>","chan":"stdout","logger":"task"}

@@ -1,0 +1,318 @@
+{"timestamp":"2025-07-14T11:01:12.701615","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T11:01:12.703406","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T11:01:12.774927Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.775197Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.775417Z","level":"info","event":"Current task name:detectar_desviacion","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.775573Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.775715Z","level":"info","event":"ultimo (198154, 1, datetime.datetime(2025, 7, 7, 14, 45), 220.99, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.775857Z","level":"info","event":"[21.43, 22.7, 23.73, 24.76, 54.92, 55.47, 56.25, 56.87, 85.03, 85.82, 86.33, 87.22, 117.94, 119.08, 120.02, 121.27, 149.14, 150.26, 151.24, 152.43, 186.15, 186.89, 187.58, 188.51, 219.42, 220.46, 220.46, 220.99]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776000Z","level":"info","event":"media 120.44178571428571 - desviacion 65.66757778242795","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776141Z","level":"info","event":"lim_inf -10.893369850570195","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776278Z","level":"info","event":"lim_sup 251.77694127914162","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776413Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776550Z","level":"info","event":"ultimo (198518, 2, datetime.datetime(2025, 7, 7, 14, 45), 205.6, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776686Z","level":"info","event":"[21.09, 22.22, 22.79, 23.69, 49.2, 49.69, 50.55, 51.22, 78.21, 78.85, 79.54, 80.8, 109.92, 110.4, 111.05, 111.54, 139.39, 140.61, 141.46, 142.72, 174.5, 175.56, 176.36, 176.8, 202.92, 203.74, 204.45, 205.6]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776823Z","level":"info","event":"media 111.95964285714284 - desviacion 61.328431036868025","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.776962Z","level":"info","event":"lim_inf -10.697219216593211","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777102Z","level":"info","event":"lim_sup 234.61650493087888","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777238Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777371Z","level":"info","event":"ultimo (198882, 3, datetime.datetime(2025, 7, 7, 14, 45), 214.59, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777507Z","level":"info","event":"[20.61, 21.45, 22.28, 23.22, 56.7, 57.95, 58.71, 59.19, 87.21, 87.84, 88.65, 89.2, 114.1, 115.2, 116.44, 117.11, 144.96, 145.93, 146.9, 148.18, 175.78, 176.87, 177.91, 178.92, 212.3, 213.28, 213.79, 214.59]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777656Z","level":"info","event":"media 117.33107142857146 - desviacion 62.30280384307903","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777801Z","level":"info","event":"lim_inf -7.274536257586604","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.777924Z","level":"info","event":"lim_sup 241.93667911472954","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778039Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778157Z","level":"info","event":"ultimo (199246, 4, datetime.datetime(2025, 7, 7, 14, 45), 212.89, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778296Z","level":"info","event":"[30.99, 31.56, 32.59, 33.33, 57.0, 57.77, 59.0, 60.19, 87.37, 88.59, 88.59, 89.04, 116.79, 117.82, 118.98, 119.74, 148.84, 149.68, 150.92, 151.83, 181.55, 182.71, 183.98, 184.44, 210.13, 210.84, 211.6, 212.89]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778415Z","level":"info","event":"media 120.31285714285715 - desviacion 60.67755432595806","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778534Z","level":"info","event":"lim_inf -1.0422515090589712","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778648Z","level":"info","event":"lim_sup 241.6679657947733","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778769Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778884Z","level":"info","event":"ultimo (199710, 5, datetime.datetime(2025, 7, 7, 14, 45), 230.75, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.778997Z","level":"info","event":"[24.36, 25.05, 26.02, 26.76, 61.63, 61.63, 62.24, 63.25, 90.6, 91.72, 92.23, 93.48, 122.95, 124.0, 124.94, 125.93, 153.17, 153.88, 154.76, 155.85, 192.46, 193.39, 193.92, 195.09, 227.74, 229.02, 229.98, 230.75]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.779112Z","level":"info","event":"media 125.95714285714287 - desviacion 66.98181996723027","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.779224Z","level":"info","event":"lim_inf -8.006497077317661","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.779382Z","level":"info","event":"lim_sup 259.9207827916034","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.779535Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.779761Z","level":"info","event":"ultimo (200074, 6, datetime.datetime(2025, 7, 7, 14, 45), 213.9, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.780563Z","level":"info","event":"[20.54, 21.66, 22.17, 23.37, 50.95, 51.83, 52.29, 52.83, 81.78, 82.55, 83.06, 83.89, 110.34, 110.96, 111.74, 112.87, 141.45, 141.45, 141.45, 142.73, 171.47, 172.62, 173.68, 174.74, 201.73, 209.15, 213.05, 213.9]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.780917Z","level":"info","event":"media 113.2232142857143 - desviacion 61.76528561842413","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.781107Z","level":"info","event":"lim_inf -10.307356951133954","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.781267Z","level":"info","event":"lim_sup 236.75378552256257","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.781411Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.785032Z","level":"info","event":"ultimo (200438, 7, datetime.datetime(2025, 7, 7, 14, 45), 209.0, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.789001Z","level":"info","event":"[21.62, 22.57, 23.2, 24.39, 52.79, 54.06, 54.75, 55.61, 82.44, 83.57, 84.16, 85.01, 109.66, 110.47, 110.47, 110.93, 145.58, 146.4, 147.66, 148.55, 180.27, 180.82, 181.6, 181.6, 207.5, 207.5, 208.1, 209.0]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.789317Z","level":"info","event":"media 115.36714285714287 - desviacion 62.339922364470134","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.789461Z","level":"info","event":"lim_inf -9.312701871797401","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.789587Z","level":"info","event":"lim_sup 240.04698758608313","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.789709Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.793050Z","level":"info","event":"ultimo (200802, 8, datetime.datetime(2025, 7, 7, 14, 45), 238.36, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.797158Z","level":"info","event":"[22.77, 23.44, 24.31, 25.39, 50.76, 51.74, 52.51, 53.78, 88.84, 89.43, 90.54, 91.69, 128.74, 129.61, 130.82, 132.04, 163.48, 164.08, 164.81, 165.83, 206.26, 207.21, 207.73, 208.54, 235.16, 236.43, 237.31, 238.36]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.797984Z","level":"info","event":"media 129.34321428571428 - desviacion 73.18095873798885","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.798229Z","level":"info","event":"lim_inf -17.01870319026341","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.798425Z","level":"info","event":"lim_sup 275.705131761692","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.798565Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.801570Z","level":"info","event":"ultimo (201166, 9, datetime.datetime(2025, 7, 7, 14, 45), 213.06, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.805694Z","level":"info","event":"[22.71, 23.61, 24.49, 25.54, 53.85, 54.43, 55.15, 55.94, 82.33, 83.32, 84.15, 84.88, 111.43, 112.56, 113.4, 114.48, 142.81, 143.38, 143.97, 144.99, 173.16, 174.3, 175.11, 175.62, 211.16, 211.8, 212.5, 213.06]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.806034Z","level":"info","event":"media 115.14750000000001 - desviacion 61.74175541404004","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.806211Z","level":"info","event":"lim_inf -8.336010828080077","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.806359Z","level":"info","event":"lim_sup 238.6310108280801","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.806499Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.809486Z","level":"info","event":"ultimo (201530, 10, datetime.datetime(2025, 7, 7, 14, 45), 209.27, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.813116Z","level":"info","event":"[20.26, 21.48, 27.78, 28.83, 58.84, 60.02, 61.09, 61.7, 90.29, 90.79, 91.58, 92.83, 118.94, 118.94, 119.96, 120.47, 147.61, 148.45, 149.45, 150.32, 178.27, 178.74, 179.28, 180.1, 206.56, 207.14, 208.36, 209.27]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.813488Z","level":"info","event":"media 118.83392857142857 - desviacion 60.39076752636507","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.813670Z","level":"info","event":"lim_inf -1.9476064813015626","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.813818Z","level":"info","event":"lim_sup 239.6154636241587","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.813959Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.817710Z","level":"info","event":"ultimo (201894, 11, datetime.datetime(2025, 7, 7, 14, 45), 245.89, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.821779Z","level":"info","event":"[26.56, 27.69, 28.26, 28.96, 56.45, 57.6, 58.15, 58.6, 87.51, 88.55, 89.47, 90.41, 118.2, 126.31, 132.27, 132.83, 167.31, 167.8, 168.97, 170.27, 208.93, 209.87, 211.06, 211.7, 242.75, 243.97, 245.21, 245.89]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.822141Z","level":"info","event":"media 132.19821428571427 - desviacion 74.07159620710469","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.822306Z","level":"info","event":"lim_inf -15.944978128495109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.822444Z","level":"info","event":"lim_sup 280.34140669992365","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.822589Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.825778Z","level":"info","event":"ultimo (202258, 12, datetime.datetime(2025, 7, 7, 14, 45), 247.91, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.829641Z","level":"info","event":"[22.17, 23.42, 24.46, 25.75, 62.73, 63.45, 63.45, 64.53, 97.71, 98.37, 98.88, 99.83, 132.18, 133.14, 134.41, 134.92, 179.86, 180.54, 181.54, 182.19, 209.6, 210.7, 211.97, 213.0, 244.64, 245.87, 246.89, 247.91]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.830112Z","level":"info","event":"media 136.93249999999998 - desviacion 74.71578479358581","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.830326Z","level":"info","event":"lim_inf -12.499069587171647","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.830476Z","level":"info","event":"lim_sup 286.36406958717157","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.830620Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.833814Z","level":"info","event":"ultimo (202622, 13, datetime.datetime(2025, 7, 7, 14, 45), 214.15, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.838058Z","level":"info","event":"[21.09, 22.16, 23.32, 24.45, 52.48, 53.35, 54.01, 55.27, 82.85, 84.02, 85.15, 86.32, 121.14, 121.72, 122.22, 123.2, 149.58, 150.45, 151.33, 152.36, 182.18, 182.63, 183.17, 184.12, 212.28, 213.38, 214.15, 214.15]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.838329Z","level":"info","event":"media 118.66178571428573 - desviacion 64.10282298517255","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.838506Z","level":"info","event":"lim_inf -9.543860256059375","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.838665Z","level":"info","event":"lim_sup 246.86743168463084","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.838821Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.842233Z","level":"info","event":"ultimo (202986, 14, datetime.datetime(2025, 7, 7, 14, 45), 197.27, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.846748Z","level":"info","event":"[19.37, 20.3, 21.45, 22.41, 49.61, 50.57, 51.33, 52.57, 79.17, 79.72, 81.0, 81.94, 107.77, 109.02, 109.9, 110.45, 136.05, 137.04, 137.93, 138.74, 164.73, 165.93, 166.51, 167.66, 194.89, 195.78, 196.61, 197.27]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.847066Z","level":"info","event":"media 108.7757142857143 - desviacion 58.092122678956564","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.847256Z","level":"info","event":"lim_inf -7.4085310721988265","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.847445Z","level":"info","event":"lim_sup 224.95995964362743","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.847603Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.850974Z","level":"info","event":"ultimo (203350, 15, datetime.datetime(2025, 7, 7, 14, 45), 211.41, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.854693Z","level":"info","event":"[24.8, 25.23, 25.75, 26.92, 54.46, 55.26, 55.9, 56.65, 83.16, 83.72, 84.59, 84.59, 109.06, 109.78, 110.22, 111.19, 137.63, 138.28, 139.56, 140.42, 172.51, 173.45, 174.2, 175.38, 201.27, 202.17, 210.94, 211.41]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.855104Z","level":"info","event":"media 113.51785714285714 - desviacion 59.65618967749059","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.855356Z","level":"info","event":"lim_inf -5.794522212124036","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.855544Z","level":"info","event":"lim_sup 232.8302364978383","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.855718Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.860448Z","level":"info","event":"ultimo (203814, 16, datetime.datetime(2025, 7, 7, 14, 45), 220.37, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.864429Z","level":"info","event":"[25.89, 26.69, 27.32, 27.87, 69.56, 70.27, 70.88, 71.96, 96.65, 97.38, 98.25, 98.77, 126.71, 127.57, 128.04, 128.67, 156.63, 157.5, 158.5, 159.75, 186.39, 187.67, 188.81, 189.9, 217.15, 218.36, 219.26, 220.37]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.864937Z","level":"info","event":"media 126.88464285714288 - desviacion 62.31601556823912","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.865201Z","level":"info","event":"lim_inf 2.252611720664632","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.865367Z","level":"info","event":"lim_sup 251.5166739936211","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.865526Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.869146Z","level":"info","event":"ultimo (204178, 17, datetime.datetime(2025, 7, 7, 14, 45), 215.1, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.873647Z","level":"info","event":"[21.92, 23.17, 24.34, 25.44, 59.18, 60.31, 61.25, 62.51, 90.82, 91.91, 93.2, 94.09, 121.97, 123.05, 123.67, 124.88, 153.68, 154.65, 155.83, 156.88, 182.22, 182.71, 183.46, 184.63, 212.77, 213.98, 214.67, 215.1]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.874348Z","level":"info","event":"media 121.86750000000002 - desviacion 62.82674610301616","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.875083Z","level":"info","event":"lim_inf -3.7859922060323044","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.875810Z","level":"info","event":"lim_sup 247.52099220603236","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.876649Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.878455Z","level":"info","event":"ultimo (204542, 18, datetime.datetime(2025, 7, 7, 14, 45), 221.4, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.883303Z","level":"info","event":"[20.06, 21.02, 22.18, 23.25, 55.39, 56.02, 56.55, 57.01, 83.02, 83.54, 84.38, 85.46, 112.99, 113.69, 114.84, 115.29, 145.82, 147.09, 147.65, 148.38, 190.43, 191.43, 192.39, 193.36, 219.14, 220.27, 220.89, 221.4]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.884191Z","level":"info","event":"media 119.39071428571427 - desviacion 66.61740361028423","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.885017Z","level":"info","event":"lim_inf -13.844092934854189","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.885650Z","level":"info","event":"lim_sup 252.62552150628272","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.886299Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.887199Z","level":"info","event":"ultimo (204906, 19, datetime.datetime(2025, 7, 7, 14, 45), 209.97, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.891966Z","level":"info","event":"[22.64, 23.68, 24.44, 25.04, 58.64, 59.3, 60.27, 61.54, 88.59, 89.81, 90.38, 91.21, 116.71, 117.85, 118.45, 119.66, 145.85, 146.67, 147.52, 148.14, 178.92, 179.88, 180.64, 181.19, 207.36, 207.83, 208.93, 209.97]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.892366Z","level":"info","event":"media 118.25392857142856 - desviacion 60.83748711228756","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.892622Z","level":"info","event":"lim_inf -3.421045653146564","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.892794Z","level":"info","event":"lim_sup 239.92890279600368","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.892960Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.896029Z","level":"info","event":"ultimo (205270, 20, datetime.datetime(2025, 7, 7, 14, 45), 206.14, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.900262Z","level":"info","event":"[21.83, 22.68, 23.68, 24.14, 60.2, 61.01, 61.58, 62.22, 89.9, 90.72, 91.88, 92.75, 118.98, 119.68, 120.93, 121.62, 146.6, 147.89, 148.82, 149.37, 175.06, 175.88, 176.54, 177.31, 204.14, 204.65, 205.26, 206.14]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.900580Z","level":"info","event":"media 117.9092857142857 - desviacion 59.55486113831583","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.900763Z","level":"info","event":"lim_inf -1.2004365623459563","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.900926Z","level":"info","event":"lim_sup 237.01900799091737","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.901084Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.904486Z","level":"info","event":"ultimo (205634, 21, datetime.datetime(2025, 7, 7, 14, 45), 201.96, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.908171Z","level":"info","event":"[24.0, 25.0, 25.94, 26.73, 55.7, 56.6, 57.08, 57.57, 85.15, 86.01, 87.16, 88.4, 114.97, 115.4, 115.4, 115.88, 142.15, 143.04, 144.06, 145.15, 172.51, 173.31, 174.15, 175.29, 199.41, 200.7, 201.18, 201.96]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.908552Z","level":"info","event":"media 114.6392857142857 - desviacion 58.392845447792624","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.908713Z","level":"info","event":"lim_inf -2.146405181299542","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.908844Z","level":"info","event":"lim_sup 231.42497660987095","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.908976Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.912373Z","level":"info","event":"ultimo (205998, 22, datetime.datetime(2025, 7, 7, 14, 45), 218.41, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.916198Z","level":"info","event":"[22.93, 24.22, 24.94, 25.86, 50.89, 51.76, 52.61, 53.76, 85.84, 86.57, 87.77, 88.38, 114.84, 115.35, 116.33, 117.05, 151.96, 152.57, 153.82, 154.27, 183.78, 184.28, 185.07, 186.1, 215.46, 216.45, 217.65, 218.41]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.916593Z","level":"info","event":"media 119.24714285714285 - desviacion 64.9377864826428","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.916780Z","level":"info","event":"lim_inf -10.628430108142766","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.916947Z","level":"info","event":"lim_sup 249.12271582242846","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.917096Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.920816Z","level":"info","event":"ultimo (206362, 23, datetime.datetime(2025, 7, 7, 14, 45), 216.6, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.925031Z","level":"info","event":"[20.7, 21.18, 22.3, 22.79, 57.67, 58.7, 59.16, 60.41, 85.96, 86.51, 87.2, 87.75, 122.24, 123.44, 124.6, 125.66, 152.81, 153.56, 154.51, 155.02, 184.88, 185.92, 186.85, 188.02, 214.09, 215.28, 215.73, 216.6]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.925962Z","level":"info","event":"media 121.05500000000002 - desviacion 64.544793056561","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.926681Z","level":"info","event":"lim_inf -8.03458611312199","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.927379Z","level":"info","event":"lim_sup 250.14458611312205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.928061Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.929772Z","level":"info","event":"ultimo (206726, 24, datetime.datetime(2025, 7, 7, 14, 45), 221.28, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.934731Z","level":"info","event":"[26.65, 27.23, 27.98, 29.12, 56.4, 57.13, 57.64, 58.07, 89.99, 91.27, 92.37, 93.03, 119.7, 120.83, 122.13, 123.0, 150.56, 151.84, 152.42, 153.57, 183.76, 184.67, 185.39, 185.39, 218.17, 219.42, 220.59, 221.28]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.935176Z","level":"info","event":"media 122.12857142857145 - desviacion 63.72259308430373","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.935473Z","level":"info","event":"lim_inf -5.316614740036016","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.935620Z","level":"info","event":"lim_sup 249.5737575971789","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.935750Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.938883Z","level":"info","event":"ultimo (207090, 25, datetime.datetime(2025, 7, 7, 14, 45), 198.05, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.943047Z","level":"info","event":"[21.33, 22.33, 22.93, 24.18, 51.5, 52.21, 52.93, 53.97, 80.62, 81.88, 83.18, 83.18, 107.9, 108.77, 109.8, 110.25, 139.66, 140.87, 141.33, 142.19, 166.37, 166.97, 167.54, 168.07, 195.71, 196.2, 197.41, 198.05]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.943481Z","level":"info","event":"media 110.26178571428571 - desviacion 57.90266204425514","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.943688Z","level":"info","event":"lim_inf -5.543538374224568","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.943847Z","level":"info","event":"lim_sup 226.06710980279598","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.944003Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.946829Z","level":"info","event":"ultimo (207454, 26, datetime.datetime(2025, 7, 7, 14, 45), 201.83, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.951238Z","level":"info","event":"[20.7, 21.48, 22.43, 23.58, 51.84, 52.99, 53.79, 55.0, 84.38, 85.25, 86.04, 87.31, 114.21, 114.96, 115.83, 116.76, 143.23, 143.77, 144.48, 145.42, 171.27, 171.97, 173.06, 173.72, 199.88, 200.53, 201.24, 201.83]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.951778Z","level":"info","event":"media 113.46250000000002 - desviacion 59.53973736835641","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.952030Z","level":"info","event":"lim_inf -5.616974736712805","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.952211Z","level":"info","event":"lim_sup 232.54197473671286","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.952352Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.956494Z","level":"info","event":"ultimo (207918, 27, datetime.datetime(2025, 7, 7, 14, 45), 199.67, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.960495Z","level":"info","event":"[21.92, 22.4, 22.92, 23.99, 53.26, 54.49, 55.59, 56.69, 82.76, 83.27, 84.1, 85.17, 111.35, 112.43, 113.63, 114.44, 139.64, 140.74, 141.7, 142.36, 167.9, 168.66, 169.46, 170.0, 197.22, 197.8, 198.62, 199.67]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.960846Z","level":"info","event":"media 111.86357142857142 - desviacion 58.00792022365109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.960996Z","level":"info","event":"lim_inf -4.152269018730763","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.961123Z","level":"info","event":"lim_sup 227.8794118758736","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.961244Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.965717Z","level":"info","event":"ultimo (208282, 28, datetime.datetime(2025, 7, 7, 14, 45), 212.26, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.969498Z","level":"info","event":"[19.09, 20.26, 21.05, 22.11, 50.63, 51.23, 51.99, 52.5, 78.52, 79.3, 80.25, 81.33, 108.96, 110.05, 110.69, 111.22, 140.01, 140.56, 149.74, 150.87, 179.44, 179.94, 181.21, 181.71, 208.87, 210.16, 211.13, 212.26]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.969970Z","level":"info","event":"media 114.11 - desviacion 63.88546738388272","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.970205Z","level":"info","event":"lim_inf -13.66093476776544","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.970428Z","level":"info","event":"lim_sup 241.88093476776544","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.970635Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.973653Z","level":"info","event":"ultimo (208646, 29, datetime.datetime(2025, 7, 7, 14, 45), 214.44, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.978021Z","level":"info","event":"[22.82, 23.26, 23.75, 24.34, 50.84, 51.5, 52.66, 53.55, 86.92, 87.75, 88.28, 89.47, 117.87, 118.63, 119.1, 125.12, 153.46, 154.49, 155.54, 156.76, 185.44, 186.31, 187.36, 188.4, 211.76, 212.99, 213.82, 214.44]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.978773Z","level":"info","event":"media 119.87964285714285 - desviacion 64.74006721840716","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.979590Z","level":"info","event":"lim_inf -9.60049157967147","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.980133Z","level":"info","event":"lim_sup 249.35977729395717","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.980649Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.982163Z","level":"info","event":"ultimo (209010, 30, datetime.datetime(2025, 7, 7, 14, 45), 222.51, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.986477Z","level":"info","event":"[20.76, 21.57, 22.37, 22.96, 50.4, 51.43, 52.13, 52.59, 81.39, 85.07, 86.14, 86.75, 112.31, 113.54, 114.25, 115.49, 160.1, 160.64, 161.86, 162.96, 190.0, 190.0, 190.8, 191.66, 219.28, 220.42, 221.51, 222.51]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.987213Z","level":"info","event":"media 120.74607142857144 - desviacion 68.09708570118765","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.987816Z","level":"info","event":"lim_inf -15.448099973803863","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.988356Z","level":"info","event":"lim_sup 256.9402428309468","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.988887Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.990485Z","level":"info","event":"ultimo (209374, 31, datetime.datetime(2025, 7, 7, 14, 45), 208.71, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.993639Z","level":"info","event":"[19.67, 20.67, 21.51, 22.0, 48.97, 50.18, 50.84, 51.79, 77.28, 77.85, 78.69, 79.69, 109.25, 110.19, 110.92, 111.76, 138.55, 139.42, 145.41, 146.26, 171.77, 172.26, 173.3, 174.25, 206.18, 207.16, 207.68, 208.71]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.993957Z","level":"info","event":"media 111.86464285714284 - desviacion 62.06777853294982","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.994090Z","level":"info","event":"lim_inf -12.270914208756807","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.994210Z","level":"info","event":"lim_sup 236.0001999230425","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.994327Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:12.997926Z","level":"info","event":"ultimo (209738, 32, datetime.datetime(2025, 7, 7, 14, 45), 216.27, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.001676Z","level":"info","event":"[21.18, 21.73, 22.79, 23.88, 50.6, 51.69, 51.69, 52.98, 88.59, 89.18, 90.16, 90.63, 117.67, 118.65, 119.53, 120.66, 149.62, 150.86, 151.3, 152.24, 180.84, 181.78, 183.06, 184.06, 213.56, 214.49, 215.33, 216.27]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.001995Z","level":"info","event":"media 118.75071428571428 - desviacion 64.33459844152797","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.002151Z","level":"info","event":"lim_inf -9.918482597341665","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.002279Z","level":"info","event":"lim_sup 247.41991116877023","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.002385Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.005269Z","level":"info","event":"ultimo (210102, 33, datetime.datetime(2025, 7, 7, 14, 45), 209.16, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.008298Z","level":"info","event":"[21.41, 22.01, 23.3, 23.81, 55.63, 56.7, 57.79, 59.07, 86.82, 87.51, 88.75, 89.52, 117.88, 118.93, 119.98, 121.11, 149.9, 151.08, 151.95, 152.99, 179.68, 179.68, 180.74, 181.85, 206.82, 207.58, 208.54, 209.16]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.008637Z","level":"info","event":"media 118.22107142857143 - desviacion 61.88781292094394","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.008804Z","level":"info","event":"lim_inf -5.554554413316438","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.008942Z","level":"info","event":"lim_sup 241.99669727045932","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.009083Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.011896Z","level":"info","event":"ultimo (210466, 34, datetime.datetime(2025, 7, 7, 14, 45), 216.06, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.015622Z","level":"info","event":"[31.26, 32.12, 32.81, 33.26, 60.77, 61.88, 62.48, 63.48, 88.79, 89.4, 90.1, 90.91, 115.38, 115.98, 116.42, 117.33, 141.41, 142.01, 143.31, 144.01, 173.32, 174.41, 175.39, 176.09, 212.65, 213.85, 214.79, 216.06]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.016470Z","level":"info","event":"media 118.9167857142857 - desviacion 59.00146487609872","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.016716Z","level":"info","event":"lim_inf 0.9138559620882489","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.016857Z","level":"info","event":"lim_sup 236.91971546648313","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.016991Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.020204Z","level":"info","event":"ultimo (210830, 35, datetime.datetime(2025, 7, 7, 14, 45), 218.46, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.023671Z","level":"info","event":"[21.95, 23.24, 24.2, 25.02, 63.4, 64.21, 65.08, 65.69, 92.54, 93.42, 94.19, 95.12, 121.91, 123.21, 124.02, 124.94, 152.7, 157.08, 157.62, 158.41, 184.59, 185.29, 186.17, 186.77, 215.94, 216.77, 217.27, 218.46]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.024534Z","level":"info","event":"media 123.54321428571427 - desviacion 63.31232767871467","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.024907Z","level":"info","event":"lim_inf -3.081441071715062","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.025089Z","level":"info","event":"lim_sup 250.1678696431436","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.025222Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.028629Z","level":"info","event":"ultimo (211194, 36, datetime.datetime(2025, 7, 7, 14, 45), 210.52, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.033002Z","level":"info","event":"[20.93, 21.66, 22.7, 23.46, 49.88, 50.95, 51.65, 52.26, 79.31, 80.07, 80.94, 81.95, 107.36, 108.12, 109.3, 109.9, 143.17, 144.26, 145.41, 145.87, 180.09, 180.81, 181.44, 182.41, 208.34, 208.84, 209.85, 210.52]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.033432Z","level":"info","event":"media 113.98035714285716 - desviacion 63.337714700199584","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.033675Z","level":"info","event":"lim_inf -12.695072257542009","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.033900Z","level":"info","event":"lim_sup 240.65578654325634","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.034084Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.037171Z","level":"info","event":"ultimo (211658, 37, datetime.datetime(2025, 7, 7, 14, 45), 231.39, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.040666Z","level":"info","event":"[22.91, 23.45, 24.42, 25.45, 61.14, 61.95, 63.11, 63.63, 98.02, 98.92, 100.08, 100.08, 125.73, 127.0, 127.64, 128.38, 154.07, 154.99, 155.56, 155.56, 193.56, 194.56, 195.73, 196.6, 228.33, 229.61, 230.59, 231.39]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.041042Z","level":"info","event":"media 127.58785714285716 - desviacion 67.15279604630574","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.041242Z","level":"info","event":"lim_inf -6.717734949754316","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.041406Z","level":"info","event":"lim_sup 261.89344923546867","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.041570Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.044345Z","level":"info","event":"ultimo (212022, 38, datetime.datetime(2025, 7, 7, 14, 45), 212.39, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.048702Z","level":"info","event":"[26.53, 27.62, 28.19, 28.62, 56.01, 56.89, 58.07, 58.91, 83.03, 83.52, 84.06, 85.34, 111.23, 112.4, 112.4, 113.7, 142.09, 142.91, 143.78, 144.24, 180.2, 180.82, 181.52, 182.42, 209.81, 210.38, 211.28, 212.39]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.049122Z","level":"info","event":"media 116.72714285714287 - desviacion 61.263503517716856","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.049352Z","level":"info","event":"lim_inf -5.799864178290846","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.049533Z","level":"info","event":"lim_sup 239.25414989257658","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.049735Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.052570Z","level":"info","event":"ultimo (212386, 39, datetime.datetime(2025, 7, 7, 14, 45), 215.69, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.055962Z","level":"info","event":"[22.9, 23.46, 24.59, 25.82, 59.31, 59.92, 59.92, 61.07, 91.27, 92.49, 93.14, 93.68, 121.26, 122.52, 123.45, 124.67, 155.13, 155.77, 156.47, 157.7, 184.57, 185.44, 185.98, 187.01, 214.11, 214.63, 214.63, 215.69]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.056336Z","level":"info","event":"media 122.37857142857145 - desviacion 63.37515543594835","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.056498Z","level":"info","event":"lim_inf -4.371739443325254","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.056625Z","level":"info","event":"lim_sup 249.12888230046815","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.056763Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.059705Z","level":"info","event":"ultimo (212750, 40, datetime.datetime(2025, 7, 7, 14, 45), 213.66, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.062739Z","level":"info","event":"[22.82, 23.44, 24.2, 25.14, 53.39, 54.46, 55.19, 56.11, 84.21, 84.88, 85.33, 86.47, 114.33, 115.43, 116.22, 117.49, 146.37, 146.99, 148.13, 149.04, 180.43, 181.6, 182.77, 183.67, 211.67, 212.48, 212.48, 213.66]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.063059Z","level":"info","event":"media 117.44285714285715 - desviacion 63.09546739760669","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.063251Z","level":"info","event":"lim_inf -8.74807765235623","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.063450Z","level":"info","event":"lim_sup 243.63379193807054","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.063607Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.066998Z","level":"info","event":"ultimo (213114, 41, datetime.datetime(2025, 7, 7, 14, 45), 196.69, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.070819Z","level":"info","event":"[20.47, 21.22, 21.9, 22.49, 48.35, 49.29, 49.95, 50.52, 76.98, 77.49, 78.31, 79.01, 104.6, 105.06, 105.53, 106.25, 132.49, 133.5, 134.65, 135.86, 165.05, 166.03, 166.99, 167.45, 193.95, 194.81, 195.59, 196.69]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.071163Z","level":"info","event":"media 107.16 - desviacion 57.95775148453274","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.071387Z","level":"info","event":"lim_inf -8.755502969065489","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.071548Z","level":"info","event":"lim_sup 223.0755029690655","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.071704Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.074754Z","level":"info","event":"ultimo (213478, 42, datetime.datetime(2025, 7, 7, 14, 45), 236.73, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.078310Z","level":"info","event":"[24.92, 25.92, 27.14, 27.74, 57.06, 57.82, 58.98, 59.78, 96.94, 97.52, 98.62, 99.9, 127.4, 128.13, 129.01, 130.21, 162.01, 162.7, 163.73, 164.18, 202.22, 203.19, 203.19, 204.25, 235.1, 235.1, 236.21, 236.73]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.078665Z","level":"info","event":"media 130.56071428571425 - desviacion 70.22002832569369","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.078817Z","level":"info","event":"lim_inf -9.879342365673125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.078936Z","level":"info","event":"lim_sup 271.0007709371016","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.079052Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.085079Z","level":"info","event":"ultimo (213842, 43, datetime.datetime(2025, 7, 7, 14, 45), 194.14, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.089277Z","level":"info","event":"[20.69, 21.73, 22.82, 24.05, 51.06, 52.06, 52.82, 53.63, 78.3, 78.82, 79.89, 81.15, 105.9, 106.99, 107.69, 108.43, 133.53, 134.74, 135.26, 136.27, 162.21, 162.89, 163.76, 163.76, 191.66, 192.78, 193.6, 194.14]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.089670Z","level":"info","event":"media 107.5225 - desviacion 56.378297599152205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.089823Z","level":"info","event":"lim_inf -5.234095198304416","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.089939Z","level":"info","event":"lim_sup 220.2790951983044","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.090052Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.093635Z","level":"info","event":"ultimo (214206, 44, datetime.datetime(2025, 7, 7, 14, 45), 198.85, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.097284Z","level":"info","event":"[22.6, 23.81, 24.51, 25.78, 55.69, 56.28, 56.28, 57.27, 82.08, 83.25, 83.76, 84.41, 113.32, 114.0, 114.99, 115.61, 141.25, 141.8, 142.37, 143.27, 170.19, 170.86, 172.02, 172.87, 195.87, 197.11, 197.81, 198.85]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.097622Z","level":"info","event":"media 112.7825 - desviacion 57.78993607547203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.097765Z","level":"info","event":"lim_inf -2.7973721509440566","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.097901Z","level":"info","event":"lim_sup 228.36237215094405","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.098017Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.103105Z","level":"info","event":"ultimo (214570, 45, datetime.datetime(2025, 7, 7, 14, 45), 214.57, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.107211Z","level":"info","event":"[21.54, 22.2, 23.02, 23.6, 59.62, 60.89, 61.48, 62.14, 92.42, 93.59, 94.16, 94.87, 122.6, 123.22, 123.86, 124.82, 152.21, 152.88, 154.14, 154.91, 182.29, 183.01, 183.01, 184.03, 211.5, 212.53, 213.4, 214.57]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.107587Z","level":"info","event":"media 121.51821428571431 - desviacion 62.57618608279324","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.107730Z","level":"info","event":"lim_inf -3.634157879872177","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.107835Z","level":"info","event":"lim_sup 246.67058645130078","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.107938Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.110790Z","level":"info","event":"ultimo (214934, 46, datetime.datetime(2025, 7, 7, 14, 45), 204.46, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.114184Z","level":"info","event":"[21.3, 22.39, 23.31, 24.34, 50.68, 51.34, 52.05, 52.67, 80.24, 81.06, 82.09, 83.3, 110.22, 111.18, 111.74, 112.65, 140.36, 140.36, 141.06, 141.99, 174.25, 174.25, 175.13, 175.86, 201.99, 202.71, 203.65, 204.46]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.114536Z","level":"info","event":"media 112.37964285714288 - desviacion 60.49976401855648","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.114676Z","level":"info","event":"lim_inf -8.619885179970083","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.114788Z","level":"info","event":"lim_sup 233.37917089425585","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.114895Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.117746Z","level":"info","event":"ultimo (215298, 47, datetime.datetime(2025, 7, 7, 14, 45), 205.34, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.121028Z","level":"info","event":"[25.67, 26.56, 27.14, 28.33, 57.53, 58.13, 58.66, 59.18, 82.77, 83.78, 84.87, 85.78, 112.88, 113.52, 114.28, 114.87, 142.21, 142.79, 143.85, 144.91, 174.08, 174.88, 176.05, 177.13, 203.13, 204.03, 204.75, 205.34]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.121360Z","level":"info","event":"media 115.25357142857145 - desviacion 58.99535031401601","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.121502Z","level":"info","event":"lim_inf -2.7371291994605684","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.121618Z","level":"info","event":"lim_sup 233.24427205660345","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.121729Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.124461Z","level":"info","event":"ultimo (215662, 48, datetime.datetime(2025, 7, 7, 14, 45), 207.98, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.127884Z","level":"info","event":"[21.2, 22.23, 23.07, 23.65, 55.42, 56.38, 57.12, 57.89, 86.1, 87.22, 88.06, 88.56, 116.13, 116.85, 117.3, 117.84, 147.78, 148.9, 149.48, 150.53, 177.84, 178.31, 178.9, 180.08, 205.61, 206.31, 206.93, 207.98]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.128253Z","level":"info","event":"media 116.91678571428572 - desviacion 61.33632855317192","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.128417Z","level":"info","event":"lim_inf -5.755871392058111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.128580Z","level":"info","event":"lim_sup 239.58944282062956","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.128729Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.131345Z","level":"info","event":"ultimo (216026, 49, datetime.datetime(2025, 7, 7, 14, 45), 225.0, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.134493Z","level":"info","event":"[24.83, 26.09, 27.16, 28.27, 61.44, 62.24, 62.69, 63.45, 110.13, 111.35, 112.21, 112.93, 138.18, 139.1, 140.04, 140.66, 167.28, 168.14, 168.64, 169.3, 195.18, 196.31, 197.22, 198.22, 222.06, 222.72, 223.99, 225.0]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.134857Z","level":"info","event":"media 132.67249999999999 - desviacion 65.7865311673728","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.135045Z","level":"info","event":"lim_inf 1.099437665254385","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.135202Z","level":"info","event":"lim_sup 264.2455623347456","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.135380Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.137886Z","level":"info","event":"ultimo (216490, 50, datetime.datetime(2025, 7, 7, 14, 45), 229.1, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.141002Z","level":"info","event":"[22.02, 22.93, 23.63, 24.33, 49.66, 50.14, 50.87, 51.75, 77.01, 77.81, 78.78, 79.86, 111.83, 112.33, 113.27, 114.39, 159.98, 160.41, 161.4, 162.27, 198.5, 199.31, 200.05, 200.64, 226.35, 226.94, 227.9, 229.1]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.141302Z","level":"info","event":"media 121.90928571428572 - desviacion 71.2524154943221","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.141427Z","level":"info","event":"lim_inf -20.59554527435847","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.141561Z","level":"info","event":"lim_sup 264.4141167029299","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.141671Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.144325Z","level":"info","event":"ultimo (216646, 51, datetime.datetime(2025, 7, 3, 14, 45), 87.02, 'valido')","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.146960Z","level":"info","event":"[18.71, 19.49, 20.03, 20.54, 56.53, 56.53, 57.78, 58.8, 84.79, 85.34, 85.97, 87.02]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.147241Z","level":"info","event":"media 54.29416666666666 - desviacion 27.08254279615479","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.147405Z","level":"info","event":"lim_inf 0.1290810743570816","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.147517Z","level":"info","event":"lim_sup 108.45925225897625","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.147621Z","level":"info","event":"CORRECTO","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.149646Z","level":"info","event":"ultimo None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.149753","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"TypeError","exc_value":"object of type 'NoneType' has no len()","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":867,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1159,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":216,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":239,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/dag_analisis.py","lineno":115,"name":"detectar_desviacion"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2025-07-14T11:01:13.150786Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.150980Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.151142Z","level":"info","event":"Task:<Task(PythonOperator): detectar_desviacion>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T11:01:13.151303Z","level":"info","event":"Failure caused by object of type 'NoneType' has no len()","chan":"stdout","logger":"task"}

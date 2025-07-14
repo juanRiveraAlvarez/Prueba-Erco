@@ -1,0 +1,70 @@
+{"timestamp":"2025-07-14T00:46:43.559365","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T00:46:43.560260","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T00:46:43.627888Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.628102Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.628222Z","level":"info","event":"Current task name:deteccion_valores_congelados","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.628334Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.592801","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:69: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(query, conn)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T00:46:43.646762Z","level":"info","event":"      id  device_id           timestamp   value  rn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.647057Z","level":"info","event":"0    358          1 2025-07-07 17:15:00  216.65   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.647328Z","level":"info","event":"1    359          1 2025-07-07 17:30:00  216.95   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.647514Z","level":"info","event":"2    360          1 2025-07-07 17:45:00  217.30   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.647702Z","level":"info","event":"3    722          2 2025-07-07 17:15:00  235.13   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.647880Z","level":"info","event":"4    723          2 2025-07-07 17:30:00  235.29   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648026Z","level":"info","event":"5    724          2 2025-07-07 17:45:00  235.64   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648171Z","level":"info","event":"6   1086          3 2025-07-07 17:15:00  219.33   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648316Z","level":"info","event":"7   1087          3 2025-07-07 17:30:00  219.57   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648468Z","level":"info","event":"8   1088          3 2025-07-07 17:45:00  219.78   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648632Z","level":"info","event":"9   1450          4 2025-07-07 17:15:00  211.40   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648784Z","level":"info","event":"10  1451          4 2025-07-07 17:30:00  211.54   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.648932Z","level":"info","event":"11  1452          4 2025-07-07 17:45:00  211.83   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.649107Z","level":"info","event":"12  1814          5 2025-07-07 17:15:00  216.55   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.649278Z","level":"info","event":"13  1815          5 2025-07-07 17:30:00  216.94   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.649452Z","level":"info","event":"14  1816          5 2025-07-07 17:45:00  217.21   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.649633Z","level":"info","event":"15  2178          6 2025-07-07 17:15:00  223.12   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.649798Z","level":"info","event":"16  2179          6 2025-07-07 17:30:00  223.26   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.649966Z","level":"info","event":"17  2180          6 2025-07-07 17:45:00  223.64   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.650145Z","level":"info","event":"18  2542          7 2025-07-07 17:15:00  220.11   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.650310Z","level":"info","event":"19  2543          7 2025-07-07 17:30:00  220.47   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.650482Z","level":"info","event":"20  2544          7 2025-07-07 17:45:00  220.77   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.650650Z","level":"info","event":"21  2906          8 2025-07-07 17:15:00  215.71   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.650804Z","level":"info","event":"22  2907          8 2025-07-07 17:30:00  216.04   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.650966Z","level":"info","event":"23  2908          8 2025-07-07 17:45:00  216.17   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.651120Z","level":"info","event":"24  3270          9 2025-07-07 17:15:00  213.48   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.651313Z","level":"info","event":"25  3271          9 2025-07-07 17:30:00  213.86   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.651494Z","level":"info","event":"26  3272          9 2025-07-07 17:45:00  214.14   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.651655Z","level":"info","event":"27  3634         10 2025-07-07 17:15:00  209.10   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.651829Z","level":"info","event":"28  3635         10 2025-07-07 17:30:00  209.43   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652001Z","level":"info","event":"29  3636         10 2025-07-07 17:45:00  209.70   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652180Z","level":"info","event":"30  3998         11 2025-07-07 17:15:00  209.46   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652346Z","level":"info","event":"31  3999         11 2025-07-07 17:30:00  209.74   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652509Z","level":"info","event":"32  4000         11 2025-07-07 17:45:00  210.11   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652673Z","level":"info","event":"33  4362         12 2025-07-07 17:15:00  217.43   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652823Z","level":"info","event":"34  4363         12 2025-07-07 17:30:00  217.64   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.652976Z","level":"info","event":"35  4364         12 2025-07-07 17:45:00  218.02   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653121Z","level":"info","event":"36  4726         13 2025-07-07 17:15:00  228.88   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653267Z","level":"info","event":"37  4727         13 2025-07-07 17:30:00  229.11   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653411Z","level":"info","event":"38  4728         13 2025-07-07 17:45:00  229.45   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653563Z","level":"info","event":"39  5090         14 2025-07-07 17:15:00  208.50   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653701Z","level":"info","event":"40  5091         14 2025-07-07 17:30:00  208.83   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653840Z","level":"info","event":"41  5092         14 2025-07-07 17:45:00  209.21   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653982Z","level":"info","event":"42  5454         15 2025-07-07 17:15:00  216.71   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.654121Z","level":"info","event":"43  5455         15 2025-07-07 17:30:00  216.86   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.654257Z","level":"info","event":"44  5456         15 2025-07-07 17:45:00  217.16   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.654412Z","level":"info","event":"45  5818         16 2025-07-07 17:15:00  213.79   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.654706Z","level":"info","event":"46  5819         16 2025-07-07 17:30:00  213.96   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.654855Z","level":"info","event":"47  5820         16 2025-07-07 17:45:00  214.18   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.654995Z","level":"info","event":"48  6182         17 2025-07-07 17:15:00  220.84   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655137Z","level":"info","event":"49  6183         17 2025-07-07 17:30:00  221.18   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655284Z","level":"info","event":"50  6184         17 2025-07-07 17:45:00  221.54   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655415Z","level":"info","event":"51  6546         18 2025-07-07 17:15:00  219.25   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655539Z","level":"info","event":"52  6547         18 2025-07-07 17:30:00  219.45   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655660Z","level":"info","event":"53  6548         18 2025-07-07 17:45:00  219.64   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655802Z","level":"info","event":"54  6562         19 2025-07-01 08:15:00    2.08   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.655962Z","level":"info","event":"55  6563         19 2025-07-01 08:30:00    2.60   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.656114Z","level":"info","event":"56  6564         19 2025-07-01 08:45:00    3.31   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.656416Z","level":"info","event":"todo bien","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.656562Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.656691Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.656876Z","level":"info","event":"Task operator:<Task(PythonOperator): deteccion_valores_congelados>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:46:43.653440","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

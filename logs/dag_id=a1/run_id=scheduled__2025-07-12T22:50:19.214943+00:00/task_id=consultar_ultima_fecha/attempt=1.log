@@ -1,0 +1,112 @@
+{"timestamp":"2025-07-12T22:50:27.425190","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-12T22:50:27.426194","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-12T22:50:28.450591Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.450786Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.450899Z","level":"info","event":"Current task name:consultar_ultima_fecha","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451004Z","level":"info","event":"Dag name:a1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451101Z","level":"info","event":"1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451197Z","level":"info","event":"2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451289Z","level":"info","event":"3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451371Z","level":"info","event":"4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451449Z","level":"info","event":"5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451527Z","level":"info","event":"6","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451603Z","level":"info","event":"7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451680Z","level":"info","event":"8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451757Z","level":"info","event":"9","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451835Z","level":"info","event":"10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.451913Z","level":"info","event":"11","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452006Z","level":"info","event":"12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452080Z","level":"info","event":"13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452152Z","level":"info","event":"14","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452226Z","level":"info","event":"15","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452325Z","level":"info","event":"16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452423Z","level":"info","event":"17","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452513Z","level":"info","event":"18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452601Z","level":"info","event":"19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452694Z","level":"info","event":"20","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452785Z","level":"info","event":"21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452876Z","level":"info","event":"22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.452965Z","level":"info","event":"23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453059Z","level":"info","event":"24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453189Z","level":"info","event":"25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453276Z","level":"info","event":"26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453365Z","level":"info","event":"27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453458Z","level":"info","event":"28","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453533Z","level":"info","event":"29","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453605Z","level":"info","event":"30","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453677Z","level":"info","event":"31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453767Z","level":"info","event":"32","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453843Z","level":"info","event":"33","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453915Z","level":"info","event":"34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.453986Z","level":"info","event":"35","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454059Z","level":"info","event":"36","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454131Z","level":"info","event":"37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454202Z","level":"info","event":"38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454273Z","level":"info","event":"39","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454344Z","level":"info","event":"40","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454414Z","level":"info","event":"41","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454487Z","level":"info","event":"42","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454558Z","level":"info","event":"43","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454629Z","level":"info","event":"44","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454700Z","level":"info","event":"45","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454772Z","level":"info","event":"46","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454844Z","level":"info","event":"47","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454916Z","level":"info","event":"48","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.454989Z","level":"info","event":"49","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455062Z","level":"info","event":"50","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455141Z","level":"info","event":"51","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455229Z","level":"info","event":"52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455304Z","level":"info","event":"53","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455377Z","level":"info","event":"54","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455450Z","level":"info","event":"55","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455522Z","level":"info","event":"56","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455593Z","level":"info","event":"57","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455669Z","level":"info","event":"58","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455742Z","level":"info","event":"59","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455814Z","level":"info","event":"60","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455886Z","level":"info","event":"61","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.455958Z","level":"info","event":"62","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456030Z","level":"info","event":"63","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456101Z","level":"info","event":"64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456173Z","level":"info","event":"65","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456244Z","level":"info","event":"66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456324Z","level":"info","event":"67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456410Z","level":"info","event":"68","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456495Z","level":"info","event":"69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456580Z","level":"info","event":"70","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456655Z","level":"info","event":"71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456737Z","level":"info","event":"72","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456811Z","level":"info","event":"73","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456884Z","level":"info","event":"74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.456960Z","level":"info","event":"75","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457033Z","level":"info","event":"76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457105Z","level":"info","event":"77","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457194Z","level":"info","event":"78","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457267Z","level":"info","event":"79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457339Z","level":"info","event":"80","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457411Z","level":"info","event":"81","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457483Z","level":"info","event":"82","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457555Z","level":"info","event":"83","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457628Z","level":"info","event":"84","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457704Z","level":"info","event":"85","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457776Z","level":"info","event":"86","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457848Z","level":"info","event":"87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457920Z","level":"info","event":"88","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.457992Z","level":"info","event":"89","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458063Z","level":"info","event":"90","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458135Z","level":"info","event":"91","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458207Z","level":"info","event":"92","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458278Z","level":"info","event":"93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458349Z","level":"info","event":"94","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458420Z","level":"info","event":"95","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458491Z","level":"info","event":"96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458562Z","level":"info","event":"97","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458634Z","level":"info","event":"98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458704Z","level":"info","event":"99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458777Z","level":"info","event":"100","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458848Z","level":"info","event":"[36]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458920Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.458993Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:28.459067Z","level":"info","event":"Task operator:<Task(PythonOperator): consultar_ultima_fecha>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-12T22:50:27.467533","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:68: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(query, conn)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-12T22:50:27.588954","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

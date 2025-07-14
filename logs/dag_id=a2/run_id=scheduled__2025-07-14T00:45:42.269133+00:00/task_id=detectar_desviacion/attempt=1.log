@@ -1,0 +1,46 @@
+{"timestamp":"2025-07-14T00:45:45.201474","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T00:45:45.202267","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T00:45:45.250276Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.250503Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.250630Z","level":"info","event":"Current task name:detectar_desviacion","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.250746Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.250860Z","level":"info","event":"211.09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.250970Z","level":"info","event":"[20.45, 20.91, 21.93, 22.43, 47.77, 48.38, 49.34, 50.13, 82.97, 83.66, 84.31, 85.51, 113.11, 114.21, 115.33, 116.17, 148.16, 149.0, 149.89, 151.04, 178.63, 179.92, 180.88, 181.93, 208.32, 209.36, 209.82, 211.09]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251087Z","level":"info","event":"media 115.5232142857143 - desviacion 63.810681542779975","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251199Z","level":"info","event":"lim_inf -12.098148799845646","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251341Z","level":"info","event":"lim_sup 243.14457737127424","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251455Z","level":"info","event":"230.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251565Z","level":"info","event":"[19.99, 21.11, 22.26, 22.92, 55.39, 56.6, 57.78, 58.26, 86.96, 87.64, 88.13, 88.94, 116.05, 117.04, 118.15, 119.08, 154.68, 155.86, 156.51, 157.0, 181.17, 182.23, 183.31, 184.01, 222.48, 223.11, 230.11, 230.69]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251674Z","level":"info","event":"media 121.33785714285716 - desviacion 66.85658789833776","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251783Z","level":"info","event":"lim_inf -12.375318653818368","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251890Z","level":"info","event":"lim_sup 255.0510329395327","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.251998Z","level":"info","event":"213.97","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252106Z","level":"info","event":"[27.94, 28.43, 29.07, 29.75, 56.32, 57.53, 58.73, 59.76, 87.86, 89.14, 89.63, 90.82, 116.96, 117.56, 118.42, 119.1, 146.69, 147.28, 148.46, 149.33, 180.33, 181.3, 181.77, 182.36, 211.63, 212.25, 213.02, 213.97]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252216Z","level":"info","event":"media 119.47892857142857 - desviacion 61.2377260203035","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252325Z","level":"info","event":"lim_inf -2.9965234691784275","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252436Z","level":"info","event":"lim_sup 241.95438061203555","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252545Z","level":"info","event":"205.75","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252652Z","level":"info","event":"[22.66, 23.72, 24.83, 25.44, 52.16, 52.98, 54.2, 55.13, 81.49, 82.06, 82.73, 83.48, 112.65, 113.48, 114.23, 114.84, 141.62, 142.63, 143.51, 144.56, 172.48, 173.71, 174.34, 175.33, 202.52, 203.79, 205.02, 205.75]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252762Z","level":"info","event":"media 113.61928571428572 - desviacion 60.130106194138456","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.252871Z","level":"info","event":"lim_inf -6.6409266739911885","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253011Z","level":"info","event":"lim_sup 233.87949810256265","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253125Z","level":"info","event":"211.77","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253235Z","level":"info","event":"[20.74, 21.19, 22.03, 22.57, 49.95, 51.04, 52.13, 52.69, 88.16, 89.22, 89.99, 90.56, 116.81, 117.26, 118.17, 118.64, 149.84, 150.94, 151.57, 152.46, 180.9, 181.5, 182.15, 182.15, 209.61, 210.81, 211.27, 211.77]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253344Z","level":"info","event":"media 117.71857142857142 - desviacion 63.59876558293777","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253459Z","level":"info","event":"lim_inf -9.478959737304123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253571Z","level":"info","event":"lim_sup 244.91610259444695","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253684Z","level":"info","event":"217.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253797Z","level":"info","event":"[22.65, 23.38, 24.58, 25.83, 54.18, 55.37, 56.39, 56.89, 82.58, 83.65, 84.74, 85.76, 111.59, 112.05, 113.04, 113.64, 139.06, 140.28, 147.46, 148.02, 188.99, 188.99, 189.76, 190.38, 215.69, 216.53, 217.36, 217.79]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.253913Z","level":"info","event":"media 118.09392857142859 - desviacion 64.84910822931766","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254021Z","level":"info","event":"lim_inf -11.604287887206738","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254134Z","level":"info","event":"lim_sup 247.79214503006392","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254245Z","level":"info","event":"185.11","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254381Z","level":"info","event":"[18.52, 19.59, 20.87, 22.06, 55.73, 56.98, 58.23, 58.82, 90.29, 91.32, 91.81, 92.56, 119.81, 120.67, 121.67, 122.61, 152.13, 153.3, 154.01, 155.25, 182.67, 183.71, 184.2, 185.11]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254504Z","level":"info","event":"media 104.66333333333334 - desviacion 55.514928222556094","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254612Z","level":"info","event":"lim_inf -6.3665231117788466","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254720Z","level":"info","event":"lim_sup 215.69318977844551","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254827Z","level":"info","event":"Task instance in failure state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.254932Z","level":"info","event":"Task start","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.255039Z","level":"info","event":"Task:<Task(PythonOperator): detectar_desviacion>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.255146Z","level":"info","event":"Failure caused by 'NoneType' object is not subscriptable","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T00:45:45.247253","level":"error","event":"Task failed with exception","logger":"task","error_detail":[{"exc_type":"TypeError","exc_value":"'NoneType' object is not subscriptable","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":867,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1159,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/bases/operator.py","lineno":397,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":216,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":239,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":81,"name":"run"},{"filename":"/opt/airflow/dags/dag_analisis.py","lineno":120,"name":"detectar_desviacion"}],"is_group":false,"exceptions":[]}]}

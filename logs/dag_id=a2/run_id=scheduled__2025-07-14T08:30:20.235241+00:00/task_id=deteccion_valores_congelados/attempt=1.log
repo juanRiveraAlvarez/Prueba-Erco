@@ -1,0 +1,26 @@
+{"timestamp":"2025-07-14T08:30:21.662892","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T08:30:21.663526","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T08:30:21.687155","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:69: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(query, conn)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T08:30:21.724374Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.724581Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.724700Z","level":"info","event":"Current task name:deteccion_valores_congelados","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.724850Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.749810Z","level":"info","event":"         id  device_id           timestamp   value  rn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750055Z","level":"info","event":"0    122558          1 2025-07-07 17:15:00  220.08   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750187Z","level":"info","event":"1    122559          1 2025-07-07 17:30:00  220.39   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750333Z","level":"info","event":"2    122560          1 2025-07-07 17:45:00  220.65   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750493Z","level":"info","event":"3    122922          2 2025-07-07 17:15:00  205.88   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750629Z","level":"info","event":"4    122923          2 2025-07-07 17:30:00  206.23   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750759Z","level":"info","event":"..      ...        ...                 ...     ...  ..","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.750888Z","level":"info","event":"295  158231         99 2025-07-07 17:30:00  231.85   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.751018Z","level":"info","event":"296  158232         99 2025-07-07 17:45:00  232.13   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.751145Z","level":"info","event":"297  158594        100 2025-07-07 17:15:00  245.25   3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.751316Z","level":"info","event":"298  158595        100 2025-07-07 17:30:00  245.56   2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.751457Z","level":"info","event":"299  158596        100 2025-07-07 17:45:00  245.83   1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.751587Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.751715Z","level":"info","event":"[300 rows x 5 columns]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.766144Z","level":"info","event":"todo bien","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.767050","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T08:30:21.795021Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.795215Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T08:30:21.795503Z","level":"info","event":"Task operator:<Task(PythonOperator): deteccion_valores_congelados>","chan":"stdout","logger":"task"}

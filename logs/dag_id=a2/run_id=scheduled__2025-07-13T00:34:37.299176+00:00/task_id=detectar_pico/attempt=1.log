@@ -1,0 +1,911 @@
+{"timestamp":"2025-07-13T00:34:42.680848","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T00:34:42.684093","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T00:34:42.765848Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.766233Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.766504Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.766763Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.799615Z","level":"info","event":"Dispositivo 1, franja: 10-12, valor: 1.16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.812922","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:34:42.816421Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.816820Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.817099Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.817407Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.817664Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.817925Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.818158Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.818628Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.819120Z","level":"info","event":"Dispositivo 2, franja: 10-12, valor: 0.99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.820813Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.821240Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.821508Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.821762Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.822014Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.822265Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.822509Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.822987Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.823477Z","level":"info","event":"Dispositivo 3, franja: 10-12, valor: 0.59","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.825488Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.825845Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.826132Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.826379Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.826617Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.826867Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.827116Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.827599Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.828094Z","level":"info","event":"Dispositivo 4, franja: 10-12, valor: 0.76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.829975Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.830371Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.830639Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.830875Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.831120Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.831370Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.831612Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.832735Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.833067Z","level":"info","event":"Dispositivo 5, franja: 10-12, valor: 0.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.835113Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.835528Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.835787Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.836030Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.836274Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.836516Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.836754Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.836992Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.837251Z","level":"info","event":"Dispositivo 6, franja: 10-12, valor: 0.96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.839345Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.840047Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.841175Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.841473Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.841754Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.841997Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.842238Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.842469Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.842713Z","level":"info","event":"Dispositivo 7, franja: 10-12, valor: 1.21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.845222Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.845573Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.845829Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.846065Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.846280Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.846503Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.846733Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.846977Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.847230Z","level":"info","event":"Dispositivo 8, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.852571Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.853001Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.853325Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.853585Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.853829Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.854070Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.854324Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.854565Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.854810Z","level":"info","event":"Dispositivo 9, franja: 10-12, valor: 0.71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.855036Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.855255Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.855471Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.855699Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.855939Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.856189Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.856470Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.856712Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.856950Z","level":"info","event":"Dispositivo 10, franja: 10-12, valor: 1.44","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.859051Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.859456Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.859761Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.860032Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.860289Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.860543Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.860786Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.861025Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.861342Z","level":"info","event":"Dispositivo 11, franja: 10-12, valor: 1.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.861776Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.862072Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.862321Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.862570Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.862813Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.863062Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.863316Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.865006Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.866277Z","level":"info","event":"Dispositivo 12, franja: 10-12, valor: 0.53","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.867563Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.867938Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.868207Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.868462Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.868709Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.868954Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.870363Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.870737Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.870992Z","level":"info","event":"Dispositivo 13, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.871285Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.871546Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.871784Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.872016Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.872247Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.872484Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.872725Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.872967Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.873264Z","level":"info","event":"Dispositivo 14, franja: 10-12, valor: 0.98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.873719Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.873994Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.874241Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.874475Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.874723Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.874969Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.875217Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.875465Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.875717Z","level":"info","event":"Dispositivo 15, franja: 10-12, valor: 1.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.875962Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.876199Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.876440Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.876682Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.876928Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.878310Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.878669Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.878929Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.879218Z","level":"info","event":"Dispositivo 16, franja: 10-12, valor: 1.39","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.879454Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.879698Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.879981Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.880242Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.880499Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.880750Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.881002Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.881276Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.881527Z","level":"info","event":"Dispositivo 17, franja: 10-12, valor: 0.97","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.881773Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.882031Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.882276Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.882520Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.882769Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.883018Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.883271Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.883513Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.883762Z","level":"info","event":"Dispositivo 18, franja: 10-12, valor: 1.23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.884019Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.884265Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.884512Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.884748Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.884998Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.886246Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.886565Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.886816Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.887072Z","level":"info","event":"Dispositivo 19, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.887322Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.887572Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.887815Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.888059Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.888340Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.888597Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.888842Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.889086Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.889400Z","level":"info","event":"Dispositivo 20, franja: 10-12, valor: 0.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.889863Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.890132Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.890398Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.890651Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.890897Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.891154Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.891399Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.891657Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.891892Z","level":"info","event":"Dispositivo 21, franja: 10-12, valor: 0.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.892149Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.892407Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.892662Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.892891Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.893117Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.893496Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.893731Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.893963Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.894209Z","level":"info","event":"Dispositivo 22, franja: 10-12, valor: 0.81","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.894455Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.894697Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.894941Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.895183Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.895405Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.895652Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.895889Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.896185Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.896451Z","level":"info","event":"Dispositivo 23, franja: 10-12, valor: 0.98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.896709Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.896952Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.898262Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.898875Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.899930Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.901269Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.903327Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.903686Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.903911Z","level":"info","event":"Dispositivo 24, franja: 10-12, valor: 0.63","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.904133Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.904335Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.904557Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.904765Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.904984Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.905246Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.905456Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.905696Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.905922Z","level":"info","event":"Dispositivo 25, franja: 10-12, valor: 1.09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.906136Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.906386Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.906623Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.906856Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.907089Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.907318Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.907543Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.907779Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.908011Z","level":"info","event":"Dispositivo 26, franja: 10-12, valor: 0.56","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.908277Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.908511Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.908747Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.908980Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.910104Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.910400Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.910643Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.910867Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.911087Z","level":"info","event":"Dispositivo 27, franja: 10-12, valor: 1.01","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.911521Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.911771Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.911982Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.912201Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.912422Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.912644Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.912868Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.913096Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.914079Z","level":"info","event":"Dispositivo 28, franja: 10-12, valor: 0.62","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.914713Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.914957Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.915189Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.915415Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.915640Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.915889Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.916119Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.916321Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.916544Z","level":"info","event":"Dispositivo 29, franja: 10-12, valor: 0.96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.916751Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.916952Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.917244Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.917459Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.917677Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.917903Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.918149Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.918384Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.918593Z","level":"info","event":"Dispositivo 30, franja: 10-12, valor: 1.26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.918821Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.919036Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.919238Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.919455Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.919664Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.919863Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.920086Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.920316Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.920548Z","level":"info","event":"Dispositivo 31, franja: 10-12, valor: 1.43","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.920758Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.920981Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.921220Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.921437Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.921894Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.922130Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.922333Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.922561Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.922813Z","level":"info","event":"Dispositivo 32, franja: 10-12, valor: 0.92","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.923035Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.923266Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.923480Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.923697Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.923904Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.924155Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.924384Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.924623Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.924832Z","level":"info","event":"Dispositivo 33, franja: 10-12, valor: 0.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.925057Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.926114Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.926420Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.926651Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.926865Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.927079Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.927278Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.927475Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.927684Z","level":"info","event":"Dispositivo 34, franja: 10-12, valor: 1.36","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.928107Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.928392Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.928640Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.928865Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.929082Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.929334Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.929560Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.930704Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.930957Z","level":"info","event":"Dispositivo 35, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.931186Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.931406Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.931626Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.931835Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.932053Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.932278Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.932494Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.932744Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.932959Z","level":"info","event":"Dispositivo 36, franja: 10-12, valor: 0.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.933221Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.933465Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.933706Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.933954Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.934197Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.934448Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.934690Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.934934Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.935184Z","level":"info","event":"Dispositivo 37, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.935434Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.935683Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.935931Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.936182Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.936433Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.936678Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.936921Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.938058Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.938433Z","level":"info","event":"Dispositivo 38, franja: 10-12, valor: 1.03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.938676Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.938936Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.939210Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.939480Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.939731Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.939990Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.940235Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.940461Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.940683Z","level":"info","event":"Dispositivo 39, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.940938Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.941200Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.941429Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.941644Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.941944Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.942193Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.942421Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.942661Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.942897Z","level":"info","event":"Dispositivo 40, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.943131Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.943374Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.943610Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.943860Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.944102Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.944344Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.944587Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.944834Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.945085Z","level":"info","event":"Dispositivo 41, franja: 10-12, valor: 1.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.945386Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.945627Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.946798Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.947086Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.947333Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.947579Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.947822Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.948063Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.948310Z","level":"info","event":"Dispositivo 42, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.948559Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.948806Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.949056Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.949372Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.949633Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.949879Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.950123Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.950368Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.950612Z","level":"info","event":"Dispositivo 43, franja: 10-12, valor: 0.71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.951145Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.951441Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.951692Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.951969Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.952235Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.952528Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.952798Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.953063Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.954236Z","level":"info","event":"Dispositivo 44, franja: 10-12, valor: 0.64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.956427Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.956774Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.957019Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.957292Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.957533Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.957780Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.958032Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.958268Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.958515Z","level":"info","event":"Dispositivo 45, franja: 10-12, valor: 0.5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.958749Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.959875Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.960217Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.960470Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.960711Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.960987Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.961256Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.961501Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.961738Z","level":"info","event":"Dispositivo 46, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.961973Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.962224Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.962475Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.962730Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.962980Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.963220Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.963471Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.963724Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.963975Z","level":"info","event":"Dispositivo 47, franja: 10-12, valor: 0.8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.964227Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.964481Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.964730Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.964997Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.966158Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.966466Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.966710Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.966954Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.967195Z","level":"info","event":"Dispositivo 48, franja: 10-12, valor: 1.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.967431Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.967677Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.967934Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.968259Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.968499Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.968740Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.968976Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.969273Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.969559Z","level":"info","event":"Dispositivo 49, franja: 10-12, valor: 1.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.969844Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.970107Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.970346Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.970574Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.970813Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.971056Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.971298Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.971547Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.971784Z","level":"info","event":"Dispositivo 50, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.972034Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.972277Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.972524Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.972749Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.972988Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.974081Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.974503Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.974786Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.975041Z","level":"info","event":"Dispositivo 51, franja: 10-12, valor: 1.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.975287Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.975521Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.975764Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.975992Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.976227Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.976489Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.976722Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.976961Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.977263Z","level":"info","event":"Dispositivo 52, franja: 10-12, valor: 0.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.977535Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.977824Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.978080Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.978341Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.978581Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.978835Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.979051Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.979269Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.979523Z","level":"info","event":"Dispositivo 53, franja: 10-12, valor: 1.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.979813Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.980091Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.980341Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.980590Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.980836Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.981096Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.982303Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.982559Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.982774Z","level":"info","event":"Dispositivo 54, franja: 10-12, valor: 0.68","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.983116Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.983373Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.983592Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.983835Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.984098Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.984355Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.984895Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.985228Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.985491Z","level":"info","event":"Dispositivo 55, franja: 10-12, valor: 1.08","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.985748Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.986006Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.986264Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.986560Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.986822Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.987064Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.987294Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.987555Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.987805Z","level":"info","event":"Dispositivo 56, franja: 10-12, valor: 0.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.988023Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.988241Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.988457Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.988689Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.988977Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.989260Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.989503Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.989727Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.989899Z","level":"info","event":"Dispositivo 57, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.990063Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.990224Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.990386Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.990549Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.990712Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.990875Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.991038Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.991201Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.991363Z","level":"info","event":"Dispositivo 58, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.991525Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.991687Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.991850Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.992056Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.992277Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.992564Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.992813Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.993045Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.993252Z","level":"info","event":"Dispositivo 59, franja: 10-12, valor: 0.51","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.993420Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.993602Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.993802Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.993970Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.994131Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.994293Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.994453Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.994613Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.994774Z","level":"info","event":"Dispositivo 60, franja: 10-12, valor: 0.6","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.994952Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.995181Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.995399Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.996163Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.997230Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.997536Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.997771Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.997999Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.998236Z","level":"info","event":"Dispositivo 61, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.998463Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.998678Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.998894Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.999105Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.999318Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.999533Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.999743Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:42.999961Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.000211Z","level":"info","event":"Dispositivo 62, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.000432Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.000651Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.000863Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.001083Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.001358Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.001623Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.001859Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.002120Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.002382Z","level":"info","event":"Dispositivo 63, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.002642Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.002916Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.003165Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.003426Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.003683Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.003948Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.004218Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.004477Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.004740Z","level":"info","event":"Dispositivo 64, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.005000Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.005315Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.005555Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.005784Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.006027Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.006262Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.006495Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.006738Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.006995Z","level":"info","event":"Dispositivo 65, franja: 10-12, valor: 1.2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.007233Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.007492Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.007736Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.007995Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.008238Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.008480Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.008727Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.008975Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.016023Z","level":"info","event":"Dispositivo 66, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.016337Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.016568Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.016786Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.017303Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.017534Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.018005Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.018286Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.018525Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.018759Z","level":"info","event":"Dispositivo 67, franja: 10-12, valor: 1.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.018987Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.019209Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.019433Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.019682Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.019911Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.020144Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.020383Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.020607Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.020831Z","level":"info","event":"Dispositivo 68, franja: 10-12, valor: 0.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.021062Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.022259Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.022539Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.022811Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.023039Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.023278Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.023529Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.023781Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.024017Z","level":"info","event":"Dispositivo 69, franja: 10-12, valor: 0.7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.024253Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.024483Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.024713Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.024944Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.025947Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.026268Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.026510Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.026732Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.026967Z","level":"info","event":"Dispositivo 70, franja: 10-12, valor: 1.21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.027214Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.027461Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.027691Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.027913Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.028159Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.028402Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.028625Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.028855Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.029097Z","level":"info","event":"Dispositivo 71, franja: 10-12, valor: 1.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.030295Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.030553Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.030786Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.031005Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.031210Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.031436Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.033405Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.033711Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.033961Z","level":"info","event":"Dispositivo 72, franja: 10-12, valor: 1.4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.034220Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.034477Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.034740Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.034987Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.035232Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.035504Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.035760Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.036007Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.036249Z","level":"info","event":"Dispositivo 73, franja: 10-12, valor: 0.84","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.036462Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.036689Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.036917Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.037889Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.038258Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.038520Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.038768Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.039012Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.039245Z","level":"info","event":"Dispositivo 74, franja: 10-12, valor: 1.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.039491Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.039744Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.039991Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.040254Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.040502Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.040725Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.040950Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.041925Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.042292Z","level":"info","event":"Dispositivo 75, franja: 10-12, valor: 1.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.042537Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.042782Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.043022Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.043259Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.043515Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.043760Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.044003Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.044247Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.044491Z","level":"info","event":"Dispositivo 76, franja: 10-12, valor: 1.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.044735Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.044977Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.046011Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.046292Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.048434Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.048761Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.048987Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.049266Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.050260Z","level":"info","event":"Dispositivo 77, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.050599Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.050816Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.051028Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.051238Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.051451Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.051662Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.051874Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.052089Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.052296Z","level":"info","event":"Dispositivo 78, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.052508Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.052754Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.052976Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.053246Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.053741Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.053996Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.054225Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.054468Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.054705Z","level":"info","event":"Dispositivo 79, franja: 10-12, valor: 0.58","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.054940Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.055184Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.055417Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.055659Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.055904Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.056134Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.056388Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.056637Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.056896Z","level":"info","event":"Dispositivo 80, franja: 10-12, valor: 1.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.057162Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.057420Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.057651Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.057887Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.058128Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.058371Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.058611Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.058853Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.059076Z","level":"info","event":"Dispositivo 81, franja: 10-12, valor: 1.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.059302Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.059540Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.059781Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.060026Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.060310Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.060552Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.060788Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.061040Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.061343Z","level":"info","event":"Dispositivo 82, franja: 10-12, valor: 0.91","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.061594Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.061836Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.062077Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.062341Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.062588Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.062828Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.063078Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.063360Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.063604Z","level":"info","event":"Dispositivo 83, franja: 10-12, valor: 1.35","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.063838Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.064087Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.064338Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.064589Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.064828Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.065070Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.065891Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.066206Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.066434Z","level":"info","event":"Dispositivo 84, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.066664Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.066890Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.067111Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.067335Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.067559Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.067792Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.068074Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.068320Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.068546Z","level":"info","event":"Dispositivo 85, franja: 10-12, valor: 0.99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.068773Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.068999Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.069382Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.069641Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.069887Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.070151Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.070421Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.070662Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.070905Z","level":"info","event":"Dispositivo 86, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.071293Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.071542Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.071784Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.072028Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.072269Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.072530Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.072798Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.073053Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.073376Z","level":"info","event":"Dispositivo 87, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.073650Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.073921Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.074173Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.074409Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.074656Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.074905Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.075153Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.075422Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.075694Z","level":"info","event":"Dispositivo 88, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.075924Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.076142Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.076363Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.076587Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.076808Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.077025Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.077270Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.077484Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.077706Z","level":"info","event":"Dispositivo 89, franja: 10-12, valor: 1.26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.077941Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.078166Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.078384Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.078595Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.078811Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.079023Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.079238Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.079454Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.079664Z","level":"info","event":"Dispositivo 90, franja: 10-12, valor: 0.78","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.079877Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.080095Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.080306Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.051125","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T00:34:43.145255Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.146414Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.147114Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.147629Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.148136Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.148647Z","level":"info","event":"Dispositivo 91, franja: 10-12, valor: 1.03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.149299Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.150106Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.150589Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.151064Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.151305Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.151781Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.152259Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.152613Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.155401Z","level":"info","event":"Dispositivo 92, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.155770Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.156233Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.156937Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.157209Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.157455Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.157924Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.158268Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.158506Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.158740Z","level":"info","event":"Dispositivo 93, franja: 10-12, valor: 0.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.158977Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.159225Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.159473Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.159711Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.160628Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.160944Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.161222Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.161468Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.161738Z","level":"info","event":"Dispositivo 94, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.161985Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.162223Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.162462Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.162731Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.162984Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.163237Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.163496Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.163759Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.163986Z","level":"info","event":"Dispositivo 95, franja: 10-12, valor: 0.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.164215Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.164471Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.164713Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.164955Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.165235Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.165500Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.165753Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.165990Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.166232Z","level":"info","event":"Dispositivo 96, franja: 10-12, valor: 1.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.166481Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.166738Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.166993Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.167263Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.167493Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.167730Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.167985Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.168223Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.168454Z","level":"info","event":"Dispositivo 97, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.168696Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.168933Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.169213Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.169455Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.169701Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.169979Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.170231Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.170481Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.170718Z","level":"info","event":"Dispositivo 98, franja: 10-12, valor: 1.27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.170967Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.171227Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.171470Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.171725Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.171971Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.172215Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.172466Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.172719Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.172976Z","level":"info","event":"Dispositivo 99, franja: 10-12, valor: 1.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.173255Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.173506Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.173747Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.173981Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.174281Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.174534Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.174769Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.175016Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.175265Z","level":"info","event":"Dispositivo 100, franja: 10-12, valor: 1.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.175520Z","level":"info","event":"Error con la vista franja_10_a_12: Execution failed on sql '","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.175771Z","level":"info","event":"                    SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.176024Z","level":"info","event":"                    FROM franja_10_a_12","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.176275Z","level":"info","event":"                    WHERE device_id = %s","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.176525Z","level":"info","event":"                ': column \"value\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.176777Z","level":"info","event":"LINE 2:                     SELECT value","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.177026Z","level":"info","event":"                                   ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.177335Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.177588Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.177844Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:34:43.178092Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}

@@ -1,0 +1,610 @@
+{"timestamp":"2025-07-13T00:39:41.915654","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T00:39:41.917238","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T00:39:42.000258Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.000648Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.001014Z","level":"info","event":"Current task name:detectar_pico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.001277Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.019182Z","level":"info","event":"Dispositivo 1, franja: 10-12, valor: 1.16","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.028842","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.043893Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.044291Z","level":"info","event":"0       159.103333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.044708Z","level":"info","event":"1       198.989167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.044980Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.045254Z","level":"info","event":"Dispositivo 2, franja: 10-12, valor: 0.99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.045213","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.055602Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.055992Z","level":"info","event":"0       165.825000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.056424Z","level":"info","event":"1       194.421667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.056690Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.056911Z","level":"info","event":"Dispositivo 3, franja: 10-12, valor: 0.59","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.056487","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.067376Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.067783Z","level":"info","event":"0       166.435000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.068212Z","level":"info","event":"1       196.488333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.068512Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.068779Z","level":"info","event":"Dispositivo 4, franja: 10-12, valor: 0.76","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.068551","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.076337Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.076744Z","level":"info","event":"0       177.934167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.077238Z","level":"info","event":"1       208.615000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.077735Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.078005Z","level":"info","event":"Dispositivo 5, franja: 10-12, valor: 0.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.078195","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.088369Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.088751Z","level":"info","event":"0       175.739167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.089010Z","level":"info","event":"1       204.050000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.089283Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.089671Z","level":"info","event":"Dispositivo 6, franja: 10-12, valor: 0.96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.088900","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.099409Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.100451Z","level":"info","event":"0       165.543333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.101409Z","level":"info","event":"1       200.390000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.102431Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.103525Z","level":"info","event":"Dispositivo 7, franja: 10-12, valor: 1.21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.099842","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.106884Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.107795Z","level":"info","event":"0       177.688333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.108641Z","level":"info","event":"1       208.180000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.109535Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.111133Z","level":"info","event":"Dispositivo 8, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.107211","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.117317Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.117703Z","level":"info","event":"0       161.931667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.117957Z","level":"info","event":"1       190.061667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.118187Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.118544Z","level":"info","event":"Dispositivo 9, franja: 10-12, valor: 0.71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.117776","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.126026Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.126364Z","level":"info","event":"0       187.418333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.126566Z","level":"info","event":"1       215.553333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.126759Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.129742Z","level":"info","event":"Dispositivo 10, franja: 10-12, valor: 1.44","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.126525","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.135213Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.135583Z","level":"info","event":"0       178.246667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.135760Z","level":"info","event":"1       207.853333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.135932Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.136256Z","level":"info","event":"Dispositivo 11, franja: 10-12, valor: 1.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.135682","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.151218Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.151632Z","level":"info","event":"0       170.020000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.151911Z","level":"info","event":"1       202.198333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.152165Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.152411Z","level":"info","event":"Dispositivo 12, franja: 10-12, valor: 0.53","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.146640","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.156182Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.156605Z","level":"info","event":"0       174.360000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.156887Z","level":"info","event":"1       204.428333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.157221Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.157627Z","level":"info","event":"Dispositivo 13, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.156618","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.165352Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.165735Z","level":"info","event":"0       180.863333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.166033Z","level":"info","event":"1       213.350000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.166284Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.166529Z","level":"info","event":"Dispositivo 14, franja: 10-12, valor: 0.98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.164908","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.173564Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.173934Z","level":"info","event":"0       178.750833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.174178Z","level":"info","event":"1       209.747500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.174409Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.174634Z","level":"info","event":"Dispositivo 15, franja: 10-12, valor: 1.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.174004","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.182209Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.182610Z","level":"info","event":"0       194.331667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.182874Z","level":"info","event":"1       224.724167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.183112Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.183352Z","level":"info","event":"Dispositivo 16, franja: 10-12, valor: 1.39","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.182474","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.191490Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.191852Z","level":"info","event":"0       163.637500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.192104Z","level":"info","event":"1       192.839167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.192347Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.192587Z","level":"info","event":"Dispositivo 17, franja: 10-12, valor: 0.97","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.190885","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.198837Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.199925Z","level":"info","event":"0         183.0475","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.201008Z","level":"info","event":"1         216.5425","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.202139Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.203191Z","level":"info","event":"Dispositivo 18, franja: 10-12, valor: 1.23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.199280","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.208003Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.209857Z","level":"info","event":"0       165.775833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.210235Z","level":"info","event":"1       199.845000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.210494Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.210897Z","level":"info","event":"Dispositivo 19, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.208487","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.218259Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.218669Z","level":"info","event":"0       165.373333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.218968Z","level":"info","event":"1       193.166667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.219252Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.219545Z","level":"info","event":"Dispositivo 20, franja: 10-12, valor: 0.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.217375","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.228593Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.228967Z","level":"info","event":"0       175.067500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.229407Z","level":"info","event":"1       203.946667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.229685Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.229951Z","level":"info","event":"Dispositivo 21, franja: 10-12, valor: 0.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.229930","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.239287Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.239673Z","level":"info","event":"0       156.382500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.239934Z","level":"info","event":"1       186.769167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.240183Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.240427Z","level":"info","event":"Dispositivo 22, franja: 10-12, valor: 0.81","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.239642","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.248865Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.249173Z","level":"info","event":"0       182.747500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.249361Z","level":"info","event":"1       212.704167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.249514Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.249775Z","level":"info","event":"Dispositivo 23, franja: 10-12, valor: 0.98","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.249424","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.256889Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.257295Z","level":"info","event":"0       170.340833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.257551Z","level":"info","event":"1       200.722500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.257766Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.257934Z","level":"info","event":"Dispositivo 24, franja: 10-12, valor: 0.63","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.257368","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.264376Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.265487Z","level":"info","event":"0       169.144167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.265845Z","level":"info","event":"1       201.705833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.266099Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.266338Z","level":"info","event":"Dispositivo 25, franja: 10-12, valor: 1.09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.264819","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.272502Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.273590Z","level":"info","event":"0       160.181667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.273962Z","level":"info","event":"1       192.273333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.274234Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.274628Z","level":"info","event":"Dispositivo 26, franja: 10-12, valor: 0.56","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.272964","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.280676Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.281088Z","level":"info","event":"0       163.101667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.283432Z","level":"info","event":"1       191.805000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.283868Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.284328Z","level":"info","event":"Dispositivo 27, franja: 10-12, valor: 1.01","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.281191","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.289507Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.289908Z","level":"info","event":"0         167.5875","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.290180Z","level":"info","event":"1         198.2800","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.290427Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.290672Z","level":"info","event":"Dispositivo 28, franja: 10-12, valor: 0.62","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.289834","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.301299Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.301731Z","level":"info","event":"0       176.686667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.301990Z","level":"info","event":"1       206.830000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.302222Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.302451Z","level":"info","event":"Dispositivo 29, franja: 10-12, valor: 0.96","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.300320","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.311651Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.312028Z","level":"info","event":"0       166.331667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.312252Z","level":"info","event":"1       196.385833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.312461Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.312824Z","level":"info","event":"Dispositivo 30, franja: 10-12, valor: 1.26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.312263","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.322815Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.323097Z","level":"info","event":"0       164.020833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.323254Z","level":"info","event":"1       199.227500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.323409Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.323668Z","level":"info","event":"Dispositivo 31, franja: 10-12, valor: 1.43","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.323319","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.333860Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.334148Z","level":"info","event":"0       165.272500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.334335Z","level":"info","event":"1       197.548333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.334538Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.334888Z","level":"info","event":"Dispositivo 32, franja: 10-12, valor: 0.92","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.334362","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.345112Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.345497Z","level":"info","event":"0       177.991667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.345832Z","level":"info","event":"1       208.910000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.346155Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.346678Z","level":"info","event":"Dispositivo 33, franja: 10-12, valor: 0.74","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.345633","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.355781Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.356108Z","level":"info","event":"0       177.765000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.356311Z","level":"info","event":"1       207.538333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.356518Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.356926Z","level":"info","event":"Dispositivo 34, franja: 10-12, valor: 1.36","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.356253","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.365951Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.366449Z","level":"info","event":"0       151.997500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.366871Z","level":"info","event":"1       181.520833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.367213Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.367525Z","level":"info","event":"Dispositivo 35, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.366385","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.375728Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.376075Z","level":"info","event":"0       157.057500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.376358Z","level":"info","event":"1       186.605833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.376623Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.377016Z","level":"info","event":"Dispositivo 36, franja: 10-12, valor: 0.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.376190","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.386980Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.387365Z","level":"info","event":"0       170.465833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.387627Z","level":"info","event":"1       204.156667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.387893Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.388359Z","level":"info","event":"Dispositivo 37, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.387430","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.396589Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.396975Z","level":"info","event":"0       174.820833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.397284Z","level":"info","event":"1       213.313333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.397508Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.397819Z","level":"info","event":"Dispositivo 38, franja: 10-12, valor: 1.03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.397036","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.406792Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.407173Z","level":"info","event":"0         174.4275","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.407449Z","level":"info","event":"1         206.4100","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.407691Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.408086Z","level":"info","event":"Dispositivo 39, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.407240","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.416842Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.417281Z","level":"info","event":"0       163.121667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.417607Z","level":"info","event":"1       191.909167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.417908Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.418377Z","level":"info","event":"Dispositivo 40, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.417443","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.427051Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.427357Z","level":"info","event":"0       167.482500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.427605Z","level":"info","event":"1       194.306667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.427872Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.428265Z","level":"info","event":"Dispositivo 41, franja: 10-12, valor: 1.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.427515","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.437530Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.437937Z","level":"info","event":"0       169.633333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.438212Z","level":"info","event":"1       206.740833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.438484Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.438760Z","level":"info","event":"Dispositivo 42, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.437969","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.448527Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.448930Z","level":"info","event":"0       160.920000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.449224Z","level":"info","event":"1       187.948333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.449462Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.449689Z","level":"info","event":"Dispositivo 43, franja: 10-12, valor: 0.71","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.447573","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.458736Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.459132Z","level":"info","event":"0       178.171667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.459381Z","level":"info","event":"1       206.460000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.459642Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.459883Z","level":"info","event":"Dispositivo 44, franja: 10-12, valor: 0.64","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.459122","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.469771Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.470116Z","level":"info","event":"0       176.763333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.470334Z","level":"info","event":"1       206.797500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.470542Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.470778Z","level":"info","event":"Dispositivo 45, franja: 10-12, valor: 0.5","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.470058","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.479326Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.479659Z","level":"info","event":"0       169.106667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.479884Z","level":"info","event":"1       197.624167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.480101Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.480452Z","level":"info","event":"Dispositivo 46, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.479778","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.489643Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.490063Z","level":"info","event":"0       163.080833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.490353Z","level":"info","event":"1       200.514167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.490625Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.490902Z","level":"info","event":"Dispositivo 47, franja: 10-12, valor: 0.8","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.489765","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.499588Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.499940Z","level":"info","event":"0         187.7100","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.500146Z","level":"info","event":"1         218.2975","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.500335Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.500520Z","level":"info","event":"Dispositivo 48, franja: 10-12, valor: 1.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.498782","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.508294Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.508659Z","level":"info","event":"0       190.450000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.508927Z","level":"info","event":"1       227.369167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.509202Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.509633Z","level":"info","event":"Dispositivo 49, franja: 10-12, valor: 1.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.508692","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.516889Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.517303Z","level":"info","event":"0         156.7475","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.517522Z","level":"info","event":"1         185.2500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.517790Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.518189Z","level":"info","event":"Dispositivo 50, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.517340","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.525060Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.525416Z","level":"info","event":"0       165.405000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.525682Z","level":"info","event":"1       197.895833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.525914Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.526284Z","level":"info","event":"Dispositivo 51, franja: 10-12, valor: 1.19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.525473","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.533852Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.534319Z","level":"info","event":"0       172.245833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.534618Z","level":"info","event":"1       204.261667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.534875Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.535128Z","level":"info","event":"Dispositivo 52, franja: 10-12, valor: 0.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.534107","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.541888Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.542253Z","level":"info","event":"0         172.4100","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.542536Z","level":"info","event":"1         200.9675","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.542799Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.543203Z","level":"info","event":"Dispositivo 53, franja: 10-12, valor: 1.18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.542338","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.551152Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.551598Z","level":"info","event":"0       168.088333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.551884Z","level":"info","event":"1       198.446667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.552154Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.552422Z","level":"info","event":"Dispositivo 54, franja: 10-12, valor: 0.68","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.551548","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.559206Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.559528Z","level":"info","event":"0       167.465000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.559711Z","level":"info","event":"1       196.580833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.559934Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.560211Z","level":"info","event":"Dispositivo 55, franja: 10-12, valor: 1.08","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.559573","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.567627Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.568032Z","level":"info","event":"0       161.571667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.568304Z","level":"info","event":"1       192.188333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.568529Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.568744Z","level":"info","event":"Dispositivo 56, franja: 10-12, valor: 0.69","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.568060","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.576940Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.577424Z","level":"info","event":"0       182.382500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.577701Z","level":"info","event":"1       212.984167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.577936Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.578300Z","level":"info","event":"Dispositivo 57, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.577437","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.587367Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.587789Z","level":"info","event":"0       157.468333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.588067Z","level":"info","event":"1       186.651667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.588319Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.588716Z","level":"info","event":"Dispositivo 58, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.587865","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.596168Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.596563Z","level":"info","event":"0       173.395833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.596833Z","level":"info","event":"1       203.944167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.597081Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.597509Z","level":"info","event":"Dispositivo 59, franja: 10-12, valor: 0.51","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.596661","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.605440Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.605826Z","level":"info","event":"0       159.960000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.606077Z","level":"info","event":"1       188.033333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.606314Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.606552Z","level":"info","event":"Dispositivo 60, franja: 10-12, valor: 0.6","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.605865","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.616317Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.616679Z","level":"info","event":"0       156.637500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.616924Z","level":"info","event":"1       195.035833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.617194Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.617421Z","level":"info","event":"Dispositivo 61, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.615465","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.626475Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.626836Z","level":"info","event":"0       176.062500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.627286Z","level":"info","event":"1       205.446667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.627618Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.627829Z","level":"info","event":"Dispositivo 62, franja: 10-12, valor: 1.38","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.627784","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.637234Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.637520Z","level":"info","event":"0       167.498333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.637719Z","level":"info","event":"1       198.244167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.637947Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.638191Z","level":"info","event":"Dispositivo 63, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.637634","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.647272Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.647655Z","level":"info","event":"0         169.0975","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.647925Z","level":"info","event":"1         199.3450","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.648174Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.648555Z","level":"info","event":"Dispositivo 64, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.647727","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.656773Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.657055Z","level":"info","event":"0       154.363333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.657265Z","level":"info","event":"1       186.295000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.657474Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.657828Z","level":"info","event":"Dispositivo 65, franja: 10-12, valor: 1.2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.657159","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.667118Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.667473Z","level":"info","event":"0         173.9375","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.667749Z","level":"info","event":"1         202.7000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.668002Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.668254Z","level":"info","event":"Dispositivo 66, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.666722","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.675492Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.675869Z","level":"info","event":"0       170.416667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.676111Z","level":"info","event":"1       215.395833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.676322Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.676609Z","level":"info","event":"Dispositivo 67, franja: 10-12, valor: 1.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.675956","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.684629Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.684922Z","level":"info","event":"0       175.228333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.685091Z","level":"info","event":"1       205.871667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.685325Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.685660Z","level":"info","event":"Dispositivo 68, franja: 10-12, valor: 0.79","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.685024","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.693217Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.693478Z","level":"info","event":"0       161.749167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.693687Z","level":"info","event":"1       188.856667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.693887Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.694212Z","level":"info","event":"Dispositivo 69, franja: 10-12, valor: 0.7","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.693611","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.702221Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.702582Z","level":"info","event":"0       154.804167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.702832Z","level":"info","event":"1       186.705000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.703077Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.703317Z","level":"info","event":"Dispositivo 70, franja: 10-12, valor: 1.21","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.702630","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.711911Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.712273Z","level":"info","event":"0       167.097500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.712526Z","level":"info","event":"1       193.030833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.712772Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.713007Z","level":"info","event":"Dispositivo 71, franja: 10-12, valor: 1.1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.712196","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.721699Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.722071Z","level":"info","event":"0       168.267500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.722335Z","level":"info","event":"1       206.084167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.722585Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.722828Z","level":"info","event":"Dispositivo 72, franja: 10-12, valor: 1.4","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.722108","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.731405Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.731769Z","level":"info","event":"0       169.698333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.732008Z","level":"info","event":"1       202.079167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.732227Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.732441Z","level":"info","event":"Dispositivo 73, franja: 10-12, valor: 0.84","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.731805","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.741334Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.741641Z","level":"info","event":"0       164.778333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.741848Z","level":"info","event":"1       193.252500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.742083Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.742309Z","level":"info","event":"Dispositivo 74, franja: 10-12, valor: 1.22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.741767","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.752327Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.752616Z","level":"info","event":"0       158.142500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.752791Z","level":"info","event":"1       194.178333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.752955Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.753285Z","level":"info","event":"Dispositivo 75, franja: 10-12, valor: 1.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.752797","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.761317Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.762509Z","level":"info","event":"0       167.084167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.763653Z","level":"info","event":"1       205.400833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.764774Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.765451Z","level":"info","event":"Dispositivo 76, franja: 10-12, valor: 1.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.761721","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.769727Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.770026Z","level":"info","event":"0       173.422500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.770250Z","level":"info","event":"1       204.248333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.770463Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.770817Z","level":"info","event":"Dispositivo 77, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.770126","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.780272Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.780646Z","level":"info","event":"0       178.096667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.780897Z","level":"info","event":"1       208.614167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.781110Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.781357Z","level":"info","event":"Dispositivo 78, franja: 10-12, valor: 0.67","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.779746","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.787835Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.788943Z","level":"info","event":"0       155.422500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.790062Z","level":"info","event":"1       183.541667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.791061Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.792036Z","level":"info","event":"Dispositivo 79, franja: 10-12, valor: 0.58","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.788274","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.797395Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.797774Z","level":"info","event":"0       167.410833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.798027Z","level":"info","event":"1       198.069167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.798343Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.798571Z","level":"info","event":"Dispositivo 80, franja: 10-12, valor: 1.25","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.797874","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.808952Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.809349Z","level":"info","event":"0       159.510833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.809639Z","level":"info","event":"1       186.840833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.809887Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.810123Z","level":"info","event":"Dispositivo 81, franja: 10-12, valor: 1.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.808391","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.817174Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.817853Z","level":"info","event":"0       160.980833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.818173Z","level":"info","event":"1       189.907500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.818558Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.818807Z","level":"info","event":"Dispositivo 82, franja: 10-12, valor: 0.91","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.817682","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.825164Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.825525Z","level":"info","event":"0       159.820833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.825771Z","level":"info","event":"1       193.745833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.825997Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.826356Z","level":"info","event":"Dispositivo 83, franja: 10-12, valor: 1.35","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.825582","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.836495Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.836886Z","level":"info","event":"0       163.923333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.837204Z","level":"info","event":"1       192.537500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.837451Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.837688Z","level":"info","event":"Dispositivo 84, franja: 10-12, valor: 1.31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.835815","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.843986Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.844402Z","level":"info","event":"0       169.801667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.844691Z","level":"info","event":"1       201.108333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.844958Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.845424Z","level":"info","event":"Dispositivo 85, franja: 10-12, valor: 0.99","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.844490","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.854672Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.855044Z","level":"info","event":"0       184.067500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.855320Z","level":"info","event":"1       219.079167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.855555Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.855773Z","level":"info","event":"Dispositivo 86, franja: 10-12, valor: 0.0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.855076","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.862440Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.864651Z","level":"info","event":"0       163.340833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.865050Z","level":"info","event":"1       196.179167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.865402Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.865693Z","level":"info","event":"Dispositivo 87, franja: 10-12, valor: 1.37","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.862584","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.870783Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.871157Z","level":"info","event":"0       158.533333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.871405Z","level":"info","event":"1       189.555833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.871628Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.871988Z","level":"info","event":"Dispositivo 88, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.871239","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.879930Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.880601Z","level":"info","event":"0       165.281667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.880901Z","level":"info","event":"1       199.020833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.881198Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.881477Z","level":"info","event":"Dispositivo 89, franja: 10-12, valor: 1.26","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.880176","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.889255Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.889607Z","level":"info","event":"0       160.257500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.889875Z","level":"info","event":"1       192.771667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.890093Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.890445Z","level":"info","event":"Dispositivo 90, franja: 10-12, valor: 0.78","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.889690","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.897388Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.897762Z","level":"info","event":"0         177.3550","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.898001Z","level":"info","event":"1         207.0475","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.898223Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.898509Z","level":"info","event":"Dispositivo 91, franja: 10-12, valor: 1.03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.897825","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.904914Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.905292Z","level":"info","event":"0       168.750000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.905529Z","level":"info","event":"1       199.284167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.905728Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.905899Z","level":"info","event":"Dispositivo 92, franja: 10-12, valor: 1.13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.905346","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.912620Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.912981Z","level":"info","event":"0       163.879167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.913258Z","level":"info","event":"1       195.505833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.913464Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.913780Z","level":"info","event":"Dispositivo 93, franja: 10-12, valor: 0.52","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.913065","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.925294Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.925673Z","level":"info","event":"0       169.525000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.925933Z","level":"info","event":"1       205.786667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.926256Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.926497Z","level":"info","event":"Dispositivo 94, franja: 10-12, valor: 0.66","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.924690","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.934682Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.935054Z","level":"info","event":"0       159.819167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.935313Z","level":"info","event":"1       197.897500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.935548Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.935763Z","level":"info","event":"Dispositivo 95, franja: 10-12, valor: 0.87","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.935178","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.944875Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.945273Z","level":"info","event":"0       171.628333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.945573Z","level":"info","event":"1       201.215000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.945825Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.946196Z","level":"info","event":"Dispositivo 96, franja: 10-12, valor: 1.04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.945347","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.955527Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.955904Z","level":"info","event":"0       174.400833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.956131Z","level":"info","event":"1       205.630000","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.956346Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.956694Z","level":"info","event":"Dispositivo 97, franja: 10-12, valor: 0.93","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.955991","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.964445Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.964794Z","level":"info","event":"0       173.618333","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.965046Z","level":"info","event":"1       203.381667","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.965363Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.965613Z","level":"info","event":"Dispositivo 98, franja: 10-12, valor: 1.27","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.964290","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.972741Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.973778Z","level":"info","event":"0       165.774167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.974783Z","level":"info","event":"1       196.699167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.975804Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.976307Z","level":"info","event":"Dispositivo 99, franja: 10-12, valor: 1.34","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.973206","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.981319Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.982364Z","level":"info","event":"0       173.530833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.983408Z","level":"info","event":"1       211.965833","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.984491Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.985681Z","level":"info","event":"Dispositivo 100, franja: 10-12, valor: 1.24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.981778","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:114: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(f\"\"\"\n","logger":"py.warnings"}
+{"timestamp":"2025-07-13T00:39:42.989743Z","level":"info","event":"   promedio_franja","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.990107Z","level":"info","event":"0       173.882500","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.990354Z","level":"info","event":"1       208.799167","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.990571Z","level":"info","event":"No hay suficientes datos históricos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:42.991322","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-13T00:39:43.027166Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:43.027494Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T00:39:43.027673Z","level":"info","event":"Task operator:<Task(PythonOperator): detectar_pico>","chan":"stdout","logger":"task"}
