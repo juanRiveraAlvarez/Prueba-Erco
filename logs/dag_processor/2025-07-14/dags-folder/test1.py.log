@@ -8727,3 +8727,279 @@
 {"timestamp":"2025-07-14T12:15:03.223364Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
 {"timestamp":"2025-07-14T12:15:13.626260","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-07-14T12:15:13.709597Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:15:23.327254","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:15:23.388662Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:15:33.228083","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:15:33.286347Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:15:43.393621","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:15:43.455626Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:15:53.693939","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:15:53.767856Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:16:03.596958","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:16:03.715894Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:16:14.664192","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:16:14.735594Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:16:23.884470","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:16:23.943695Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:16:33.778345","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:16:33.851186Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:16:44.058064","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:16:44.112123Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:16:54.103196","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:16:54.189106Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:17:04.497952","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:17:04.543604Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:17:14.392814Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:17:14.178475","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:17:24.267076","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:17:24.301239Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:17:34.964755","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:17:35.000343Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:17:44.275027","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:17:44.325438Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:17:54.523548","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:17:54.557813Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:18:05.193361","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:18:05.233951Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:18:14.527965","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:18:14.572040Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:18:25.037162","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:18:25.071062Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:18:34.785676","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:18:34.825598Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:18:44.782531Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:18:44.736384","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:18:54.943758","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:18:55.000318Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:19:05.367463","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:19:05.414213Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:19:15.087217","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:19:15.146167Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:19:26.010108","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:19:26.054057Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:19:35.380599","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:19:35.424545Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:19:45.483033","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:19:45.531066Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:19:55.405954","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:19:55.473744Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:05.628645","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:20:05.679828Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:16.107581","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:20:16.155591Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:25.609017","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:20:25.671482Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:35.787979","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:20:35.822923Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:45.778622","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:20:45.827328Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:55.895018Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:20:55.853916","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:05.976207","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:06.021996Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:21:16.500597","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:16.550043Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:21:26.162870Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:21:26.115161","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:36.333660","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:36.384934Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:21:46.438052","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:46.476073Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:21:56.460737","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:21:56.559486Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:22:06.445833","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:22:06.505127Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:22:16.655385","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:22:16.701938Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:22:26.699655","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:22:26.745607Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:22:36.642079","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:22:36.693807Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:22:46.810254","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:22:46.849217Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:22:57.402931","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:22:57.443697Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:23:07.263252","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:23:07.307698Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:23:17.787246","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:23:17.820742Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:23:27.725750","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:23:27.769222Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:23:37.660119","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:23:37.696796Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:23:47.549442","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:23:47.582967Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:23:57.312932","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:23:57.349296Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:24:07.635069","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:24:07.669876Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:24:17.440219","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:24:17.484662Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:24:28.046689","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:24:28.081955Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:24:38.473087","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:24:38.505476Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:24:47.749010","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:24:47.788345Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:24:57.739241","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:24:57.771803Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:25:08.277719","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:25:08.317379Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:25:18.646028","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:25:18.686462Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:25:28.646746","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:25:28.683489Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:25:38.057867","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:25:38.093402Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:25:48.114949","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:25:48.155964Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:25:58.138746","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:25:58.175482Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:26:08.070107","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:26:08.105462Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:26:18.998977","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:26:19.036536Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:26:28.855107","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:26:28.894082Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:26:38.718439","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:26:38.753399Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:26:48.512283","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:26:48.553399Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:26:58.425476","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:26:58.486432Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:27:08.485251","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:27:08.521366Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:27:19.187610","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:27:19.247206Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:27:28.698565","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:27:28.740389Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:27:39.307244","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:27:39.339427Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:27:48.817295","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:27:48.871666Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:27:59.044943","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:27:59.097123Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:28:09.591284","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:28:09.624781Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:28:18.994684","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:28:19.060095Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:28:29.311296","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:28:29.349264Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:28:39.098584","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:28:39.151046Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:28:49.562440","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:28:49.595303Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:28:59.169392","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:28:59.206849Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:29:09.585386","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:29:09.623961Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:29:20.282612","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:29:20.317084Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:29:29.699949","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:29:29.738075Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:29:39.545893Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:29:39.491944","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:29:50.268155","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:29:50.300733Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:29:59.955904","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:29:59.990686Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:30:09.697743","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:30:09.731921Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:30:20.488067","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:30:20.525695Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:30:30.162259","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:30:30.198779Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:30:39.915142Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:30:39.875080","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:30:50.766604","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:30:50.800710Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:31:00.321083","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:31:00.356581Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:31:10.157698Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:31:10.118359","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:31:21.127336","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:31:21.162031Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:31:30.610082","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:31:30.648363Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:31:40.279781","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:31:40.349207Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:31:50.322998","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:31:50.360827Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:32:00.824194","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:32:00.860924Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:32:10.487283","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:32:10.539292Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:32:20.538084","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:32:20.572755Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:32:31.150306","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:32:31.190479Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:32:40.702283","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:32:40.750340Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:32:50.766798","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:32:50.803454Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:33:01.401794","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:33:01.437587Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:33:10.919822","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:33:10.979156Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:33:21.225369","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:33:21.267953Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:33:31.181125","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:33:31.224632Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:33:41.247995","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:33:41.285314Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:33:51.244091","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:33:51.283022Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:34:02.156999","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:34:02.193032Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:34:12.224664","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:34:12.260127Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:34:21.986912","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:34:22.024854Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:34:31.866516","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:34:31.902771Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:34:41.989729","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:34:42.027734Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:34:51.851971","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:34:51.883880Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:35:01.781663","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:35:01.820966Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:35:11.692010","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:35:11.730892Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:35:21.792943","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:35:21.831476Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:35:31.799823","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:35:31.836724Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:35:41.916361","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:35:41.957225Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:35:52.017235","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:35:52.058904Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:36:02.013940","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:36:02.050137Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:36:12.153750Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:36:12.088579","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:36:22.362019","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:36:22.397738Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:36:32.282366","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:36:32.321948Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:36:42.422835Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:36:42.332964","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:36:52.736291","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:36:52.770836Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:37:02.478362","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:37:02.529796Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:37:12.571882","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:37:12.612938Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:37:23.065366","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:37:23.100781Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:37:32.669074","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:37:32.711753Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:37:43.527747","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:37:43.566248Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:37:53.040607","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:37:53.080019Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:38:02.947914","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:38:02.987029Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:38:13.385850","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:38:13.421735Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}
+{"timestamp":"2025-07-14T12:38:23.901936","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/test1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:38:23.936635Z","level":"warning","event":"Process exited abnormally","exit_code":126,"logger":"processor"}

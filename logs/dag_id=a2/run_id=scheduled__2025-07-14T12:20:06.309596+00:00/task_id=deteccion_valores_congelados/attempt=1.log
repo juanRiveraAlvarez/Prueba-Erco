@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-14T12:20:07.991416","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T12:20:07.992317","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_analisis.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T12:20:08.046612Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.047109Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.047384Z","level":"info","event":"Current task name:deteccion_valores_congelados","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.047549Z","level":"info","event":"Dag name:a2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.023301","level":"warning","event":"/opt/airflow/dags/dag_analisis.py:66: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.\n  df = pd.read_sql(query, conn)\n","logger":"py.warnings"}
+{"timestamp":"2025-07-14T12:20:08.161575Z","level":"info","event":"todo bien","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.162792","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T12:20:08.191982Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.192258Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T12:20:08.192447Z","level":"info","event":"Task operator:<Task(PythonOperator): deteccion_valores_congelados>","chan":"stdout","logger":"task"}
