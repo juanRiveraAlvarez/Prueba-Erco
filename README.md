@@ -33,9 +33,15 @@ El usuario y contrasena por defecto son {Usuario: airflow, Contrasena: airflow} 
 ### 2. Buscar dag
 Te dirijes al apartado de Dags
 
-<img src="https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png" width="400">
+<img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/2.png">
+<img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/1.png">
+<img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/3.png">
 
-Y buscas el dag por el nombre que tiene en el proyecto en este caso los dags a buscar son: cargar_d, d1 y a2
+Y buscas el dag por el nombre que tiene en el proyecto en este caso los dags a buscar son: cargar_d, d1 y a2.
+Para correr un dag basta con dar click en el boton Trigger:
+
+<img src="https://github.com/juanRiveraAlvarez/Prueba-Erco/blob/main/4.png">
+
 
 ### 3. Correr cargar_d
 Se debe correr primero este dag pues este genera todos los datos necesarios para poder luego analisar los procesos
