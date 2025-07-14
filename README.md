@@ -1,6 +1,6 @@
 # Proyecto ERCO – Análisis de Datos de Energía con Airflow
 
-Este proyecto realiza la simulación y análisis de datos de generación de energía para distintos dispositivos, utilizando Apache Airflow, PostgreSQL y Redis.
+Este proyecto realiza la simulación y análisis de datos de generación de energía para distintos dispositivos, utilizando Apache Airflow y PostgreSQL.
 
 ## 🔧 Requisitos
 
@@ -56,5 +56,7 @@ VALUES
   (1, '2025-07-08 10:30:00', 0),
   (1, '2025-07-08 10:45:00', 0);
 ```
-Son casos particules que ponene a prueba el sistema, en el primer caso son valores altos para el contexto de los datos recibidos la primera semana y al salirse del intervalo estimado estos entran en cuarentena, el segundo caso pone a prueba el sistema si los valores se quedan estaticos, y entran tambien en cuarentena
+Son casos particules que ponene a prueba el sistema, en el primer caso son valores altos para el contexto de los datos recibidos la primera semana y al salirse del intervalo estimado estos entran en cuarentena, el segundo caso pone a prueba el sistema si los valores se quedan estaticos, y entran tambien en cuarentena.
+
+Si se corre a2 nuevamente y se consulta la consola y la base de datos se podra ver como estos valores al no ser validos segun el analisis entran a cuarentena.
 
