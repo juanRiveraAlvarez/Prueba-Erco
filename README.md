@@ -46,7 +46,7 @@ Para correr un dag basta con dar click en el boton Trigger:
 ### 3. Correr cargar_d
 Se debe correr primero este dag pues este genera todos los datos necesarios para poder luego analisar los procesos (Puede tardar varios minutos pues se insertan 34.000 registros)
 
-### 4, Correr a2
+### 4. Correr a2
 Esta dag se encarga de realizar analisis con los datos ingresados, es normal que no arroje alertas la primera vez que se corre para ello el la base de datos vamos a correr:
 
 ```sql
@@ -67,7 +67,7 @@ Son casos particules que ponene a prueba el sistema, en el primer caso son valor
 Si se corre a2 nuevamente y se consulta la consola y la base de datos se podra ver como estos valores al no ser validos segun el analisis entran a cuarentena.
 
 
-### 5, d1
+### 5. d1
 El dag d1 se encarga de simular la insercion de un nuevo registro por dispositivos cada 15 min en registro, y cada min en la realidad para motivo de pruebas, estos datos tambien son consistentes.
 
 La frecuencia con la que un dag se ejecuta automaticamente se puede editar en la linea
